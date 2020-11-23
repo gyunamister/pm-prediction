@@ -1,0 +1,2 @@
+task,filename,num_cases,num_events,control_flow_p,time_p,resource_p,data_p,transition,num_epochs,batch_size,loss
+next_activity,../sample_data/test.csv,168,1000,True,True,False,False,False,10,256,1.654652714729309

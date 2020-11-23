@@ -18,6 +18,7 @@ def load():
     # feature
     parser.add_argument('--contextual_info', default=False, type=str2bool)
     parser.add_argument('--inter_case_level', default='Level1')
+    parser.add_argument('--transition', default=False, type=str2bool)
 
     # dnn
     parser.add_argument('--num_epochs', default=5, type=int)
@@ -32,9 +33,15 @@ def load():
     parser.add_argument('--batch_size', default=256, type=int) #lstm 256 #dnc 1
 
     # data
-    parser.add_argument('--data_set', default="modi_BPI_2012_dropna_filter_act.csv")
+    parser.add_argument('--data_set', default="test.csv")
     parser.add_argument('--data_dir', default="../sample_data/")
     parser.add_argument('--checkpoint_dir', default="./checkpoints/")
+
+    # perspectives
+    parser.add_argument('--control_flow_p', default=True, type=str2bool)
+    parser.add_argument('--time_p', default=True, type=str2bool)
+    parser.add_argument('--resource_p', default=False, type=str2bool)
+    parser.add_argument('--data_p', default=False, type=str2bool)
 
     args = parser.parse_args()
 
