@@ -1,2 +1,3 @@
-task,filename,num_cases,num_events,control_flow_p,time_p,resource_p,data_p,transition,num_epochs,batch_size,loss
-next_activity,../sample_data/test.csv,168,1000,True,True,False,False,False,10,256,1.654652714729309
+task,filename,control_flow_p,time_p,resource_p,data_p,transition,num_epochs,batch_size,loss
+next_activity,../testsets/test.csv,True,True,False,False,False,5,256,1.7942419052124023
+next_activity,../testsets/test.csv,True,True,False,False,False,5,256,1.8758056163787842

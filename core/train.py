@@ -26,11 +26,11 @@ args = ""
 if __name__ == '__main__':
   args = config.load()
   
+  status = args.status
+
   level = args.inter_case_level
   #filename = req['name']
   task = args.task
-  filename = args.data_dir + args.data_set
-  model_name = args.data_set + args.task
   contextual_info = args.contextual_info
   num_epochs = args.num_epochs
   batch_size = args.batch_size
@@ -43,6 +43,16 @@ if __name__ == '__main__':
 
   transition = args.transition
 
+  if status == 'o':
+    filename = args.data_dir + args.data_set
+  elif status == 'p':
+    filename = args.data_dir + args.p_data_set
+  testset_dir = "../testsets"
+
+  model_name = '%s-%s_%s_%s_%s_%s_%s_%s_%s_%s' %(status,args.data_set,args.task,control_flow_p,time_p,resource_p,data_p,transition,num_epochs,batch_size)
+
+  feature_name = '%s_%s_%s_%s_%s_%s_%s' %(args.data_set,args.task,control_flow_p,time_p,resource_p,data_p,transition)
+
   log_config = {"control_flow_p":control_flow_p, "time_p":time_p, "resource_p":resource_p, "data_p":data_p, "transition":transition}
 
 
@@ -54,8 +64,6 @@ if __name__ == '__main__':
 
   num_events = len(df)
   num_cases = len(set(df["id"]))
-
-  exp_info = {"task":task, "filename":filename, "num_cases":num_cases,  "num_events":num_events, "control_flow_p":control_flow_p, "time_p":time_p, "resource_p":resource_p, "data_p":data_p, "transition":transition, "num_epochs":num_epochs, "batch_size":batch_size}
   
   #feature generation
   print("flag: generating features")
@@ -78,13 +86,26 @@ if __name__ == '__main__':
   #training set generation
   print("flag: encoding features")
   fe = FeatureEncoder()
-  X, y = fe.one_hot_encode(df,feature_type_list,task)
+  if status == 'o':
+    X, y = fe.original_one_hot_encode(df,feature_type_list,task,feature_name)
+  elif status == 'p':
+    X, y = fe.preprocessed_one_hot_encode(df,feature_type_list,task,feature_name)
+  else:
+    print("status not defined!")
   print("done")
 
   # spliting train and test set
   print("flag: splitting training and test sets")
   train_X, test_X, train_y, test_y = train_test_split(X, y, test_size=0.3, random_state=42)
   print("done")
+
+  # export test data if original data is used
+  if status == 'o':
+    with open("%s/%s-%s.pkl" % (testset_dir,feature_name,"X"), 'wb') as f:
+      pickle.dump(test_X, f)
+    with open("%s/%s-%s.pkl" % (testset_dir,feature_name,"y"), 'wb') as f:
+      pickle.dump(test_y, f)
+    print("flag: test set is exported")
 
   print("flag: training model")
   if contextual_info:
@@ -97,7 +118,6 @@ if __name__ == '__main__':
     elif task == 'next_activity':
       model.train(train_X, train_y, regression, loss, n_epochs=num_epochs, batch_size=batch_size, num_folds=num_folds, model_name=model_name, checkpoint_dir=args.checkpoint_dir,X_train_ctx=train_context_X)
   else:
-    model_name += '_no_context_'
     train_context_X = None
     model = net()
     if task == 'next_timestamp':
@@ -106,5 +126,3 @@ if __name__ == '__main__':
       model.train(train_X, train_y, regression, loss, n_epochs=num_epochs, batch_size=batch_size, num_folds=num_folds, model_name=model_name, checkpoint_dir=args.checkpoint_dir, context=contextual_info)
   print("done")
 
-# Evaluate the model on the test data using `evaluate`
-results = model.evaluate(test_X, test_y, exp_info)
