@@ -17,7 +17,7 @@ This platform supports the evaluation of novel (instance-level) predictive busin
    - ```git clone ```
 2. Install dependencies (Python 3.8.8)
    
-   - ```pip install -r requirement.txt```
+   - ```pip install -r requirements.txt```
 3. How to:
     1. You can find example scripts at <u>./sample_scripts/</u>
       - Run the script with the following flags
