@@ -68,8 +68,6 @@ if __name__ == '__main__':
     feature_name = '%s_%s_%s_%s_%s_%s_%s' % (
     args.data_set, args.task, control_flow_p, time_p, resource_p, data_p, transition)
 
-    testset_dir = "../testsets"
-
     log_config = {"control_flow_p": control_flow_p, "time_p": time_p, "resource_p": resource_p, "data_p": data_p,
                   "transition": transition}
 

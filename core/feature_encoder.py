@@ -11,13 +11,12 @@ class FeatureEncoder(object):
   # todos Separate the encoding for activity histroy, resource history, remaining time, service time, etc.
   # todos Separate x and y
   def original_one_hot_encode_xgb(self, df, feature_type_list, target_feature,feature_name):
-    dict_dir="../feature_infos"
+    dict_dir="./temp"
     num_features_dict = dict()
     feature_len = 0 
     dict_feature_char_to_int = dict()
     for feature_type in feature_type_list:
       feature_set_name = feature_type.split("_")[0]
-      print(feature_set_name)
       feature_set = sorted(list(set(df[feature_set_name])))
       if feature_type=="activity_history":
         feature_set.append('!')
@@ -32,11 +31,9 @@ class FeatureEncoder(object):
     X_train = list()
     y_train = list()
     maxlen = max([len(str(x).split('+')) for x in df[feature_type_list[0]]])
-    print(maxlen)
     with open("%s/%s_%s.pkl" % (dict_dir,"maxlen",feature_name), 'wb') as f:
         pickle.dump(maxlen, f)
     for i in range(0, len(df)):
-      print("{}th among {}".format(i,len(df)))
       # prepare X
       onehot_encoded_X = list()
       hist_len = len(str(df.at[i, feature_type_list[0]]).split("+"))
@@ -91,7 +88,7 @@ class FeatureEncoder(object):
     return X_train, y_train
   
   def original_one_hot_encode(self, df, feature_type_list, target_feature,feature_name):
-    dict_dir="../feature_infos"
+    dict_dir="./temp"
     num_features_dict = dict()
     feature_len = 0 
     dict_feature_char_to_int = dict()
@@ -110,16 +107,13 @@ class FeatureEncoder(object):
 
     X_train = list()
     y_train = list()
-    print(dict_feature_char_to_int)
     maxlen = max([len(str(x).split('+')) for x in df[feature_type_list[0]]])
     with open("%s/%s_%s.pkl" % (dict_dir,"maxlen",feature_name), 'wb') as f:
         pickle.dump(maxlen, f)
     for i in range(0, len(df)):
-      # print("{}th among {}".format(i,len(df)))
       # prepare X
       onehot_encoded_X = list()
       hist_len = len(str(df.at[i, feature_type_list[0]]).split("+"))
-      print(hist_len)
       for j in range(hist_len):
         merged_encoding =list()
         for feature_type in feature_type_list:
@@ -168,7 +162,7 @@ class FeatureEncoder(object):
     return X_train, y_train
 
   def preprocessed_one_hot_encode(self, df, feature_type_list, target_feature,feature_name):
-    dict_dir = "../feature_infos"
+    dict_dir = "./temp"
     num_features_dict = dict()
     feature_len = 0
     dict_feature_char_to_int = dict()
@@ -180,15 +174,11 @@ class FeatureEncoder(object):
         num_features_dict[feature_type] = num_feature
         dict_feature_char_to_int[feature_type] = dict((str(c), i) for i, c in enumerate(feature_set))
         feature_int_to_char = dict((i, c) for i, c in enumerate(feature_set))
-    print(feature_int_to_char)
     X_train = list()
     y_train = list()
     with open("%s/%s_%s.pkl" % (dict_dir, "maxlen", feature_name), 'rb') as f:
         maxlen = pickle.load(f)
-        print(maxlen)
-    print(len(df))
     for i in range(0, len(df)):
-      # print("{}th among {}".format(i,len(df)))
         # prepare X
       onehot_encoded_X = list()
       hist_len = len(str(df.at[i, feature_type_list[0]]).split("+"))
@@ -224,7 +214,7 @@ class FeatureEncoder(object):
     return X_train, y_train
 
   def preprocessed_one_hot_encode_xgb(self, df, feature_type_list, target_feature,feature_name):
-      dict_dir = "../feature_infos"
+      dict_dir = "./temp"
       num_features_dict = dict()
       feature_len = 0
       dict_feature_char_to_int = dict()

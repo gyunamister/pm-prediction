@@ -16,11 +16,8 @@ from tensorflow.keras.layers import BatchNormalization
 from tensorflow.keras.layers import LSTM
 from tensorflow.keras.layers import Dense
 from tensorflow.keras import Model
-# import keras_metrics
-from exp_logger import ExperimentLogger
+from core.exp_logger import ExperimentLogger
 from tensorflow.keras.models import load_model
-# import tf.keras_metrics
-from exp_logger import ExperimentLogger
 
 from sklearn.metrics import f1_score, accuracy_score, recall_score, precision_score, confusion_matrix, classification_report
 
@@ -53,12 +50,12 @@ class net:
         F1_Score = f1_score(y_test_integer, predictions, average="weighted")
         Precision = precision_score(y_test_integer, predictions, average="weighted")
         Recall = recall_score(y_test_integer, predictions, average="weighted")
-        exp_info["Accuracy"] = Accuracy
-        exp_info["F1_Score"] = F1_Score
-        exp_info["Precision"] = Precision
-        exp_info["Recall"] = Recall
-        csv_logger = ExperimentLogger('../result/exp_result.csv', exp_info)
-        csv_logger.write_exp_info(logs=None)
+        # exp_info["Accuracy"] = Accuracy
+        # exp_info["F1_Score"] = F1_Score
+        # exp_info["Precision"] = Precision
+        # exp_info["Recall"] = Recall
+        # csv_logger = ExperimentLogger('../result/exp_result.csv', exp_info)
+        # csv_logger.write_exp_info(logs=None)
         return CF_matrix, report, Accuracy, F1_Score, Precision, Recall
 
     def train(self, X_train, y_train, regression, loss, n_epochs=100,
@@ -117,8 +114,6 @@ class net:
             val_split = 1 / num_folds
         else:
             val_split = 0.2
-
-        print(X_train.shape[1],X_train.shape[2], y_train_normalized.shape[1])
         print("**************************")
         inputs = Input(shape=(X_train.shape[1], X_train.shape[2]), name='main_input')
         # inter = Dropout(dropout)(inputs, training=True)
@@ -161,13 +156,17 @@ class net:
         else:
             if regression:
                 outputs = Dense(y_train_normalized.shape[1], )(inter)
+                model = Model(inputs=inputs, outputs=outputs)
+                model.compile(loss=loss, optimizer='adam',
+                         metrics=['acc'])
+
             else:
                 outputs = Dense(y_train_normalized.shape[1], activation='softmax')(inter)
-            model = Model(inputs=inputs, outputs=outputs)
-
-            model.compile(loss=loss, optimizer='adam',
+                model = Model(inputs=inputs, outputs=outputs)
+                model.compile(loss=loss, optimizer='adam',
                          metrics=[tf.keras.metrics.Precision(),
                           tf.keras.metrics.Recall(), 'acc'])
+
             early_stopping = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=10)
             model_checkpoint = tf.keras.callbacks.ModelCheckpoint('%smodel_%s_.h5' % (checkpoint_dir, model_name),
                                                                monitor='val_loss', verbose=0, save_best_only=True,
@@ -176,6 +175,8 @@ class net:
                                                            mode='auto', min_delta=0.0001, cooldown=0, min_lr=0)
             # We iterate the learning process
             start_time = time.time()
+            # print(X_train.shape)
+            # print(y_train_normalized.shape)
             model.fit(X_train, y_train_normalized, batch_size=batch_size, epochs=n_epochs, verbose=1,
                       validation_split=val_split, callbacks=[early_stopping, model_checkpoint, lr_reducer])
 

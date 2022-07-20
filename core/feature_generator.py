@@ -14,7 +14,6 @@ class FeatureGenerator(object):
 
   def train_test_split(self, df, train_ratio, test_ratio):
     caseid = list(set(df['id']))
-    print("# cases: {}".format(len(caseid)))
     num_train = int(len(caseid)*train_ratio)
     num_test = len(caseid)*test_ratio
     train_caseid = list(random.sample(caseid, num_train))
@@ -25,10 +24,6 @@ class FeatureGenerator(object):
 
   def create_initial_log(self, path,config):
       df = self.read_into_panda_from_csv(path,config)
-      #df = clean_outliers(df)
-      #os.path.splitext(path)[0]
-      #version = "_level_0"+name
-      #filename = self.write_pandas_to_csv(df, version, False)
       return df
 
   def add_dur(self, df):
@@ -194,7 +189,6 @@ class FeatureGenerator(object):
             df.at[i, 'total_time'] = total_
             df.at[i, 'remaining_time'] = total_ - df.at[i, 'elapsed_time']
         except ValueError:
-            print('err')
             return ValueError
     return df
 
