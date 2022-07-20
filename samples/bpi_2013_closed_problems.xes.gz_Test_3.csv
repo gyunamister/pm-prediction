@@ -1,0 +1,1265 @@
+,org:group,resource country,organization country,org:resource,organization involved,org:role,concept:name,impact,product,lifecycle:transition,time:timestamp,case:concept:name
+0,Org line C,Sweden,be,Linda,G56 3rd,C_1,Accepted,Medium,PROD795,In Progress,2011-10-24 08:41:20+00:00,1-593431551
+1,Org line C,Sweden,be,Linda,G56 3rd,C_1,Accepted,Medium,PROD795,Assigned,2011-10-24 08:46:49+00:00,1-593431551
+2,Org line C,Sweden,be,Linda,G56 3rd,C_1,Accepted,Medium,PROD795,In Progress,2011-11-25 14:09:49+00:00,1-593431551
+3,Org line C,Sweden,be,Linda,G56 3rd,C_1,Completed,Medium,PROD795,Closed,2012-01-09 14:00:52+00:00,1-593431551
+4,Org line G4,Sweden,se,Peter,M19 2nd,,Accepted,Medium,PROD286,In Progress,2011-10-24 13:22:19+00:00,1-593751721
+5,Org line G4,Sweden,se,Peter,M19 2nd,,Completed,Medium,PROD286,Closed,2012-01-03 15:03:49+00:00,1-593751721
+6,Org line V5,Germany,de,Rainer,V19 2nd,,Accepted,High,PROD637,In Progress,2011-10-24 15:58:48+00:00,1-593933571
+7,Org line V5,Germany,de,Rainer,V19 2nd,,Completed,High,PROD637,Closed,2012-04-20 11:01:39+00:00,1-593933571
+8,Org line C,INDIA,in,Sreelesh,G88 2nd,E_4,Accepted,Medium,PROD794,Wait,2011-10-25 02:39:54+00:00,1-594093101
+9,Org line C,INDIA,in,Sreelesh,G88 2nd,E_4,Accepted,Medium,PROD794,In Progress,2012-01-04 12:59:47+00:00,1-594093101
+10,Org line C,INDIA,in,Sreelesh,G88 2nd,E_4,Accepted,Medium,PROD794,Wait,2012-01-04 12:59:54+00:00,1-594093101
+11,Org line C,USA,in,Robert,G88 2nd,E_4,Queued,Medium,PROD794,Awaiting Assignment,2012-03-07 12:15:35+00:00,1-594093101
+12,Org line C,INDIA,in,Amit,G92,E_5,Queued,Medium,PROD794,Awaiting Assignment,2012-03-12 18:09:52+00:00,1-594093101
+13,Org line C,INDIA,in,Sreelesh,G92,E_5,Accepted,Medium,PROD794,In Progress,2012-03-28 14:55:11+00:00,1-594093101
+14,Org line C,INDIA,in,Sreelesh,G92,E_5,Completed,Medium,PROD794,Closed,2012-03-28 14:55:58+00:00,1-594093101
+15,Org line A2,Sweden,se,Urban,S35 2nd,A2_3,Accepted,Low,PROD551,Wait,2011-10-25 12:12:06+00:00,1-594472343
+16,Org line A2,Sweden,se,Urban,S35 2nd,A2_3,Accepted,Low,PROD551,Assigned,2011-11-28 10:10:24+00:00,1-594472343
+17,Org line A2,Sweden,se,Urban,S35 2nd,A2_3,Accepted,Low,PROD551,In Progress,2012-02-29 13:03:00+00:00,1-594472343
+18,Org line A2,Sweden,se,Urban,S35 2nd,A2_3,Completed,Low,PROD551,Closed,2012-02-29 13:03:01+00:00,1-594472343
+19,Org line C,Sweden,us,Jörgen,G88 2nd,E_4,Accepted,Medium,PROD348,In Progress,2011-10-25 13:23:06+00:00,1-594666837
+20,Org line C,Sweden,us,Jörgen,G88 2nd,E_4,Completed,Medium,PROD348,Closed,2012-02-28 15:00:13+00:00,1-594666837
+21,Org line A2,Sweden,se,Per,G105 2nd,A2_4,Accepted,Medium,PROD337,In Progress,2011-10-25 13:30:47+00:00,1-594693527
+22,Org line A2,Sweden,se,Per,G105 2nd,A2_4,Completed,Medium,PROD337,Closed,2012-04-20 07:21:40+00:00,1-594693527
+23,Org line G4,Sweden,se,Peter,M19 2nd,,Accepted,Medium,PROD286,In Progress,2011-10-25 13:34:02+00:00,1-594673056
+24,Org line G4,Sweden,se,Peter,M19 2nd,,Completed,Medium,PROD286,Closed,2012-01-03 15:01:46+00:00,1-594673056
+25,Org line C,Sweden,se,Henrik,G334 2nd,E_6,Accepted,Medium,PROD289,Wait,2011-10-26 08:22:18+00:00,1-595361681
+26,Org line C,Sweden,se,Henrik,G334 2nd,E_6,Completed,Medium,PROD289,Closed,2012-02-15 16:01:59+00:00,1-595361681
+27,Org line B,INDIA,in,Srinivasan,G230 2nd,E_10,Queued,Medium,PROD424,Awaiting Assignment,2011-10-26 08:56:21+00:00,1-595293983
+28,Org line B,INDIA,in,Rijin,G230 2nd,E_10,Accepted,Medium,PROD424,In Progress,2011-10-27 11:50:17+00:00,1-595293983
+29,Org line B,INDIA,in,Rijin,G230 2nd,E_10,Completed,Medium,PROD424,Closed,2011-12-30 04:05:05+00:00,1-595293983
+30,Org line B,INDIA,in,Rijin,G230 2nd,E_10,Accepted,Medium,PROD424,In Progress,2011-12-30 04:36:51+00:00,1-595293983
+31,Org line B,INDIA,in,Rijin,G230 2nd,E_10,Completed,Medium,PROD424,Closed,2012-01-31 11:56:19+00:00,1-595293983
+32,Org line G4,Sweden,se,Gustav,S30 2nd,,Accepted,Medium,PROD412,In Progress,2011-10-26 15:28:06+00:00,1-595687232
+33,Org line G4,Sweden,se,Gustav,S30 2nd,,Accepted,Medium,PROD412,In Progress,2011-11-01 08:25:19+00:00,1-595687232
+34,Org line G4,Sweden,se,Jonas,S30 2nd,,Accepted,Medium,PROD412,Assigned,2011-11-01 08:26:11+00:00,1-595687232
+35,Org line G4,Sweden,se,Marco,S30 2nd,,Accepted,Medium,PROD412,In Progress,2012-03-23 09:49:00+00:00,1-595687232
+36,Org line G4,Sweden,se,Marco,S30 2nd,,Completed,Medium,PROD412,Closed,2012-03-23 09:51:13+00:00,1-595687232
+37,Org line G4,Sweden,se,Christer,S30 2nd,,Accepted,Medium,PROD408,In Progress,2011-10-27 07:39:11+00:00,1-596251950
+38,Org line G4,Sweden,se,Christer,S30 2nd,,Accepted,Medium,PROD408,Assigned,2011-10-27 10:37:42+00:00,1-596251950
+39,Org line G4,Sweden,se,Christer,S30 2nd,,Accepted,Medium,PROD408,In Progress,2012-03-23 12:52:39+00:00,1-596251950
+40,Org line G4,Sweden,se,Christer,S30 2nd,,Completed,Medium,PROD408,Closed,2012-03-23 12:52:47+00:00,1-596251950
+41,Org line A2,Belgium,pl,Axel,G171 2nd,A2_2,Accepted,Medium,PROD686,In Progress,2011-10-27 08:24:19+00:00,1-596290771
+42,Org line A2,Belgium,pl,Axel,G171 2nd,A2_2,Accepted,Medium,PROD686,Assigned,2011-10-27 08:33:47+00:00,1-596290771
+43,Org line A2,Belgium,pl,Axel,G171 2nd,A2_2,Accepted,Medium,PROD686,In Progress,2011-11-07 15:30:05+00:00,1-596290771
+44,Org line A2,POLAND,pl,Grzegorz,G171 2nd,A2_2,Accepted,Medium,PROD686,In Progress,2012-02-27 06:50:56+00:00,1-596290771
+45,Org line A2,POLAND,pl,Grzegorz,G171 2nd,A2_2,Completed,Medium,PROD686,Closed,2012-04-03 12:17:41+00:00,1-596290771
+46,Org line C,Sweden,se,Niklas,M11,V3_2,Accepted,Medium,PROD512,In Progress,2011-10-27 08:37:38+00:00,1-596286562
+47,Org line C,Sweden,se,Niklas,M11,V3_2,Completed,Medium,PROD512,Closed,2012-01-09 07:20:11+00:00,1-596286562
+48,Org line C,Sweden,se,Martin,G273 3rd,C_6,Accepted,Medium,PROD802,In Progress,2011-10-27 09:48:01+00:00,1-596331167
+49,Org line C,Sweden,se,Martin,G273 3rd,C_6,Queued,Medium,PROD802,Awaiting Assignment,2011-10-27 10:25:19+00:00,1-596331167
+50,Org line C,Sweden,se,Claes,G273 3rd,C_6,Accepted,Medium,PROD802,In Progress,2011-10-28 09:43:21+00:00,1-596331167
+51,Org line C,Sweden,se,Claes,G273 3rd,C_6,Accepted,Medium,PROD802,Wait,2011-10-28 09:43:29+00:00,1-596331167
+52,Org line C,Sweden,se,Claes,G273 3rd,C_6,Completed,Medium,PROD802,Closed,2012-01-10 09:10:29+00:00,1-596331167
+53,Org line C,Sweden,se,Mårten,G141 3rd,C_6,Accepted,Medium,PROD660,In Progress,2011-10-27 13:27:20+00:00,1-596580941
+54,Org line C,Sweden,se,Mårten,G141 3rd,C_6,Queued,Medium,PROD660,Awaiting Assignment,2011-10-28 09:49:21+00:00,1-596580941
+55,Org line C,Sweden,se,Mica,G141 3rd,C_6,Accepted,Medium,PROD660,In Progress,2011-11-01 07:09:03+00:00,1-596580941
+56,Org line C,Sweden,se,Björn T,G250 3rd,C_6,Accepted,Medium,PROD660,In Progress,2011-11-01 09:57:12+00:00,1-596580941
+57,Org line C,Sweden,se,Björn T,G250 3rd,C_6,Accepted,Medium,PROD660,Wait,2011-11-01 09:57:22+00:00,1-596580941
+58,Org line C,Sweden,se,Björn T,G250 3rd,C_6,Completed,Medium,PROD660,Closed,2012-02-28 08:51:52+00:00,1-596580941
+59,Org line C,Sweden,se,Tomas,G250 3rd,C_6,Accepted,Medium,PROD660,In Progress,2011-10-27 13:32:18+00:00,1-596608752
+60,Org line C,Sweden,se,Tomas,G250 3rd,C_6,Accepted,Medium,PROD660,In Progress,2011-10-27 13:33:37+00:00,1-596608752
+61,Org line C,Sweden,se,Tomas,G250 3rd,C_6,Completed,Medium,PROD660,Closed,2012-01-30 12:42:26+00:00,1-596608752
+62,Org line A2,Sweden,se,Ulrika,G361 2nd,A2_3,Queued,High,PROD234,Awaiting Assignment,2011-10-27 15:10:48+00:00,1-596676011
+63,Org line A2,Sweden,se,Daniel,M3 2nd,A2_3,Accepted,High,PROD234,In Progress,2012-04-11 14:46:12+00:00,1-596676011
+64,Org line A2,Sweden,se,Daniel,M3 2nd,A2_3,Completed,High,PROD234,Closed,2012-04-11 14:46:34+00:00,1-596676011
+65,Org line A2,USA,us,Stephen,N30 2nd,A2_5,Accepted,Major,PROD487,In Progress,2011-10-27 17:26:39+00:00,1-596815491
+66,Org line A2,USA,us,Stephen,N30 2nd,A2_5,Completed,Major,PROD487,Closed,2012-01-05 20:08:06+00:00,1-596815491
+67,Org line G3,USA,us,Carolyn,G199 3rd,,Accepted,Medium,PROD96,In Progress,2011-10-28 09:06:29+00:00,1-597285812
+68,Org line G3,USA,us,Carolyn,G199 3rd,,Accepted,Medium,PROD96,In Progress,2011-10-28 10:25:46+00:00,1-597285812
+69,Org line G3,POLAND,us,Ewa,G199 3rd,,Accepted,Medium,PROD96,In Progress,2011-11-22 12:36:13+00:00,1-597285812
+70,Org line G3,POLAND,us,Ewa,G199 3rd,,Completed,Medium,PROD96,Closed,2012-01-03 12:11:12+00:00,1-597285812
+71,Org line C,INDIA,us,Pratap,G88 2nd,E_4,Accepted,Medium,PROD774,In Progress,2011-10-28 12:17:58+00:00,1-597231167
+72,Org line C,INDIA,us,Pratap,G88 2nd,E_4,Accepted,Medium,PROD774,In Progress,2011-10-28 12:27:42+00:00,1-597231167
+73,Org line C,INDIA,us,Pratap,G88 2nd,E_4,Accepted,Medium,PROD774,In Progress,2011-12-21 11:33:25+00:00,1-597231167
+74,Org line C,INDIA,us,Pratap,G88 2nd,E_4,Accepted,Medium,PROD774,Wait,2011-12-21 11:33:48+00:00,1-597231167
+75,Org line C,USA,us,Robert,G88 2nd,E_4,Queued,Medium,PROD774,Awaiting Assignment,2011-12-30 16:11:45+00:00,1-597231167
+76,Org line C,INDIA,us,Ramith,G88 2nd,E_4,Accepted,Medium,PROD774,In Progress,2012-02-20 03:27:14+00:00,1-597231167
+77,Org line C,INDIA,us,Ramith,G88 2nd,E_4,Completed,Medium,PROD774,Closed,2012-03-09 12:07:07+00:00,1-597231167
+78,Org line C,USA,in,Edward,G157 2nd,E_7,Accepted,High,PROD424,In Progress,2011-10-28 14:16:54+00:00,1-597580752
+79,Org line C,USA,in,Edward,G157 2nd,E_7,Accepted,High,PROD424,In Progress,2011-10-28 14:23:31+00:00,1-597580752
+80,Org line C,USA,in,Edward,G165 2nd,E_7,Accepted,High,PROD424,In Progress,2011-10-28 14:25:32+00:00,1-597580752
+81,Org line C,USA,in,Edward,G165 2nd,E_7,Accepted,High,PROD424,Wait,2011-12-08 21:31:10+00:00,1-597580752
+82,Org line C,USA,in,Edward,G165 2nd,E_7,Completed,High,PROD424,Closed,2012-02-13 14:47:58+00:00,1-597580752
+83,Org line C,Sweden,se,Börje,G100 3rd,C_1,Accepted,Major,PROD153,In Progress,2011-10-28 14:32:35+00:00,1-597616526
+84,Org line C,Sweden,se,Börje,G100 3rd,C_1,Completed,Major,PROD153,Closed,2012-01-03 11:19:56+00:00,1-597616526
+85,Org line A2,POLAND,pl,Marcin,V11 3rd,D_1,Accepted,Medium,PROD74,In Progress,2011-10-31 08:05:05+00:00,1-598583993
+86,Org line A2,POLAND,pl,Marcin,V11 3rd,D_1,Queued,Medium,PROD74,Awaiting Assignment,2011-10-31 08:05:35+00:00,1-598583993
+87,Org line A2,POLAND,pl,Marcin,V11 3rd,D_1,Accepted,Medium,PROD74,In Progress,2011-11-04 14:19:35+00:00,1-598583993
+88,Org line A2,POLAND,pl,Marcin,V11 3rd,D_1,Completed,Medium,PROD74,Closed,2012-01-18 10:28:06+00:00,1-598583993
+89,Org line C,Sweden,se,Robert,G135 2nd,E_7,Accepted,Medium,PROD806,In Progress,2011-10-31 16:54:07+00:00,1-599074651
+90,Org line C,Sweden,se,Robert,G135 2nd,E_7,Accepted,Medium,PROD806,In Progress,2011-10-31 16:56:44+00:00,1-599074651
+91,Org line C,Sweden,se,Robert,G135 2nd,E_7,Completed,Medium,PROD806,Closed,2012-01-04 13:48:41+00:00,1-599074651
+92,Org line C,Sweden,se,Ann-Charlotte,G138 2nd,E_10,Accepted,Low,PROD802,In Progress,2011-10-31 22:40:16+00:00,1-599157751
+93,Org line C,Sweden,se,Ann-Charlotte,G138 2nd,E_10,Queued,Low,PROD802,Awaiting Assignment,2011-10-31 22:48:47+00:00,1-599157751
+94,Org line C,Sweden,se,Marcus,G138 2nd,E_10,Accepted,Low,PROD802,In Progress,2011-11-18 06:31:45+00:00,1-599157751
+95,Org line C,Sweden,se,Martin,R4 3rd,C_6,Queued,Low,PROD802,Awaiting Assignment,2011-11-18 06:34:16+00:00,1-599157751
+96,Org line C,Sweden,se,Lennart,G273 3rd,C_6,Accepted,Low,PROD802,In Progress,2011-11-18 09:43:24+00:00,1-599157751
+97,Org line C,Sweden,se,Lennart,G273 3rd,C_6,Completed,Low,PROD802,Closed,2012-04-11 08:03:56+00:00,1-599157751
+98,Org line F,Sweden,se,Craig,S1 2nd,,Accepted,Low,PROD813,In Progress,2011-11-01 00:33:07+00:00,1-599157997
+99,Org line F,Sweden,se,Craig,S1 2nd,,Queued,Low,PROD813,Awaiting Assignment,2011-11-01 00:36:28+00:00,1-599157997
+100,Org line F,Sweden,se,Lennart,S1 2nd,,Accepted,Low,PROD813,In Progress,2011-11-01 06:56:26+00:00,1-599157997
+101,Org line F,Sweden,se,Johan,S1 2nd,,Accepted,Low,PROD813,Assigned,2011-11-01 06:57:28+00:00,1-599157997
+102,Org line F,Sweden,se,Johan,S1 2nd,,Accepted,Low,PROD813,Wait,2012-01-04 11:35:26+00:00,1-599157997
+103,Org line F,Sweden,se,Johan,S1 2nd,,Completed,Low,PROD813,Closed,2012-01-04 11:35:27+00:00,1-599157997
+104,Org line F,Sweden,se,Craig,S1 2nd,,Accepted,Low,PROD812,In Progress,2011-11-01 00:38:21+00:00,1-599158067
+105,Org line F,Sweden,se,Craig,S1 2nd,,Queued,Low,PROD812,Awaiting Assignment,2011-11-01 00:42:00+00:00,1-599158067
+106,Org line F,Sweden,se,Lennart,S1 2nd,,Accepted,Low,PROD812,In Progress,2011-11-01 06:57:38+00:00,1-599158067
+107,Org line F,Sweden,se,Johan,S1 2nd,,Accepted,Low,PROD812,Assigned,2011-11-01 08:18:38+00:00,1-599158067
+108,Org line F,Sweden,se,Johan,S1 2nd,,Completed,Low,PROD812,Closed,2012-01-04 11:36:05+00:00,1-599158067
+109,Org line C,Sweden,se,Niklas,M11,V3_2,Accepted,Low,PROD512,In Progress,2011-11-01 07:23:43+00:00,1-599352141
+110,Org line C,Sweden,se,Niklas,M11,V3_2,Completed,Low,PROD512,Closed,2012-01-09 07:19:48+00:00,1-599352141
+111,Org line A2,Sweden,se,Ove,N16 2nd,A2_1,Accepted,Medium,PROD753,In Progress,2011-11-01 12:35:50+00:00,1-599517681
+112,Org line A2,Sweden,se,Ove,N16 2nd,A2_1,Accepted,Medium,PROD753,Assigned,2011-11-07 12:11:29+00:00,1-599517681
+113,Org line A2,Sweden,se,Marie,N16 2nd,A2_1,Accepted,Medium,PROD753,In Progress,2012-01-09 13:01:54+00:00,1-599517681
+114,Org line A2,Sweden,se,Marie,N16 2nd,A2_1,Completed,Medium,PROD753,Closed,2012-01-09 13:02:05+00:00,1-599517681
+115,Org line G3,USA,us,Carolyn,G199 3rd,,Accepted,Medium,PROD96,In Progress,2011-11-01 14:05:49+00:00,1-599586617
+116,Org line G3,USA,us,Carolyn,G199 3rd,,Queued,Medium,PROD96,Awaiting Assignment,2011-11-01 15:23:53+00:00,1-599586617
+117,Org line G3,POLAND,us,Ewa,G199 3rd,,Accepted,Medium,PROD96,In Progress,2012-01-09 12:20:00+00:00,1-599586617
+118,Org line G3,POLAND,us,Ewa,G199 3rd,,Completed,Medium,PROD96,Closed,2012-01-30 11:29:11+00:00,1-599586617
+119,Org line C,USA,us,Robert,G88 2nd,E_4,Queued,High,PROD793,Awaiting Assignment,2011-11-01 15:12:37+00:00,1-599626401
+120,Org line C,USA,us,Joshua,G88 2nd,E_4,Accepted,High,PROD793,Assigned,2011-11-07 07:23:28+00:00,1-599626401
+121,Org line C,USA,us,Robert,G88 2nd,E_4,Accepted,High,PROD793,In Progress,2012-01-06 17:54:50+00:00,1-599626401
+122,Org line C,USA,us,Robert,G88 2nd,E_4,Completed,High,PROD793,Closed,2012-01-06 17:56:19+00:00,1-599626401
+123,Org line G4,Sweden,se,Andreas,S30 2nd,,Accepted,High,PROD412,In Progress,2011-11-02 08:00:44+00:00,1-600432558
+124,Org line G4,Sweden,se,Andreas,S30 2nd,,Accepted,High,PROD412,Assigned,2011-11-02 08:03:13+00:00,1-600432558
+125,Org line G4,Sweden,se,Gustav,S30 2nd,,Accepted,High,PROD412,In Progress,2011-11-21 13:52:20+00:00,1-600432558
+126,Org line G4,Sweden,se,Gustav,S30 2nd,,Completed,High,PROD412,Closed,2012-01-30 12:43:57+00:00,1-600432558
+127,Org line C,Sweden,se,Ann-Charlotte,G145 2nd,E_10,Accepted,Medium,PROD104,In Progress,2011-11-02 09:38:33+00:00,1-600506847
+128,Org line C,Sweden,se,Ann-Charlotte,G145 2nd,E_10,Queued,Medium,PROD104,Awaiting Assignment,2011-11-02 09:49:55+00:00,1-600506847
+129,Org line C,Sweden,se,Anders,G138 2nd,E_10,Accepted,Medium,PROD104,In Progress,2011-11-16 08:54:15+00:00,1-600506847
+130,Org line C,Sweden,se,Peter,G140 2nd,E_10,Queued,Medium,PROD104,Awaiting Assignment,2011-11-16 09:49:09+00:00,1-600506847
+131,Org line C,Sweden,se,Mica,G141 3rd,C_6,Queued,Medium,PROD104,Awaiting Assignment,2011-11-16 09:54:37+00:00,1-600506847
+132,Org line C,Sweden,se,Mica,G141 3rd,C_6,Accepted,Medium,PROD104,In Progress,2011-11-17 06:43:46+00:00,1-600506847
+133,Org line C,Sweden,se,Mårten,G141 3rd,C_6,Accepted,Medium,PROD104,In Progress,2011-11-17 08:13:49+00:00,1-600506847
+134,Org line C,Sweden,se,Peter,G140 2nd,E_10,Queued,Medium,PROD104,Awaiting Assignment,2011-11-17 08:17:35+00:00,1-600506847
+135,Org line C,Sweden,se,Magnus,G140 2nd,E_10,Accepted,Medium,PROD104,Assigned,2011-11-17 08:18:13+00:00,1-600506847
+136,Org line C,Sweden,se,Mica,G141 3rd,C_6,Queued,Medium,PROD104,Awaiting Assignment,2011-11-17 13:29:20+00:00,1-600506847
+137,Org line C,Sweden,se,Erik,G141 3rd,C_6,Accepted,Medium,PROD104,In Progress,2011-11-17 13:46:54+00:00,1-600506847
+138,Org line C,Sweden,se,Vikingur,G261 3rd,C_6,Accepted,Medium,PROD104,In Progress,2011-11-23 08:06:21+00:00,1-600506847
+139,Org line C,Sweden,se,Mica,G141 3rd,C_6,Queued,Medium,PROD104,Awaiting Assignment,2011-12-06 13:41:54+00:00,1-600506847
+140,Org line C,Sweden,se,Vikingur,G261 3rd,C_6,Accepted,Medium,PROD104,In Progress,2011-12-06 13:42:41+00:00,1-600506847
+141,Org line C,Sweden,se,Vikingur,G261 3rd,C_6,Completed,Medium,PROD104,Closed,2012-01-27 13:40:19+00:00,1-600506847
+142,Org line C,Sweden,se,Börje,G100 3rd,C_1,Accepted,Medium,PROD153,In Progress,2011-11-02 12:11:01+00:00,1-600663061
+143,Org line C,Sweden,se,Börje,G100 3rd,C_1,Queued,Medium,PROD153,Awaiting Assignment,2011-11-02 12:11:07+00:00,1-600663061
+144,Org line C,Sweden,se,Börje,G100 3rd,C_1,Accepted,Medium,PROD153,In Progress,2011-11-09 12:36:53+00:00,1-600663061
+145,Org line C,Sweden,se,Börje,G100 3rd,C_1,Completed,Medium,PROD153,Closed,2012-01-03 10:03:09+00:00,1-600663061
+146,Org line A2,Sweden,se,Aparna,G105 2nd,A2_4,Accepted,Medium,PROD337,In Progress,2011-11-02 18:58:55+00:00,1-600873076
+147,Org line A2,Sweden,se,Aparna,G105 2nd,A2_4,Completed,Medium,PROD337,Closed,2012-01-26 10:00:39+00:00,1-600873076
+148,Org line A2,Sweden,in,Saikat,G31 3rd,A2_4,Accepted,Medium,PROD194,In Progress,2011-11-03 04:42:43+00:00,1-601289432
+149,Org line A2,Sweden,in,Saikat,G31 3rd,A2_4,Accepted,Medium,PROD194,Assigned,2012-01-18 10:55:47+00:00,1-601289432
+150,Org line A2,Sweden,in,Saikat,G31 3rd,A2_4,Accepted,Medium,PROD194,In Progress,2012-02-22 06:10:05+00:00,1-601289432
+151,Org line A2,Sweden,in,Saikat,G31 3rd,A2_4,Completed,Medium,PROD194,Closed,2012-02-22 06:11:43+00:00,1-601289432
+152,Org line C,USA,fr,Sandra,N18 2nd,,Accepted,Low,PROD696,In Progress,2011-11-03 08:48:02+00:00,1-601400851
+153,Org line C,USA,fr,Sandra,N18 2nd,,Queued,Low,PROD696,Awaiting Assignment,2011-12-07 14:01:12+00:00,1-601400851
+154,Org line A2,POLAND,fr,Andrzej,M16 3rd,A2_2,Accepted,Low,PROD696,In Progress,2011-12-07 14:01:20+00:00,1-601400851
+155,Org line C,France,fr,Cyril,W12 2nd,E_6,Queued,Low,PROD696,Awaiting Assignment,2011-12-07 14:04:17+00:00,1-601400851
+156,Org line C,France,fr,Cyril,W12 2nd,E_6,Accepted,Low,PROD696,In Progress,2012-01-10 15:27:44+00:00,1-601400851
+157,Org line C,France,fr,Cyril,W12 2nd,E_6,Completed,Low,PROD696,Closed,2012-01-10 15:29:11+00:00,1-601400851
+158,Org line C,Belgium,be,Peter,G56 3rd,C_1,Accepted,Low,PROD394,In Progress,2011-11-03 09:02:34+00:00,1-601433623
+159,Org line C,Belgium,be,Peter,G56 3rd,C_1,Completed,Low,PROD394,Closed,2012-01-12 10:06:35+00:00,1-601433623
+160,Org line G3,POLAND,us,Ewa,G199 3rd,,Accepted,Medium,PROD97,In Progress,2011-11-03 12:23:28+00:00,1-601636752
+161,Org line G3,POLAND,us,Ewa,G199 3rd,,Completed,Medium,PROD97,Closed,2012-01-03 08:32:27+00:00,1-601636752
+162,Org line C,Sweden,se,Daniel,G157 2nd,E_7,Accepted,High,PROD677,In Progress,2011-11-03 17:45:21+00:00,1-601819090
+163,Org line C,Sweden,se,Daniel,G157 2nd,E_7,Accepted,High,PROD677,In Progress,2012-02-02 11:18:05+00:00,1-601819090
+164,Org line C,INDIA,se,Rajesh Kumar,G157 2nd,E_7,Accepted,High,PROD677,Assigned,2012-02-02 11:18:31+00:00,1-601819090
+165,Org line C,Sweden,se,Andres,G136 2nd,E_7,Accepted,High,PROD677,In Progress,2012-03-08 12:58:03+00:00,1-601819090
+166,Org line C,Sweden,se,Andres,G136 2nd,E_7,Completed,High,PROD677,Closed,2012-03-08 12:58:40+00:00,1-601819090
+167,Org line A2,POLAND,pl,Marcin,L60 2nd,A2_2,Accepted,High,PROD229,In Progress,2011-11-04 07:40:13+00:00,1-602316021
+168,Org line A2,POLAND,pl,Marcin,L60 2nd,A2_2,Accepted,High,PROD229,Wait,2011-11-04 07:40:22+00:00,1-602316021
+169,Org line A2,POLAND,pl,Marcin,L60 2nd,A2_2,Accepted,High,PROD229,In Progress,2012-01-03 07:04:51+00:00,1-602316021
+170,Org line A2,POLAND,pl,Marcin,L60 2nd,A2_2,Completed,High,PROD229,Closed,2012-02-10 07:08:31+00:00,1-602316021
+171,Org line A2,POLAND,pl,Marcin,L60 2nd,A2_2,Accepted,High,PROD229,In Progress,2011-11-04 07:41:14+00:00,1-602316067
+172,Org line A2,POLAND,pl,Marcin,L60 2nd,A2_2,Accepted,High,PROD229,Wait,2011-11-04 07:43:29+00:00,1-602316067
+173,Org line A2,POLAND,pl,Marcin,L60 2nd,A2_2,Accepted,High,PROD229,In Progress,2012-01-03 07:07:05+00:00,1-602316067
+174,Org line A2,POLAND,pl,Marcin,L60 2nd,A2_2,Completed,High,PROD229,Closed,2012-02-10 07:05:02+00:00,1-602316067
+175,Org line A2,Sweden,se,Henrik,G357 2nd,A2_2,Accepted,Medium,PROD233,Wait,2011-11-04 07:43:24+00:00,1-602316153
+176,Org line A2,Sweden,se,Henrik,G357 2nd,A2_2,Queued,Medium,PROD233,Awaiting Assignment,2012-01-03 07:22:34+00:00,1-602316153
+177,Org line A2,POLAND,se,Barbara,G357 2nd,A2_2,Accepted,Medium,PROD233,In Progress,2012-01-03 08:31:31+00:00,1-602316153
+178,Org line A2,POLAND,se,Barbara,G357 2nd,A2_2,Accepted,Medium,PROD233,Wait,2012-01-03 08:31:39+00:00,1-602316153
+179,Org line A2,POLAND,se,Barbara,G357 2nd,A2_2,Completed,Medium,PROD233,Closed,2012-03-30 11:46:28+00:00,1-602316153
+180,Org line A2,POLAND,pl,Marcin,L60 2nd,A2_2,Accepted,High,PROD229,Wait,2011-11-04 07:44:24+00:00,1-602316201
+181,Org line A2,POLAND,pl,Marcin,L60 2nd,A2_2,Completed,High,PROD229,Closed,2012-02-10 07:07:18+00:00,1-602316201
+182,Org line A2,POLAND,pl,Marcin,W11 2nd,A2_4,Accepted,Low,PROD555,Wait,2011-11-04 07:45:46+00:00,1-602316215
+183,Org line A2,POLAND,pl,Marcin,W11 2nd,A2_4,Accepted,Low,PROD555,In Progress,2012-01-03 07:07:54+00:00,1-602316215
+184,Org line A2,POLAND,pl,Marcin,W11 2nd,A2_4,Completed,Low,PROD555,Closed,2012-02-10 07:04:41+00:00,1-602316215
+185,Org line A2,POLAND,pl,Marcin,W11 2nd,A2_4,Accepted,Medium,PROD370,Wait,2011-11-04 07:46:53+00:00,1-602316249
+186,Org line A2,POLAND,pl,Marcin,W11 2nd,A2_4,Completed,Medium,PROD370,Closed,2012-02-10 07:02:42+00:00,1-602316249
+187,Org line G1,Sweden,se,Jenny,G358 2nd,E_6,Accepted,Low,PROD380,In Progress,2011-11-04 09:27:04+00:00,1-602396115
+188,Org line G1,Sweden,se,Jenny,G358 2nd,E_6,Accepted,Low,PROD380,Wait,2011-11-04 11:23:05+00:00,1-602396115
+189,Org line G1,Sweden,se,Jenny,G358 2nd,E_6,Completed,Low,PROD380,Closed,2012-05-21 11:49:52+00:00,1-602396115
+190,Org line A2,POLAND,pl,Grzegorz,N26 2nd,A2_3,Accepted,Medium,PROD791,Wait,2011-11-04 15:13:21+00:00,1-602464818
+191,Org line A2,POLAND,pl,Grzegorz,N26 2nd,A2_3,Completed,Medium,PROD791,Closed,2012-04-23 11:37:01+00:00,1-602464818
+192,Org line C,Sweden,se,Praveen,G271 2nd,E_10,Accepted,High,PROD802,In Progress,2011-11-06 08:00:41+00:00,1-602870173
+193,Org line C,Sweden,se,Praveen,G271 2nd,E_10,Queued,High,PROD802,Awaiting Assignment,2011-11-06 08:10:10+00:00,1-602870173
+194,Org line C,Sweden,se,Sameer,G271 2nd,E_10,Accepted,High,PROD802,In Progress,2011-11-07 07:35:18+00:00,1-602870173
+195,Org line C,Sweden,se,Martin,G273 3rd,C_6,Queued,High,PROD802,Awaiting Assignment,2011-11-07 07:38:14+00:00,1-602870173
+196,Org line C,Sweden,se,Michael,R4 3rd,C_6,Accepted,High,PROD802,In Progress,2011-11-07 08:10:45+00:00,1-602870173
+197,Org line C,Sweden,se,Michael,R4 3rd,C_6,Accepted,High,PROD802,Wait,2011-11-07 09:03:58+00:00,1-602870173
+198,Org line C,Sweden,se,Michael,R4 3rd,C_6,Accepted,High,PROD802,In Progress,2011-11-07 10:45:40+00:00,1-602870173
+199,Org line C,Sweden,se,Daniel,R6 2nd,E_10,Queued,High,PROD802,Awaiting Assignment,2011-11-07 10:47:27+00:00,1-602870173
+200,Org line C,Sweden,se,Mikael,G273 3rd,C_6,Accepted,High,PROD802,In Progress,2011-11-08 09:42:37+00:00,1-602870173
+201,Org line C,Sweden,se,Daniel,R6 2nd,E_10,Accepted,High,PROD802,Assigned,2011-11-09 11:08:35+00:00,1-602870173
+202,Org line C,Sweden,se,Mikael,R6 2nd,E_10,Accepted,High,PROD802,In Progress,2011-11-09 11:09:46+00:00,1-602870173
+203,Org line C,Sweden,se,Mikael,R6 2nd,E_10,Completed,High,PROD802,Closed,2011-11-25 07:39:57+00:00,1-602870173
+204,Org line C,INDIA,se,M Humaira,G81,E_5,Accepted,High,PROD802,In Progress,2011-12-07 12:25:46+00:00,1-602870173
+205,Org line C,Sweden,se,Praveen,G271 2nd,E_10,Queued,High,PROD802,Awaiting Assignment,2011-12-07 12:27:34+00:00,1-602870173
+206,Org line C,Sweden,se,Arun,G271 2nd,E_10,Accepted,High,PROD802,In Progress,2011-12-07 12:29:22+00:00,1-602870173
+207,Org line C,Sweden,se,Partha,G271 2nd,E_10,Accepted,High,PROD802,Assigned,2011-12-07 12:29:55+00:00,1-602870173
+208,Org line C,Sweden,se,Martin,G273 3rd,C_6,Queued,High,PROD802,Awaiting Assignment,2011-12-07 12:50:32+00:00,1-602870173
+209,Org line C,Sweden,se,Mikael,G273 3rd,C_6,Accepted,High,PROD802,In Progress,2012-01-22 21:20:26+00:00,1-602870173
+210,Org line C,Sweden,se,Mikael,G273 3rd,C_6,Completed,High,PROD802,Closed,2012-01-22 21:21:04+00:00,1-602870173
+211,Org line C,INDIA,us,KumarGuru,G88 2nd,E_4,Accepted,Medium,PROD348,In Progress,2011-11-07 05:50:44+00:00,1-603537274
+212,Org line C,INDIA,us,KumarGuru,G88 2nd,E_4,Accepted,Medium,PROD348,Wait,2011-11-07 05:51:29+00:00,1-603537274
+213,Org line C,INDIA,us,KumarGuru,G88 2nd,E_4,Accepted,Medium,PROD348,Assigned,2011-11-07 05:51:56+00:00,1-603537274
+214,Org line C,INDIA,us,KumarGuru,G88 2nd,E_4,Accepted,Medium,PROD348,Assigned,2011-11-08 13:56:57+00:00,1-603537274
+215,Org line C,INDIA,us,KumarGuru,G88 2nd,E_4,Accepted,Medium,PROD348,Wait,2012-05-23 11:48:56+00:00,1-603537274
+216,Org line C,INDIA,us,KumarGuru,G88 2nd,E_4,Completed,Medium,PROD348,Closed,2012-05-28 05:16:32+00:00,1-603537274
+217,Org line V2,Sweden,se,Tomas,T3 2nd,,Accepted,Medium,PROD61,In Progress,2011-11-07 07:26:58+00:00,1-603563148
+218,Org line V2,Sweden,se,Tomas,T3 2nd,,Completed,Medium,PROD61,Closed,2012-01-09 11:27:06+00:00,1-603563148
+219,Org line G3,POLAND,us,Ewa,G199 3rd,,Accepted,Medium,PROD97,In Progress,2011-11-07 09:47:29+00:00,1-603708003
+220,Org line G3,POLAND,us,Ewa,G199 3rd,,Completed,Medium,PROD97,Closed,2012-01-30 13:08:22+00:00,1-603708003
+221,Org line C,INDIA,in,Anup,G119 2nd,E_8,Accepted,High,PROD597,In Progress,2011-11-07 10:57:05+00:00,1-603798757
+222,Org line C,INDIA,in,Anup,G119 2nd,E_8,Completed,High,PROD597,Closed,2012-05-23 11:07:40+00:00,1-603798757
+223,Org line C,Sweden,se,Kim,G120 3rd,C_5,Accepted,High,PROD597,In Progress,2011-11-08 08:01:01+00:00,1-604432843
+224,Org line C,Sweden,se,Kim,G120 3rd,C_5,Completed,High,PROD597,Closed,2012-02-01 08:55:22+00:00,1-604432843
+225,Org line C,Sweden,se,Kim,G120 3rd,C_5,Accepted,High,PROD597,In Progress,2011-11-08 08:02:33+00:00,1-604432860
+226,Org line C,Sweden,se,Kim,G120 3rd,C_5,Completed,High,PROD597,Closed,2012-02-01 08:55:55+00:00,1-604432860
+227,Org line C,Sweden,se,Kim,G120 3rd,C_5,Accepted,Low,PROD597,In Progress,2011-11-08 08:03:55+00:00,1-604432887
+228,Org line C,Sweden,se,Kim,G120 3rd,C_5,Completed,Low,PROD597,Closed,2012-02-01 08:56:20+00:00,1-604432887
+229,Org line C,INDIA,us,J,G88 2nd,E_4,Accepted,Medium,PROD348,In Progress,2011-11-08 11:29:53+00:00,1-604604928
+230,Org line C,INDIA,us,J,G88 2nd,E_4,Accepted,Medium,PROD348,Wait,2011-11-08 11:54:05+00:00,1-604604928
+231,Org line C,INDIA,us,J,G88 2nd,E_4,Completed,Medium,PROD348,Closed,2012-01-11 04:34:37+00:00,1-604604928
+232,Org line A2,France,fr,Maryse,V21 2nd,D_1,Accepted,Medium,PROD603,In Progress,2011-11-08 12:37:04+00:00,1-604645912
+233,Org line A2,France,fr,Maryse,V21 2nd,D_1,Queued,Medium,PROD603,Awaiting Assignment,2011-11-08 12:37:05+00:00,1-604645912
+234,Org line A2,France,fr,Maryse,V44 3rd,D_1,Accepted,Medium,PROD603,In Progress,2011-11-08 12:38:40+00:00,1-604645912
+235,Org line A2,France,fr,Maryse,V21 2nd,D_1,Queued,Medium,PROD603,Awaiting Assignment,2011-11-08 12:38:53+00:00,1-604645912
+236,Org line A2,France,fr,Maryse,V21 2nd,D_1,Accepted,Medium,PROD603,In Progress,2011-11-08 12:39:34+00:00,1-604645912
+237,Org line A2,France,fr,Maryse,V21 2nd,D_1,Accepted,Medium,PROD603,In Progress,2011-11-08 12:47:11+00:00,1-604645912
+238,Org line A2,France,fr,Maryse,V21 2nd,D_1,Completed,Medium,PROD603,Closed,2012-02-01 11:27:13+00:00,1-604645912
+239,Org line A2,France,fr,Maryse,V21 2nd,D_1,Accepted,Medium,PROD596,In Progress,2011-11-08 13:23:20+00:00,1-604646378
+240,Org line A2,France,fr,Maryse,V21 2nd,D_1,Completed,Medium,PROD596,Closed,2012-04-12 12:23:47+00:00,1-604646378
+241,Org line C,Sweden,in,Stefan,G163 3rd,,Accepted,High,PROD671,In Progress,2011-11-08 18:21:15+00:00,1-604882241
+242,Org line C,Sweden,in,Stefan,G163 3rd,,Queued,High,PROD671,Awaiting Assignment,2011-11-08 18:30:30+00:00,1-604882241
+243,Org line C,Sweden,in,Stefan,G157 2nd,E_7,Accepted,High,PROD671,In Progress,2011-11-11 06:58:22+00:00,1-604882241
+244,Org line C,Sweden,in,Amir,G163 3rd,,Queued,High,PROD671,Awaiting Assignment,2011-11-11 07:02:17+00:00,1-604882241
+245,Org line C,Sweden,in,Amir,G162 2nd,E_7,Accepted,High,PROD671,In Progress,2011-11-11 07:05:40+00:00,1-604882241
+246,Org line C,Sweden,in,Stefan,G163 3rd,,Queued,High,PROD671,Awaiting Assignment,2012-01-04 15:45:39+00:00,1-604882241
+247,Org line C,Sweden,in,Amir,G162 2nd,E_7,Accepted,High,PROD671,In Progress,2012-01-04 15:46:03+00:00,1-604882241
+248,Org line C,Sweden,in,Amir,G162 2nd,E_7,Completed,High,PROD671,Closed,2012-01-04 15:49:48+00:00,1-604882241
+249,Org line C,Sweden,in,Henrik,G186 2nd,E_8,Accepted,High,PROD476,In Progress,2011-11-09 08:17:08+00:00,1-605034229
+250,Org line C,Sweden,in,Henrik,G186 2nd,E_8,Accepted,High,PROD476,Wait,2011-11-09 08:17:58+00:00,1-605034229
+251,Org line C,Sweden,in,Henrik,G186 2nd,E_8,Completed,High,PROD476,Closed,2012-01-18 12:50:24+00:00,1-605034229
+252,Org line A2,Sweden,in,Kalpesh,L50 3rd,D_1,Accepted,Medium,PROD611,Assigned,2011-11-09 10:04:16+00:00,1-605029866
+253,Org line A2,Sweden,in,Sridhar,L50 3rd,D_1,Accepted,Medium,PROD611,In Progress,2011-11-09 10:58:57+00:00,1-605029866
+254,Org line A2,Sweden,in,Sridhar,L50 3rd,D_1,Completed,Medium,PROD611,Closed,2012-02-22 10:21:10+00:00,1-605029866
+255,Org line A2,POLAND,pl,Miroslawa,N26 2nd,A2_3,Accepted,Medium,PROD791,In Progress,2011-11-09 10:41:22+00:00,1-605184371
+256,Org line A2,POLAND,pl,Miroslawa,N26 2nd,A2_3,Accepted,Medium,PROD791,Assigned,2011-12-09 11:47:46+00:00,1-605184371
+257,Org line A2,POLAND,pl,Miroslawa,N26 2nd,A2_3,Accepted,Medium,PROD791,Wait,2011-12-09 14:06:20+00:00,1-605184371
+258,Org line A2,POLAND,pl,Bartosz,N26 2nd,A2_3,Accepted,Medium,PROD791,Assigned,2012-01-13 09:16:22+00:00,1-605184371
+259,Org line A2,POLAND,pl,Bartosz,N26 2nd,A2_3,Accepted,Medium,PROD791,In Progress,2012-01-20 05:55:08+00:00,1-605184371
+260,Org line A2,POLAND,pl,Bartosz,N26 2nd,A2_3,Accepted,Medium,PROD791,Wait,2012-02-01 11:45:27+00:00,1-605184371
+261,Org line A2,POLAND,pl,Bartosz,N26 2nd,A2_3,Completed,Medium,PROD791,Closed,2012-04-13 09:10:39+00:00,1-605184371
+262,Org line A2,United Kingdom,gb,Timothy,G42 3rd,A2_1,Accepted,High,PROD236,In Progress,2011-11-09 13:27:59+00:00,1-605279637
+263,Org line A2,United Kingdom,gb,Timothy,G42 3rd,A2_1,Completed,High,PROD236,Closed,2012-02-15 10:44:42+00:00,1-605279637
+264,Org line C,Sweden,se,Gitt,G57 2nd,E_2,Accepted,Low,PROD329,In Progress,2011-11-10 10:46:15+00:00,1-605728578
+265,Org line C,Sweden,se,Gitt,G57 2nd,E_2,Accepted,Low,PROD329,Wait,2011-11-10 10:52:04+00:00,1-605728578
+266,Org line C,Sweden,se,Gitt,G57 2nd,E_2,Completed,Low,PROD329,Closed,2012-01-09 12:36:47+00:00,1-605728578
+267,Org line C,INDIA,in,Amit,G92,E_5,Accepted,Medium,PROD423,In Progress,2011-11-11 03:57:04+00:00,1-606068287
+268,Org line C,INDIA,in,Amit,G92,E_5,Queued,Medium,PROD423,Awaiting Assignment,2011-11-11 03:58:52+00:00,1-606068287
+269,Org line C,POLAND,in,Rafal,G97,V3_2,Queued,Medium,PROD423,Awaiting Assignment,2011-11-13 04:23:39+00:00,1-606068287
+270,Org line C,INDIA,in,Amit,G92,E_5,Queued,Medium,PROD423,Awaiting Assignment,2011-12-01 07:16:48+00:00,1-606068287
+271,Org line C,INDIA,in,Sreelesh,G92,E_5,Accepted,Medium,PROD423,In Progress,2012-01-04 13:00:38+00:00,1-606068287
+272,Org line C,INDIA,in,Sreelesh,G92,E_5,Accepted,Medium,PROD423,Wait,2012-01-04 13:00:42+00:00,1-606068287
+273,Org line C,INDIA,in,Sreelesh,G92,E_5,Completed,Medium,PROD423,Closed,2012-02-27 12:26:37+00:00,1-606068287
+274,Org line C,Sweden,se,Björn,G268 3rd,C_6,Accepted,High,PROD802,In Progress,2011-11-11 14:55:57+00:00,1-606441115
+275,Org line C,Sweden,se,Björn,G268 3rd,C_6,Accepted,High,PROD802,Wait,2012-03-05 12:19:28+00:00,1-606441115
+276,Org line C,Sweden,se,Björn,G268 3rd,C_6,Completed,High,PROD802,Closed,2012-03-05 12:20:03+00:00,1-606441115
+277,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Accepted,High,PROD597,In Progress,2011-11-14 00:21:36+00:00,1-606724483
+278,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Queued,High,PROD597,Awaiting Assignment,2011-11-14 00:25:05+00:00,1-606724483
+279,Org line C,INDIA,in,Avishek,G119 2nd,E_8,Accepted,High,PROD597,In Progress,2011-12-19 14:56:47+00:00,1-606724483
+280,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Accepted,High,PROD597,In Progress,2012-02-17 09:18:34+00:00,1-606724483
+281,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Completed,High,PROD597,Closed,2012-02-17 09:18:42+00:00,1-606724483
+282,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Accepted,Medium,PROD597,In Progress,2011-11-14 08:39:18+00:00,1-606829317
+283,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Queued,Medium,PROD597,Awaiting Assignment,2011-11-14 08:40:23+00:00,1-606829317
+284,Org line C,INDIA,in,Avishek,G119 2nd,E_8,Accepted,Medium,PROD597,In Progress,2011-12-19 14:57:28+00:00,1-606829317
+285,Org line C,INDIA,in,Avishek,G119 2nd,E_8,Completed,Medium,PROD597,Closed,2012-01-04 14:25:13+00:00,1-606829317
+286,Org line C,Sweden,se,Helena,L1 2nd,E_1,Accepted,High,PROD153,In Progress,2011-11-14 11:01:10+00:00,1-606971198
+287,Org line C,Sweden,se,Helena,L1 2nd,E_1,Accepted,High,PROD153,In Progress,2011-11-14 11:03:18+00:00,1-606971198
+288,Org line C,Sweden,se,Jari,G99 2nd,E_1,Accepted,High,PROD153,In Progress,2012-03-14 11:25:28+00:00,1-606971198
+289,Org line C,Sweden,se,Peter,G99 2nd,E_1,Accepted,High,PROD153,Assigned,2012-03-14 11:28:01+00:00,1-606971198
+290,Org line C,Sweden,se,Peter,G99 2nd,E_1,Accepted,High,PROD153,In Progress,2012-03-14 12:55:06+00:00,1-606971198
+291,Org line C,Sweden,se,Peter,G99 2nd,E_1,Completed,High,PROD153,Closed,2012-03-14 12:55:07+00:00,1-606971198
+292,Org line C,France,se,Bruno,V29 2nd,E_6,Accepted,High,PROD412,In Progress,2011-11-14 13:38:06+00:00,1-607158761
+293,Org line C,France,se,Bruno,V29 2nd,E_6,Accepted,High,PROD412,In Progress,2011-11-14 13:38:49+00:00,1-607158761
+294,Org line G4,Sweden,se,Viktoria,S30 2nd,,Queued,High,PROD412,Awaiting Assignment,2011-11-17 12:32:14+00:00,1-607158761
+295,Org line G4,Sweden,se,Helene,S30 2nd,,Accepted,High,PROD412,In Progress,2011-12-13 09:08:38+00:00,1-607158761
+296,Org line G4,Sweden,se,Helene,S30 2nd,,Completed,High,PROD412,Closed,2012-03-06 13:55:15+00:00,1-607158761
+297,Org line G4,Sweden,se,Mikael,S33 2nd,,Accepted,Major,PROD659,In Progress,2011-11-15 08:26:37+00:00,1-607520800
+298,Org line G4,Sweden,se,Mikael,S33 2nd,,Accepted,Major,PROD659,Wait,2011-12-09 11:12:43+00:00,1-607520800
+299,Org line G4,Sweden,se,Mikael,S33 2nd,,Completed,Major,PROD659,Closed,2012-03-19 15:07:06+00:00,1-607520800
+300,Org line G4,Sweden,se,Rickard,S33 2nd,,Accepted,Low,PROD448,In Progress,2011-11-15 13:15:57+00:00,1-607840637
+301,Org line G4,Sweden,se,Rickard,S33 2nd,,Completed,Low,PROD448,Closed,2012-01-27 12:46:02+00:00,1-607840637
+302,Org line A2,United Kingdom,gb,Alan,G42 3rd,A2_1,Accepted,High,PROD236,Wait,2011-11-15 14:37:49+00:00,1-607934151
+303,Org line A2,United Kingdom,gb,Alan,G42 3rd,A2_1,Completed,High,PROD236,Closed,2012-02-15 10:35:45+00:00,1-607934151
+304,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Accepted,High,PROD597,In Progress,2011-11-15 16:44:09+00:00,1-608010054
+305,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Queued,High,PROD597,Awaiting Assignment,2011-11-15 16:44:52+00:00,1-608010054
+306,Org line C,INDIA,in,Arvind,G119 2nd,E_8,Accepted,High,PROD597,In Progress,2011-11-21 10:30:07+00:00,1-608010054
+307,Org line C,INDIA,in,Arvind,G119 2nd,E_8,Completed,High,PROD597,Closed,2012-05-23 16:28:37+00:00,1-608010054
+308,Org line A2,POLAND,kr,Piotr,V17 3rd,D_1,Queued,Medium,PROD594,Awaiting Assignment,2011-11-15 20:22:20+00:00,1-608036754
+309,Org line A2,POLAND,kr,Jacek,V14 3rd,D_1,Queued,Medium,PROD594,Awaiting Assignment,2011-11-18 12:25:55+00:00,1-608036754
+310,Org line A2,POLAND,kr,Jacek,V14 3rd,D_1,Accepted,Medium,PROD594,In Progress,2011-11-21 12:18:05+00:00,1-608036754
+311,Org line A2,POLAND,kr,Jacek,V14 3rd,D_1,Accepted,Medium,PROD594,Wait,2011-11-21 12:20:43+00:00,1-608036754
+312,Org line A2,POLAND,kr,Justyna,V12 3rd,D_1,Accepted,Medium,PROD594,In Progress,2012-01-24 08:56:45+00:00,1-608036754
+313,Org line A2,POLAND,kr,Justyna,V12 3rd,D_1,Completed,Medium,PROD594,Closed,2012-02-13 09:17:51+00:00,1-608036754
+314,Org line C,Sweden,us,Henrik,G67 2nd,E_3,Accepted,High,PROD151,In Progress,2011-11-16 09:20:29+00:00,1-608735919
+315,Org line C,Sweden,us,Henrik,G67 2nd,E_3,Accepted,High,PROD151,Wait,2011-11-16 10:31:40+00:00,1-608735919
+316,Org line C,Sweden,us,Henrik,G67 2nd,E_3,Accepted,High,PROD151,In Progress,2012-01-13 12:49:52+00:00,1-608735919
+317,Org line C,Sweden,us,Henrik,G67 2nd,E_3,Completed,High,PROD151,Closed,2012-01-13 12:50:48+00:00,1-608735919
+318,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Accepted,Low,PROD597,In Progress,2011-11-16 16:09:39+00:00,1-609011164
+319,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Queued,Low,PROD597,Awaiting Assignment,2011-11-16 16:39:55+00:00,1-609011164
+320,Org line C,INDIA,in,Avishek,G119 2nd,E_8,Accepted,Low,PROD597,In Progress,2011-12-19 14:57:47+00:00,1-609011164
+321,Org line C,INDIA,in,Avishek,G119 2nd,E_8,Completed,Low,PROD597,Closed,2012-01-04 13:30:41+00:00,1-609011164
+322,Org line C,Belgium,be,Hilde,G58 3rd,C_2,Accepted,Medium,PROD330,In Progress,2011-11-17 08:38:21+00:00,1-609700424
+323,Org line C,Belgium,be,Hilde,G58 3rd,C_2,Accepted,Medium,PROD330,Assigned,2011-11-17 08:53:34+00:00,1-609700424
+324,Org line C,Belgium,be,Hilde,G58 3rd,C_2,Accepted,Medium,PROD330,In Progress,2012-01-23 09:38:53+00:00,1-609700424
+325,Org line C,Belgium,be,Hilde,G58 3rd,C_2,Completed,Medium,PROD330,Closed,2012-02-29 11:09:57+00:00,1-609700424
+326,Org line C,Sweden,se,Börje,G100 3rd,C_1,Accepted,Low,PROD153,In Progress,2011-11-18 07:28:00+00:00,1-611506787
+327,Org line C,Sweden,se,Börje,G100 3rd,C_1,Accepted,Low,PROD153,Wait,2011-12-27 13:47:10+00:00,1-611506787
+328,Org line C,Sweden,se,Börje,G100 3rd,C_1,Completed,Low,PROD153,Closed,2012-01-03 09:49:38+00:00,1-611506787
+329,Org line G4,Sweden,se,Mikael,S33 2nd,,Accepted,High,PROD448,In Progress,2011-11-18 10:16:41+00:00,1-611605221
+330,Org line G4,Sweden,se,Mikael,S33 2nd,,Accepted,High,PROD448,Wait,2012-01-19 16:12:53+00:00,1-611605221
+331,Org line G4,Sweden,se,Mikael,S33 2nd,,Completed,High,PROD448,Closed,2012-01-25 17:27:07+00:00,1-611605221
+332,Org line C,France,in,Yann,G165 2nd,E_7,Accepted,High,PROD671,In Progress,2011-11-18 10:35:36+00:00,1-611651603
+333,Org line C,France,in,Yann,G165 2nd,E_7,Accepted,High,PROD671,Wait,2011-11-18 10:38:20+00:00,1-611651603
+334,Org line C,France,in,Yann,G165 2nd,E_7,Accepted,High,PROD671,In Progress,2011-11-18 11:32:43+00:00,1-611651603
+335,Org line C,France,in,Yann,G165 2nd,E_7,Completed,High,PROD671,Closed,2012-02-15 13:07:13+00:00,1-611651603
+336,Org line A2,France,fr,Maryse,V21 2nd,D_1,Accepted,Medium,PROD596,In Progress,2011-11-18 10:58:02+00:00,1-611582327
+337,Org line A2,France,fr,Maryse,V21 2nd,D_1,Completed,Medium,PROD596,Closed,2012-03-14 14:55:46+00:00,1-611582327
+338,Org line A2,France,fr,Maryse,V21 2nd,D_1,Accepted,Low,PROD596,In Progress,2011-11-18 10:59:39+00:00,1-611582394
+339,Org line A2,France,fr,Maryse,V21 2nd,D_1,Completed,Low,PROD596,Closed,2012-02-01 11:32:12+00:00,1-611582394
+340,Org line G1,Sweden,se,Anders,G358 2nd,E_6,Accepted,Major,PROD152,In Progress,2011-11-18 11:20:03+00:00,1-611632212
+341,Org line G1,Sweden,se,Anders,G358 2nd,E_6,Accepted,Major,PROD152,In Progress,2011-12-21 13:26:03+00:00,1-611632212
+342,Org line G1,Sweden,se,Anders,G358 2nd,E_6,Accepted,Major,PROD152,Wait,2011-12-21 13:26:22+00:00,1-611632212
+343,Org line G1,Sweden,se,Anders,G358 2nd,E_6,Completed,Major,PROD152,Closed,2012-03-14 11:04:02+00:00,1-611632212
+344,Org line A2,Sweden,se,John,N15 2nd,A2_1,Accepted,Medium,PROD180,In Progress,2011-11-18 13:14:42+00:00,1-611637278
+345,Org line A2,Sweden,se,John,N15 2nd,A2_1,Completed,Medium,PROD180,Closed,2012-01-17 14:32:16+00:00,1-611637278
+346,Org line C,Sweden,se,Praveen,G271 2nd,E_10,Accepted,High,PROD802,In Progress,2011-11-19 19:35:42+00:00,1-612515539
+347,Org line C,Sweden,se,Praveen,G271 2nd,E_10,Queued,High,PROD802,Awaiting Assignment,2011-11-19 19:37:42+00:00,1-612515539
+348,Org line C,Sweden,se,Kamal,G271 2nd,E_10,Accepted,High,PROD802,In Progress,2011-11-21 07:04:32+00:00,1-612515539
+349,Org line C,Sweden,se,Martin,G273 3rd,C_6,Queued,High,PROD802,Awaiting Assignment,2011-11-21 07:07:43+00:00,1-612515539
+350,Org line C,Sweden,se,Vikash,G273 3rd,C_6,Accepted,High,PROD802,In Progress,2012-01-24 09:18:31+00:00,1-612515539
+351,Org line C,Sweden,se,Vikash,G273 3rd,C_6,Accepted,High,PROD802,Wait,2012-01-24 09:19:23+00:00,1-612515539
+352,Org line C,Sweden,se,Vikash,G273 3rd,C_6,Completed,High,PROD802,Closed,2012-01-31 12:50:15+00:00,1-612515539
+353,Org line G4,Sweden,se,Roland,S33 2nd,,Accepted,Medium,PROD374,In Progress,2011-11-21 08:34:45+00:00,1-613033122
+354,Org line G4,Sweden,se,Roland,S33 2nd,,Accepted,Medium,PROD374,Wait,2011-11-28 15:12:09+00:00,1-613033122
+355,Org line G4,Sweden,se,Roland,S33 2nd,,Accepted,Medium,PROD374,In Progress,2011-12-05 19:38:55+00:00,1-613033122
+356,Org line G4,Sweden,se,Roland,S33 2nd,,Completed,Medium,PROD374,Closed,2012-02-08 20:42:42+00:00,1-613033122
+357,Org line C,INDIA,in,Asmita,G239 3rd,C_6,Accepted,Medium,PROD671,In Progress,2011-11-21 15:02:34+00:00,1-613364032
+358,Org line C,INDIA,in,Asmita,G239 3rd,C_6,Accepted,Medium,PROD671,In Progress,2011-11-21 15:04:07+00:00,1-613364032
+359,Org line C,INDIA,in,Asmita,G239 3rd,C_6,Accepted,Medium,PROD671,Wait,2012-01-16 06:53:42+00:00,1-613364032
+360,Org line C,France,in,Francois,G239 3rd,C_6,Queued,Medium,PROD671,Awaiting Assignment,2012-02-21 05:53:58+00:00,1-613364032
+361,Org line C,Belgium,in,Vincent,G239 3rd,C_6,Accepted,Medium,PROD671,In Progress,2012-02-21 06:40:48+00:00,1-613364032
+362,Org line C,INDIA,in,-,G162 2nd,E_7,Queued,Medium,PROD671,Awaiting Assignment,2012-02-21 10:11:30+00:00,1-613364032
+363,Org line C,INDIA,in,Asmita,G165 2nd,E_7,Accepted,Medium,PROD671,In Progress,2012-02-27 10:04:23+00:00,1-613364032
+364,Org line C,INDIA,in,Asmita,G165 2nd,E_7,Completed,Medium,PROD671,Closed,2012-03-14 06:10:20+00:00,1-613364032
+365,Org line C,USA,us,Joshua,G88 2nd,E_4,Accepted,Medium,PROD436,In Progress,2011-11-21 15:27:27+00:00,1-613412559
+366,Org line C,USA,us,Joshua,G88 2nd,E_4,Completed,Medium,PROD436,Closed,2012-01-06 17:59:13+00:00,1-613412559
+367,Org line C,INDIA,in,Pranesh,G181 2nd,E_8,Accepted,Medium,PROD474,In Progress,2011-11-21 23:57:49+00:00,1-613496066
+368,Org line C,INDIA,in,Pranesh,G181 2nd,E_8,Queued,Medium,PROD474,Awaiting Assignment,2011-11-22 00:06:42+00:00,1-613496066
+369,Org line C,INDIA,in,Pavan,G186 2nd,E_8,Accepted,Medium,PROD474,In Progress,2011-11-29 14:29:02+00:00,1-613496066
+370,Org line C,INDIA,in,Pavan,G186 2nd,E_8,Accepted,Medium,PROD474,Wait,2011-11-29 14:33:42+00:00,1-613496066
+371,Org line C,INDIA,in,Pavan,G186 2nd,E_8,Completed,Medium,PROD474,Closed,2012-03-16 06:50:31+00:00,1-613496066
+372,Org line C,INDIA,us,Sarath,G88 2nd,E_4,Accepted,Medium,PROD219,In Progress,2011-11-22 06:32:34+00:00,1-613740745
+373,Org line C,INDIA,us,Sarath,G88 2nd,E_4,Completed,Medium,PROD219,Closed,2012-01-04 09:44:19+00:00,1-613740745
+374,Org line C,Sweden,se,Curt,G99 2nd,E_1,Accepted,Medium,PROD153,In Progress,2011-11-22 23:48:06+00:00,1-614378697
+375,Org line C,Sweden,se,Curt,G99 2nd,E_1,Queued,Medium,PROD153,Awaiting Assignment,2011-11-22 23:54:14+00:00,1-614378697
+376,Org line C,INDIA,se,Saurabh,G99 2nd,E_1,Accepted,Medium,PROD153,In Progress,2012-02-01 13:35:57+00:00,1-614378697
+377,Org line C,INDIA,se,Saurabh,G99 2nd,E_1,Completed,Medium,PROD153,Closed,2012-03-14 10:14:44+00:00,1-614378697
+378,Org line C,Sweden,se,Curt,G99 2nd,E_1,Accepted,Medium,PROD153,In Progress,2011-11-22 23:54:50+00:00,1-614378787
+379,Org line C,Sweden,se,Curt,G99 2nd,E_1,Queued,Medium,PROD153,Awaiting Assignment,2011-11-23 00:06:12+00:00,1-614378787
+380,Org line C,Sweden,se,Curt,G100 3rd,C_1,Accepted,Medium,PROD153,In Progress,2012-03-15 08:49:49+00:00,1-614378787
+381,Org line C,Sweden,se,Curt,G100 3rd,C_1,Completed,Medium,PROD153,Closed,2012-03-15 08:50:07+00:00,1-614378787
+382,Org line C,Sweden,us,Bjarne,G88 2nd,E_4,Accepted,Medium,PROD794,In Progress,2011-11-23 06:06:12+00:00,1-614451236
+383,Org line C,Sweden,us,Bjarne,G88 2nd,E_4,Completed,Medium,PROD794,Closed,2012-03-20 12:47:33+00:00,1-614451236
+384,Org line A2,POLAND,pl,Dawid,N26 2nd,A2_3,Accepted,Medium,PROD791,In Progress,2011-11-23 14:01:03+00:00,1-615224713
+385,Org line A2,POLAND,pl,Dawid,N26 2nd,A2_3,Completed,Medium,PROD791,Closed,2012-01-13 12:26:02+00:00,1-615224713
+386,Org line C,Sweden,se,Joakim,G290 3rd,C_6,Accepted,High,PROD154,In Progress,2011-11-24 06:34:09+00:00,1-615905511
+387,Org line C,Sweden,se,Joakim,G290 3rd,C_6,Accepted,High,PROD154,Wait,2012-02-07 14:03:51+00:00,1-615905511
+388,Org line C,Sweden,se,Joakim,G290 3rd,C_6,Completed,High,PROD154,Closed,2012-04-25 14:00:33+00:00,1-615905511
+389,Org line C,France,us,Sylvie,G14 3rd,C_1,Accepted,Low,PROD398,In Progress,2011-11-24 10:07:34+00:00,1-616014042
+390,Org line C,France,us,Sylvie,G14 3rd,C_1,Completed,Low,PROD398,Closed,2012-03-28 10:41:08+00:00,1-616014042
+391,Org line C,USA,in,Robert,G88 2nd,E_4,Accepted,Medium,PROD565,In Progress,2011-11-24 12:08:26+00:00,1-616211466
+392,Org line C,USA,in,Robert,G88 2nd,E_4,Accepted,Medium,PROD565,Wait,2011-11-24 12:11:59+00:00,1-616211466
+393,Org line C,USA,in,Robert,G88 2nd,E_4,Queued,Medium,PROD565,Awaiting Assignment,2011-12-21 11:31:08+00:00,1-616211466
+394,Org line C,INDIA,in,Pratap,G87 2nd,E_4,Queued,Medium,PROD565,Awaiting Assignment,2012-01-20 01:32:09+00:00,1-616211466
+395,Org line C,INDIA,in,Pratap,G87 2nd,E_4,Accepted,Medium,PROD565,In Progress,2012-02-13 02:22:20+00:00,1-616211466
+396,Org line C,INDIA,in,Pratap,G87 2nd,E_4,Accepted,Medium,PROD565,Wait,2012-02-13 02:22:28+00:00,1-616211466
+397,Org line C,Sweden,in,Suman,G87 2nd,E_4,Accepted,Medium,PROD565,In Progress,2012-03-15 11:22:42+00:00,1-616211466
+398,Org line C,Sweden,in,Suman,G87 2nd,E_4,Completed,Medium,PROD565,Closed,2012-03-15 11:22:50+00:00,1-616211466
+399,Org line C,USA,us,Robert,G88 2nd,E_4,Accepted,Medium,PROD348,In Progress,2011-11-24 13:07:54+00:00,1-616288482
+400,Org line C,USA,us,Robert,G88 2nd,E_4,Accepted,Medium,PROD348,In Progress,2011-11-24 13:08:48+00:00,1-616288482
+401,Org line C,USA,us,Robert,G88 2nd,E_4,Accepted,Medium,PROD348,Wait,2011-11-24 13:16:44+00:00,1-616288482
+402,Org line C,USA,us,Robert,G88 2nd,E_4,Accepted,Medium,PROD348,Assigned,2011-11-24 13:20:36+00:00,1-616288482
+403,Org line C,INDIA,us,J,G88 2nd,E_4,Accepted,Medium,PROD348,In Progress,2011-11-24 13:20:44+00:00,1-616288482
+404,Org line C,INDIA,us,KumarGuru,G88 2nd,E_4,Accepted,Medium,PROD348,Assigned,2011-11-24 13:20:56+00:00,1-616288482
+405,Org line C,INDIA,us,KumarGuru,G88 2nd,E_4,Completed,Medium,PROD348,Closed,2012-03-19 06:12:22+00:00,1-616288482
+406,Org line C,Sweden,in,Jonas,G186 2nd,E_8,Accepted,Medium,PROD473,In Progress,2011-11-24 16:30:30+00:00,1-616409083
+407,Org line C,Sweden,in,Jonas,G186 2nd,E_8,Completed,Medium,PROD473,Closed,2012-02-15 11:26:06+00:00,1-616409083
+408,Org line C,Sweden,in,Jonas,G186 2nd,E_8,Accepted,Medium,PROD473,In Progress,2012-02-15 14:54:41+00:00,1-616409083
+409,Org line C,Sweden,in,Jonas,G186 2nd,E_8,Completed,Medium,PROD473,Closed,2012-02-15 15:12:50+00:00,1-616409083
+410,Org line C,Sweden,se,Ann-Charlotte,G138 2nd,E_10,Accepted,Medium,PROD659,In Progress,2011-11-25 10:23:38+00:00,1-616993936
+411,Org line C,Sweden,se,Ann-Charlotte,G138 2nd,E_10,Queued,Medium,PROD659,Awaiting Assignment,2011-11-25 10:28:42+00:00,1-616993936
+412,Org line C,Sweden,se,Jakob,G80,E_5,Accepted,Medium,PROD659,In Progress,2011-11-25 10:30:35+00:00,1-616993936
+413,Org line C,Sweden,se,Ann-Charlotte,G138 2nd,E_10,Queued,Medium,PROD659,Awaiting Assignment,2011-11-25 10:32:07+00:00,1-616993936
+414,Org line C,Sweden,se,Christer,G290 3rd,C_6,Accepted,Medium,PROD659,In Progress,2011-11-25 14:25:53+00:00,1-616993936
+415,Org line C,Sweden,se,Christer,G290 3rd,C_6,Completed,Medium,PROD659,Closed,2012-01-27 13:12:32+00:00,1-616993936
+416,Org line A2,Sweden,se,Niklas,G167 2nd,A2_2,Accepted,Low,PROD681,In Progress,2011-11-25 11:33:57+00:00,1-616977258
+417,Org line A2,Sweden,se,Niklas,G167 2nd,A2_2,Accepted,Low,PROD681,Assigned,2012-01-05 10:31:53+00:00,1-616977258
+418,Org line A2,Sweden,se,Niklas,G167 2nd,A2_2,Accepted,Low,PROD681,In Progress,2012-04-23 09:06:44+00:00,1-616977258
+419,Org line A2,Sweden,se,Niklas,G167 2nd,A2_2,Completed,Low,PROD681,Closed,2012-04-23 09:07:42+00:00,1-616977258
+420,Org line C,Sweden,se,Jan,G237 3rd,C_6,Accepted,Medium,PROD208,In Progress,2011-11-25 12:21:16+00:00,1-617042441
+421,Org line C,Sweden,se,Jan,G237 3rd,C_6,Queued,Medium,PROD208,Awaiting Assignment,2011-12-01 09:22:28+00:00,1-617042441
+422,Org line C,Sweden,se,Sumit,G236 2nd,E_10,Accepted,Medium,PROD208,In Progress,2011-12-01 09:23:47+00:00,1-617042441
+423,Org line C,Sweden,se,Jan,G237 3rd,C_6,Queued,Medium,PROD208,Awaiting Assignment,2011-12-01 14:28:14+00:00,1-617042441
+424,Org line C,Sweden,se,Sumit,G236 2nd,E_10,Accepted,Medium,PROD208,In Progress,2011-12-01 14:29:02+00:00,1-617042441
+425,Org line C,Sweden,se,Jan,G237 3rd,C_6,Accepted,Medium,PROD208,Assigned,2011-12-01 14:29:41+00:00,1-617042441
+426,Org line C,Sweden,se,Sumit,G237 3rd,C_6,Accepted,Medium,PROD208,In Progress,2011-12-01 14:29:46+00:00,1-617042441
+427,Org line C,Sweden,se,Sumit,G237 3rd,C_6,Completed,Medium,PROD208,Closed,2012-01-04 11:12:18+00:00,1-617042441
+428,Org line C,Sweden,se,Vesa,G268 3rd,C_6,Accepted,High,PROD805,In Progress,2011-11-25 14:08:25+00:00,1-617049384
+429,Org line C,Sweden,se,Vesa,G268 3rd,C_6,Completed,High,PROD805,Closed,2012-01-23 09:11:18+00:00,1-617049384
+430,Org line G4,Sweden,se,Roland,S33 2nd,,Accepted,Medium,PROD374,In Progress,2011-11-25 15:02:27+00:00,1-617084616
+431,Org line G4,Sweden,se,Roland,S33 2nd,,Accepted,Medium,PROD374,Wait,2011-12-05 07:23:00+00:00,1-617084616
+432,Org line G4,Sweden,se,Roland,S33 2nd,,Completed,Medium,PROD374,Closed,2012-02-08 20:55:10+00:00,1-617084616
+433,Org line C,USA,us,Robert,G88 2nd,E_4,Accepted,Medium,PROD793,In Progress,2011-11-28 08:22:46+00:00,1-617356985
+434,Org line C,USA,us,Robert,G88 2nd,E_4,Completed,Medium,PROD793,Closed,2011-11-29 08:48:55+00:00,1-617356985
+435,Org line C,USA,us,Robert,G88 2nd,E_4,Accepted,Medium,PROD793,In Progress,2012-02-08 01:42:36+00:00,1-617356985
+436,Org line C,USA,us,Robert,G88 2nd,E_4,Accepted,Medium,PROD793,Wait,2012-02-08 02:04:57+00:00,1-617356985
+437,Org line C,USA,us,Robert,G88 2nd,E_4,Queued,Medium,PROD793,Awaiting Assignment,2012-03-07 11:54:59+00:00,1-617356985
+438,Org line C,Sweden,us,Bhavesh,G88 2nd,E_4,Accepted,Medium,PROD793,In Progress,2012-03-13 10:44:07+00:00,1-617356985
+439,Org line C,Sweden,us,Bhavesh,G88 2nd,E_4,Completed,Medium,PROD793,Closed,2012-03-13 10:44:47+00:00,1-617356985
+440,Org line A2,China,se,Yue,G350 2nd,A2_5,Accepted,Major,PROD92,In Progress,2011-11-28 09:16:12+00:00,1-617389027
+441,Org line A2,China,se,Yue,G350 2nd,A2_5,Accepted,Major,PROD92,Wait,2011-11-30 01:11:40+00:00,1-617389027
+442,Org line A2,China,se,Yue,G350 2nd,A2_5,Completed,Major,PROD92,Closed,2012-01-05 01:06:21+00:00,1-617389027
+443,Org line C,Sweden,se,Johan,G269 3rd,C_6,Accepted,Low,PROD209,In Progress,2011-11-28 12:45:21+00:00,1-617470131
+444,Org line C,Sweden,se,Johan,G269 3rd,C_6,Accepted,Low,PROD209,Wait,2011-11-28 12:49:51+00:00,1-617470131
+445,Org line C,Sweden,se,Johan,G269 3rd,C_6,Queued,Low,PROD209,Awaiting Assignment,2011-11-30 11:13:31+00:00,1-617470131
+446,Org line C,Sweden,se,Shery,G269 3rd,C_6,Accepted,Low,PROD209,Assigned,2011-12-21 14:52:59+00:00,1-617470131
+447,Org line C,Sweden,se,Awneesh,G269 3rd,C_6,Accepted,Low,PROD209,In Progress,2012-02-13 07:21:31+00:00,1-617470131
+448,Org line C,Sweden,se,Shery,G269 3rd,C_6,Accepted,Low,PROD209,In Progress,2012-02-13 07:22:32+00:00,1-617470131
+449,Org line C,Sweden,se,Shery,G269 3rd,C_6,Completed,Low,PROD209,Closed,2012-02-13 07:22:56+00:00,1-617470131
+450,Org line C,INDIA,in,Freddy,G93 2nd,E_4,Accepted,Medium,PROD325,In Progress,2011-11-29 03:12:33+00:00,1-617696569
+451,Org line C,INDIA,in,Freddy,G93 2nd,E_4,Completed,Medium,PROD325,Closed,2011-12-19 03:43:18+00:00,1-617696569
+452,Org line C,INDIA,in,Freddy,G93 2nd,E_4,Accepted,Medium,PROD325,In Progress,2012-01-18 11:05:10+00:00,1-617696569
+453,Org line C,INDIA,in,Freddy,G93 2nd,E_4,Completed,Medium,PROD325,Closed,2012-01-18 11:07:06+00:00,1-617696569
+454,Org line C,INDIA,in,Freddy,G93 2nd,E_4,Accepted,Medium,PROD325,In Progress,2012-02-14 08:15:07+00:00,1-617696569
+455,Org line C,INDIA,in,Freddy,G93 2nd,E_4,Completed,Medium,PROD325,Closed,2012-02-14 08:15:35+00:00,1-617696569
+456,Org line A2,Sweden,se,Britt,T17 2nd,A2_1,Accepted,High,PROD350,In Progress,2011-11-30 03:43:31+00:00,1-618041243
+457,Org line A2,Sweden,se,Britt,T17 2nd,A2_1,Queued,High,PROD350,Awaiting Assignment,2011-11-30 07:37:56+00:00,1-618041243
+458,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Accepted,High,PROD350,In Progress,2011-12-12 11:48:59+00:00,1-618041243
+459,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Accepted,High,PROD350,Wait,2011-12-12 13:52:54+00:00,1-618041243
+460,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Completed,High,PROD350,Closed,2012-01-19 15:18:51+00:00,1-618041243
+461,Org line A2,Sweden,cn,Patrik,N19 2nd,A2_1,Accepted,Medium,PROD38,In Progress,2011-11-30 04:20:53+00:00,1-618041343
+462,Org line A2,Sweden,cn,Patrik,N19 2nd,A2_1,Queued,Medium,PROD38,Awaiting Assignment,2011-11-30 07:38:36+00:00,1-618041343
+463,Org line A2,Sweden,cn,Fredrik,N19 2nd,A2_1,Accepted,Medium,PROD38,In Progress,2011-11-30 07:54:41+00:00,1-618041343
+464,Org line B,China,cn,Jihong,D1,A2_1,Queued,Medium,PROD38,Awaiting Assignment,2011-11-30 07:55:27+00:00,1-618041343
+465,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Accepted,Medium,PROD38,In Progress,2012-01-05 02:30:36+00:00,1-618041343
+466,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Completed,Medium,PROD38,Closed,2012-01-05 02:31:22+00:00,1-618041343
+467,Org line A2,Sweden,se,Britt,T17 2nd,A2_1,Accepted,Medium,PROD350,In Progress,2011-11-30 06:54:16+00:00,1-618116069
+468,Org line A2,Sweden,se,Britt,T17 2nd,A2_1,Queued,Medium,PROD350,Awaiting Assignment,2011-11-30 07:14:54+00:00,1-618116069
+469,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Accepted,Medium,PROD350,In Progress,2011-12-12 13:51:59+00:00,1-618116069
+470,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Accepted,Medium,PROD350,Wait,2011-12-12 13:52:05+00:00,1-618116069
+471,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Completed,Medium,PROD350,Closed,2012-01-19 15:30:17+00:00,1-618116069
+472,Org line C,France,fr,Yannick,T8 2nd,E_6,Accepted,Medium,PROD637,In Progress,2011-11-30 08:00:24+00:00,1-618143224
+473,Org line C,France,fr,Yannick,T8 2nd,E_6,Queued,Medium,PROD637,Awaiting Assignment,2011-11-30 08:01:00+00:00,1-618143224
+474,Org line C,France,fr,Yannick,T8 2nd,E_6,Accepted,Medium,PROD637,Assigned,2011-11-30 08:01:19+00:00,1-618143224
+475,Org line A2,France,fr,Dimitri,W6 2nd,A2_4,Accepted,Medium,PROD637,In Progress,2011-12-14 08:39:58+00:00,1-618143224
+476,Org line A2,France,fr,Dimitri,W6 2nd,A2_4,Completed,Medium,PROD637,Closed,2012-01-20 12:06:33+00:00,1-618143224
+477,Org line A2,Sweden,in,Sridhar,L50 3rd,D_1,Accepted,Medium,PROD611,In Progress,2011-11-30 08:24:37+00:00,1-618170625
+478,Org line A2,Sweden,in,Sridhar,L50 3rd,D_1,Accepted,Medium,PROD611,Assigned,2011-12-05 07:49:27+00:00,1-618170625
+479,Org line A2,Sweden,in,Sridhar,L50 3rd,D_1,Accepted,Medium,PROD611,Wait,2012-01-16 13:32:11+00:00,1-618170625
+480,Org line A2,Sweden,in,Sridhar,L50 3rd,D_1,Completed,Medium,PROD611,Closed,2012-02-27 12:04:26+00:00,1-618170625
+481,Org line C,INDIA,us,J,G88 2nd,E_4,Accepted,Medium,PROD701,In Progress,2011-11-30 09:02:03+00:00,1-618171180
+482,Org line C,INDIA,us,J,G88 2nd,E_4,Accepted,Medium,PROD701,Wait,2011-11-30 09:13:35+00:00,1-618171180
+483,Org line C,INDIA,us,J,G88 2nd,E_4,Completed,Medium,PROD701,Closed,2012-01-03 11:57:51+00:00,1-618171180
+484,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,In Progress,2011-11-30 14:31:18+00:00,1-618350811
+485,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,Wait,2011-11-30 16:01:49+00:00,1-618350811
+486,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,In Progress,2011-12-01 07:46:45+00:00,1-618350811
+487,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,Wait,2011-12-01 08:40:25+00:00,1-618350811
+488,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,In Progress,2011-12-01 13:48:20+00:00,1-618350811
+489,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,Wait,2011-12-01 13:57:08+00:00,1-618350811
+490,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,In Progress,2011-12-07 08:31:50+00:00,1-618350811
+491,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,Wait,2011-12-07 08:33:39+00:00,1-618350811
+492,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,In Progress,2011-12-16 08:54:02+00:00,1-618350811
+493,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,Wait,2011-12-16 10:32:18+00:00,1-618350811
+494,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,In Progress,2011-12-21 13:30:32+00:00,1-618350811
+495,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,Wait,2011-12-21 13:50:36+00:00,1-618350811
+496,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,In Progress,2011-12-22 14:46:34+00:00,1-618350811
+497,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,Wait,2011-12-22 14:47:39+00:00,1-618350811
+498,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,In Progress,2012-01-03 12:48:13+00:00,1-618350811
+499,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,Wait,2012-01-03 13:28:00+00:00,1-618350811
+500,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,In Progress,2012-01-04 09:19:43+00:00,1-618350811
+501,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,Wait,2012-01-04 09:22:53+00:00,1-618350811
+502,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,In Progress,2012-01-04 12:07:03+00:00,1-618350811
+503,Org line A2,POLAND,in,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD363,In Progress,2012-01-04 12:22:48+00:00,1-618350811
+504,Org line A2,France,in,Frederic,G115 3rd,A2_2,Queued,Medium,PROD363,Awaiting Assignment,2012-01-04 12:23:34+00:00,1-618350811
+505,Org line A2,POLAND,in,Maciej,G115 3rd,A2_2,Accepted,Medium,PROD363,In Progress,2012-01-04 12:24:20+00:00,1-618350811
+506,Org line C,Sweden,in,Prasad,G263 2nd,E_10,Queued,Medium,PROD363,Awaiting Assignment,2012-01-04 12:34:55+00:00,1-618350811
+507,Org line C,Sweden,in,Jitender,G263 2nd,E_10,Accepted,Medium,PROD363,In Progress,2012-01-04 12:45:03+00:00,1-618350811
+508,Org line C,Sweden,in,Jitender,G263 2nd,E_10,Accepted,Medium,PROD363,Wait,2012-01-04 13:12:21+00:00,1-618350811
+509,Org line C,INDIA,in,Amit,G92,E_5,Queued,Medium,PROD363,Awaiting Assignment,2012-01-05 08:43:34+00:00,1-618350811
+510,Org line C,INDIA,in,Garima,G92,E_5,Accepted,Medium,PROD363,In Progress,2012-03-02 12:53:06+00:00,1-618350811
+511,Org line C,INDIA,in,Garima,G92,E_5,Accepted,Medium,PROD363,Wait,2012-03-02 13:05:20+00:00,1-618350811
+512,Org line C,USA,in,Robert,G88 2nd,E_4,Queued,Medium,PROD363,Awaiting Assignment,2012-03-08 09:31:51+00:00,1-618350811
+513,Org line C,INDIA,in,Amit,G92,E_5,Queued,Medium,PROD363,Awaiting Assignment,2012-03-12 18:19:23+00:00,1-618350811
+514,Org line C,INDIA,in,Sreelesh,G92,E_5,Accepted,Medium,PROD363,In Progress,2012-03-19 09:58:46+00:00,1-618350811
+515,Org line C,Sweden,in,Prasad,G263 2nd,E_10,Queued,Medium,PROD363,Awaiting Assignment,2012-03-28 10:42:48+00:00,1-618350811
+516,Org line C,Sweden,in,Umar,G263 2nd,E_10,Accepted,Medium,PROD363,In Progress,2012-03-28 11:41:29+00:00,1-618350811
+517,Org line C,Sweden,in,Jitender,G263 2nd,E_10,Accepted,Medium,PROD363,In Progress,2012-03-28 12:40:01+00:00,1-618350811
+518,Org line C,Sweden,in,Jitender,G263 2nd,E_10,Completed,Medium,PROD363,Closed,2012-03-28 12:42:04+00:00,1-618350811
+519,Org line A2,Sweden,se,Stefan,U5 2nd,A2_3,Accepted,Medium,PROD372,In Progress,2011-11-30 15:12:42+00:00,1-618283927
+520,Org line A2,Sweden,se,Stefan,U5 2nd,A2_3,Accepted,Medium,PROD372,In Progress,2012-02-06 14:19:01+00:00,1-618283927
+521,Org line A2,Sweden,se,Stefan,U5 2nd,A2_3,Completed,Medium,PROD372,Closed,2012-02-06 14:21:33+00:00,1-618283927
+522,Org line A2,POLAND,pl,Rafal,V10 3rd,D_1,Accepted,High,PROD69,In Progress,2011-12-01 09:20:57+00:00,1-618620384
+523,Org line A2,POLAND,pl,Rafal,V10 3rd,D_1,Completed,High,PROD69,Closed,2012-02-23 12:41:54+00:00,1-618620384
+524,Org line A2,POLAND,pl,Pawel,W12 2nd,D_1,Accepted,High,PROD739,In Progress,2011-12-01 13:57:56+00:00,1-618764275
+525,Org line A2,POLAND,pl,Pawel,W12 2nd,D_1,Accepted,High,PROD739,Assigned,2011-12-21 10:32:55+00:00,1-618764275
+526,Org line A2,POLAND,pl,Agnieszka,W12 2nd,D_1,Accepted,High,PROD739,In Progress,2012-02-17 13:22:03+00:00,1-618764275
+527,Org line A2,POLAND,pl,Agnieszka,W12 2nd,D_1,Accepted,High,PROD739,Wait,2012-02-20 10:15:01+00:00,1-618764275
+528,Org line A2,POLAND,pl,Pawel,W12 2nd,D_1,Accepted,High,PROD739,In Progress,2012-02-24 14:15:47+00:00,1-618764275
+529,Org line A2,POLAND,pl,Agnieszka,W12 2nd,D_1,Accepted,High,PROD739,Assigned,2012-02-24 14:23:13+00:00,1-618764275
+530,Org line A2,POLAND,pl,Pawel,W12 2nd,D_1,Accepted,High,PROD739,In Progress,2012-02-24 14:56:03+00:00,1-618764275
+531,Org line A2,POLAND,pl,Pawel,W12 2nd,D_1,Completed,High,PROD739,Closed,2012-02-24 14:56:06+00:00,1-618764275
+532,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,High,PROD236,In Progress,2011-12-01 14:52:56+00:00,1-618589528
+533,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,High,PROD236,Assigned,2011-12-01 14:54:50+00:00,1-618589528
+534,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,High,PROD236,In Progress,2011-12-06 15:05:32+00:00,1-618589528
+535,Org line A2,United Kingdom,gb,Andrew,G42 3rd,A2_1,Accepted,High,PROD236,In Progress,2012-05-17 10:53:39+00:00,1-618589528
+536,Org line A2,United Kingdom,gb,Andrew,G42 3rd,A2_1,Completed,High,PROD236,Closed,2012-05-17 10:53:45+00:00,1-618589528
+537,Org line C,Sweden,fr,Prasad,G276 2nd,E_10,Accepted,Low,PROD422,In Progress,2011-12-01 16:34:34+00:00,1-618859631
+538,Org line C,Sweden,fr,Prasad,G276 2nd,E_10,Queued,Low,PROD422,Awaiting Assignment,2011-12-01 16:35:30+00:00,1-618859631
+539,Org line C,Sweden,fr,Manoj,G276 2nd,E_10,Accepted,Low,PROD422,In Progress,2011-12-01 16:44:11+00:00,1-618859631
+540,Org line C,Sweden,fr,Manoj,G276 2nd,E_10,Accepted,Low,PROD422,Wait,2011-12-01 16:50:49+00:00,1-618859631
+541,Org line A2,France,fr,Frederic,G22 2nd,A2_2,Queued,Low,PROD422,Awaiting Assignment,2011-12-05 13:44:20+00:00,1-618859631
+542,Org line A2,France,fr,Frederic,G22 2nd,A2_2,Accepted,Low,PROD422,In Progress,2011-12-12 14:29:04+00:00,1-618859631
+543,Org line A2,France,fr,Frederic,G22 2nd,A2_2,Completed,Low,PROD422,Closed,2012-01-19 08:11:19+00:00,1-618859631
+544,Org line A2,France,fr,Frederic,G22 2nd,A2_2,Accepted,Low,PROD422,In Progress,2012-01-19 08:11:24+00:00,1-618859631
+545,Org line A2,France,fr,Frederic,G22 2nd,A2_2,Completed,Low,PROD422,Closed,2012-01-19 08:11:34+00:00,1-618859631
+546,Org line A2,Sweden,cn,Patrik,N19 2nd,A2_1,Accepted,Medium,PROD38,In Progress,2011-12-02 03:39:11+00:00,1-618883006
+547,Org line A2,Sweden,cn,Patrik,N19 2nd,A2_1,Queued,Medium,PROD38,Awaiting Assignment,2011-12-02 03:39:48+00:00,1-618883006
+548,Org line A2,Sweden,cn,Fredrik,N19 2nd,A2_1,Accepted,Medium,PROD38,In Progress,2011-12-02 06:49:59+00:00,1-618883006
+549,Org line B,China,cn,Jihong,D1,A2_1,Queued,Medium,PROD38,Awaiting Assignment,2011-12-02 06:50:11+00:00,1-618883006
+550,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Accepted,Medium,PROD38,In Progress,2012-01-05 02:31:59+00:00,1-618883006
+551,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Completed,Medium,PROD38,Closed,2012-01-05 02:32:02+00:00,1-618883006
+552,Org line A2,Sweden,cn,Britt,T17 2nd,A2_1,Accepted,Low,PROD350,In Progress,2011-12-02 09:46:41+00:00,1-619067777
+553,Org line A2,Sweden,cn,Britt,T17 2nd,A2_1,Queued,Low,PROD350,Awaiting Assignment,2011-12-02 09:47:20+00:00,1-619067777
+554,Org line A2,Sweden,cn,Britt,J2 2nd,A2_1,Accepted,Low,PROD350,In Progress,2011-12-12 13:52:12+00:00,1-619067777
+555,Org line A2,Sweden,cn,Britt,J2 2nd,A2_1,Accepted,Low,PROD350,Wait,2011-12-12 13:52:18+00:00,1-619067777
+556,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Accepted,Low,PROD350,In Progress,2012-01-06 05:25:12+00:00,1-619067777
+557,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Completed,Low,PROD350,Closed,2012-01-06 05:26:16+00:00,1-619067777
+558,Org line C,Sweden,us,Stefan,G13 2nd,E_1,Accepted,Major,PROD153,In Progress,2011-12-02 10:04:01+00:00,1-619053302
+559,Org line C,Sweden,us,Stefan,G13 2nd,E_1,Queued,Major,PROD153,Awaiting Assignment,2011-12-02 10:06:46+00:00,1-619053302
+560,Org line C,Sweden,us,Stefan,G14 3rd,C_1,Accepted,Major,PROD153,In Progress,2011-12-02 12:13:40+00:00,1-619053302
+561,Org line C,France,us,Julien,G14 3rd,C_1,Accepted,Major,PROD153,Assigned,2011-12-02 12:14:03+00:00,1-619053302
+562,Org line C,France,us,Julien,G14 3rd,C_1,Accepted,Major,PROD153,In Progress,2012-01-02 12:14:01+00:00,1-619053302
+563,Org line C,USA,us,William,G14 3rd,C_1,Accepted,Major,PROD153,In Progress,2012-01-03 14:44:20+00:00,1-619053302
+564,Org line C,France,us,Julien,G14 3rd,C_1,Accepted,Major,PROD153,Assigned,2012-01-03 14:47:07+00:00,1-619053302
+565,Org line C,Sweden,us,Kjell,G13 2nd,E_1,Accepted,Major,PROD153,In Progress,2012-02-21 13:15:31+00:00,1-619053302
+566,Org line C,Sweden,us,Kjell,G13 2nd,E_1,Completed,Major,PROD153,Closed,2012-02-21 13:15:35+00:00,1-619053302
+567,Org line G3,POLAND,us,Ewa,G199 3rd,,Accepted,Medium,PROD97,In Progress,2011-12-02 11:09:21+00:00,1-619087129
+568,Org line G3,POLAND,us,Ewa,G199 3rd,,Completed,Medium,PROD97,Closed,2012-01-03 10:10:20+00:00,1-619087129
+569,Org line C,INDIA,se,Amit,G92,E_5,Accepted,High,PROD436,In Progress,2011-12-02 11:45:33+00:00,1-619109941
+570,Org line C,INDIA,se,Amit,G92,E_5,Queued,High,PROD436,Awaiting Assignment,2011-12-02 11:51:13+00:00,1-619109941
+571,Org line C,INDIA,se,Prashant,G92,E_5,Accepted,High,PROD436,In Progress,2011-12-06 10:32:54+00:00,1-619109941
+572,Org line C,USA,se,Robert,G88 2nd,E_4,Queued,High,PROD436,Awaiting Assignment,2011-12-06 10:35:01+00:00,1-619109941
+573,Org line C,Sweden,se,Praveen,G271 2nd,E_10,Accepted,High,PROD436,In Progress,2011-12-06 11:50:12+00:00,1-619109941
+574,Org line C,Sweden,se,Martin,G273 3rd,C_6,Queued,High,PROD436,Awaiting Assignment,2011-12-06 11:56:00+00:00,1-619109941
+575,Org line C,Sweden,se,Michael,R4 3rd,C_6,Accepted,High,PROD436,In Progress,2011-12-06 12:54:20+00:00,1-619109941
+576,Org line C,Sweden,se,Michael,R4 3rd,C_6,Accepted,High,PROD436,Wait,2011-12-06 13:54:19+00:00,1-619109941
+577,Org line C,Sweden,se,Martin,G273 3rd,C_6,Queued,High,PROD436,Awaiting Assignment,2012-01-30 13:13:13+00:00,1-619109941
+578,Org line C,Sweden,se,Michael,R4 3rd,C_6,Accepted,High,PROD436,In Progress,2012-01-30 13:13:14+00:00,1-619109941
+579,Org line C,Sweden,se,Martin,G273 3rd,C_6,Queued,High,PROD436,Awaiting Assignment,2012-01-30 13:13:51+00:00,1-619109941
+580,Org line C,Sweden,se,Michael,R4 3rd,C_6,Accepted,High,PROD436,In Progress,2012-01-30 13:17:15+00:00,1-619109941
+581,Org line C,Sweden,se,Martin,G273 3rd,C_6,Queued,High,PROD436,Awaiting Assignment,2012-01-30 13:17:46+00:00,1-619109941
+582,Org line C,Sweden,se,Pascal,G273 3rd,C_6,Accepted,High,PROD436,In Progress,2012-01-30 13:31:28+00:00,1-619109941
+583,Org line C,Sweden,se,Michael,G273 3rd,C_6,Accepted,High,PROD436,Assigned,2012-01-30 13:32:18+00:00,1-619109941
+584,Org line C,Sweden,se,Nitesh,G273 3rd,C_6,Accepted,High,PROD436,In Progress,2012-02-13 13:36:25+00:00,1-619109941
+585,Org line C,Sweden,se,Nitesh,G273 3rd,C_6,Accepted,High,PROD436,Wait,2012-02-13 13:39:27+00:00,1-619109941
+586,Org line C,Sweden,se,Nitesh,G273 3rd,C_6,Completed,High,PROD436,Closed,2012-03-05 15:16:43+00:00,1-619109941
+587,Org line C,INDIA,fr,S,G222 2nd,E_10,Queued,Medium,PROD13,Awaiting Assignment,2011-12-02 12:20:26+00:00,1-619146141
+588,Org line C,INDIA,fr,Shamal,G81,E_5,Accepted,Medium,PROD13,In Progress,2011-12-02 12:46:56+00:00,1-619146141
+589,Org line C,France,fr,Olivier,G225 3rd,C_6,Queued,Medium,PROD13,Awaiting Assignment,2011-12-02 12:57:32+00:00,1-619146141
+590,Org line C,Belgium,fr,Steven,G225 3rd,C_6,Accepted,Medium,PROD13,In Progress,2011-12-22 13:52:12+00:00,1-619146141
+591,Org line C,Belgium,fr,Steven,G225 3rd,C_6,Accepted,Medium,PROD13,Wait,2012-02-20 14:42:32+00:00,1-619146141
+592,Org line C,Belgium,fr,Steven,G225 3rd,C_6,Accepted,Medium,PROD13,Wait,2012-02-21 08:17:23+00:00,1-619146141
+593,Org line C,Belgium,fr,Steven,G225 3rd,C_6,Completed,Medium,PROD13,Closed,2012-05-29 12:22:20+00:00,1-619146141
+594,Org line A2,Sweden,in,Harikumar,L50 3rd,D_1,Accepted,Medium,PROD611,Assigned,2011-12-02 12:35:34+00:00,1-619175501
+595,Org line A2,Sweden,in,Harikumar,L50 3rd,D_1,Accepted,Medium,PROD611,In Progress,2011-12-06 09:22:13+00:00,1-619175501
+596,Org line A2,Sweden,in,Harikumar,L50 3rd,D_1,Completed,Medium,PROD611,Closed,2012-03-30 15:12:54+00:00,1-619175501
+597,Org line G4,Sweden,se,Fredrik,S30 2nd,,Accepted,High,PROD412,In Progress,2011-12-02 13:17:15+00:00,1-619201265
+598,Org line G4,Sweden,se,Fredrik,S30 2nd,,Accepted,High,PROD412,Assigned,2012-01-16 12:49:25+00:00,1-619201265
+599,Org line G4,Sweden,se,Helene,S30 2nd,,Accepted,High,PROD412,In Progress,2012-01-17 08:16:19+00:00,1-619201265
+600,Org line G4,Sweden,se,Helene,S30 2nd,,Completed,High,PROD412,Closed,2012-01-17 08:16:30+00:00,1-619201265
+601,Org line C,Sweden,se,Peter,G290 3rd,C_6,Accepted,Major,PROD659,In Progress,2011-12-02 14:29:22+00:00,1-619232031
+602,Org line C,Sweden,se,Peter,G290 3rd,C_6,Accepted,Major,PROD659,Wait,2011-12-12 12:12:58+00:00,1-619232031
+603,Org line C,Sweden,se,Peter,G290 3rd,C_6,Completed,Major,PROD659,Closed,2012-02-01 13:43:46+00:00,1-619232031
+604,Org line A2,Sweden,se,Maria,G118 2nd,A2_4,Accepted,High,PROD591,In Progress,2011-12-02 14:37:58+00:00,1-619254483
+605,Org line A2,Sweden,se,Maria,G118 2nd,A2_4,Completed,High,PROD591,Closed,2012-01-10 09:11:14+00:00,1-619254483
+606,Org line A2,Sweden,se,Jenny,V13 2nd,A2_3,Accepted,Medium,PROD676,In Progress,2011-12-05 07:02:18+00:00,1-619550849
+607,Org line A2,Sweden,se,Jenny,V13 2nd,A2_3,Queued,Medium,PROD676,Awaiting Assignment,2011-12-05 07:16:34+00:00,1-619550849
+608,Org line A2,Sweden,se,Jenny,V13 2nd,A2_3,Accepted,Medium,PROD676,In Progress,2011-12-07 13:46:02+00:00,1-619550849
+609,Org line C,INDIA,se,Rajesh Kumar,G157 2nd,E_7,Queued,Medium,PROD676,Awaiting Assignment,2011-12-07 13:46:27+00:00,1-619550849
+610,Org line C,INDIA,se,Rajesh Kumar,G157 2nd,E_7,Accepted,Medium,PROD676,In Progress,2011-12-08 10:49:24+00:00,1-619550849
+611,Org line C,Sweden,se,Stefan,G163 3rd,,Accepted,Medium,PROD676,In Progress,2011-12-14 09:19:07+00:00,1-619550849
+612,Org line C,Sweden,se,Daniel,R6 2nd,E_10,Queued,Medium,PROD676,Awaiting Assignment,2011-12-29 07:18:06+00:00,1-619550849
+613,Org line C,Sweden,se,Daniel,R6 2nd,E_10,Accepted,Medium,PROD676,In Progress,2011-12-29 11:25:56+00:00,1-619550849
+614,Org line C,Sweden,se,Daniel,R6 2nd,E_10,Accepted,Medium,PROD676,Wait,2011-12-29 11:27:52+00:00,1-619550849
+615,Org line C,Sweden,se,Daniel,R6 2nd,E_10,Completed,Medium,PROD676,Closed,2012-01-16 15:31:20+00:00,1-619550849
+616,Org line C,INDIA,us,Antony,G88 2nd,E_4,Accepted,Major,PROD793,In Progress,2011-12-05 08:33:37+00:00,1-619575181
+617,Org line C,INDIA,us,Antony,G88 2nd,E_4,Completed,Major,PROD793,Closed,2011-12-26 01:29:02+00:00,1-619575181
+618,Org line C,INDIA,us,Antony,G88 2nd,E_4,Accepted,Major,PROD793,In Progress,2012-01-04 17:57:37+00:00,1-619575181
+619,Org line C,INDIA,us,Antony,G88 2nd,E_4,Completed,Major,PROD793,Closed,2012-01-04 18:09:15+00:00,1-619575181
+620,Org line C,France,in,Stephane,G181 2nd,E_8,Accepted,Major,PROD476,In Progress,2011-12-05 09:59:00+00:00,1-619684455
+621,Org line C,France,in,Stephane,G181 2nd,E_8,Completed,Major,PROD476,Closed,2012-01-23 13:06:08+00:00,1-619684455
+622,Org line C,Sweden,se,John,G144 3rd,C_6,Accepted,Low,PROD667,In Progress,2011-12-05 11:35:14+00:00,1-619719949
+623,Org line C,Sweden,se,John,G144 3rd,C_6,Queued,Low,PROD667,Awaiting Assignment,2011-12-05 12:02:06+00:00,1-619719949
+624,Org line C,Sweden,se,Mica,G141 3rd,C_6,Queued,Low,PROD667,Awaiting Assignment,2011-12-06 07:23:22+00:00,1-619719949
+625,Org line C,Sweden,se,Mica,G141 3rd,C_6,Accepted,Low,PROD667,In Progress,2011-12-08 06:48:30+00:00,1-619719949
+626,Org line C,Sweden,se,John,G144 3rd,C_6,Queued,Low,PROD667,Awaiting Assignment,2011-12-09 11:59:13+00:00,1-619719949
+627,Org line C,Sweden,se,John,G144 3rd,C_6,Accepted,Low,PROD667,In Progress,2011-12-09 12:00:14+00:00,1-619719949
+628,Org line C,Sweden,se,John,G144 3rd,C_6,Completed,Low,PROD667,Closed,2012-03-22 07:54:05+00:00,1-619719949
+629,Org line A2,Sweden,se,Viktoria,S21 2nd,A2_3,Accepted,High,PROD231,In Progress,2011-12-05 12:01:36+00:00,1-619699161
+630,Org line A2,Sweden,se,Viktoria,S21 2nd,A2_3,Queued,High,PROD231,Awaiting Assignment,2011-12-05 12:13:30+00:00,1-619699161
+631,Org line A2,Sweden,se,Kristina,S21 2nd,A2_3,Accepted,High,PROD231,In Progress,2011-12-06 07:28:52+00:00,1-619699161
+632,Org line A2,Sweden,se,Kristina,S21 2nd,A2_3,Completed,High,PROD231,Closed,2011-12-06 08:41:47+00:00,1-619699161
+633,Org line G4,Sweden,se,Gustav,S30 2nd,,Accepted,High,PROD231,In Progress,2011-12-06 13:35:14+00:00,1-619699161
+634,Org line G4,Sweden,se,David,S30 2nd,,Accepted,High,PROD231,Assigned,2012-01-30 12:40:16+00:00,1-619699161
+635,Org line G4,Sweden,se,Gustav,S30 2nd,,Accepted,High,PROD231,Assigned,2012-02-01 19:49:44+00:00,1-619699161
+636,Org line G4,Sweden,se,David,S30 2nd,,Accepted,High,PROD231,In Progress,2012-02-01 19:50:03+00:00,1-619699161
+637,Org line G4,Sweden,se,David,S30 2nd,,Completed,High,PROD231,Closed,2012-02-01 19:51:19+00:00,1-619699161
+638,Org line C,Sweden,be,Maria,G153 2nd,E_7,Queued,Medium,PROD807,Awaiting Assignment,2011-12-05 12:53:59+00:00,1-619589599
+639,Org line C,Sweden,be,Peter,G134 2nd,E_7,Accepted,Medium,PROD807,In Progress,2011-12-07 09:30:38+00:00,1-619589599
+640,Org line C,Sweden,be,Maria,G153 2nd,E_7,Queued,Medium,PROD807,Awaiting Assignment,2011-12-09 12:13:16+00:00,1-619589599
+641,Org line C,Sweden,be,Peter,G134 2nd,E_7,Accepted,Medium,PROD807,In Progress,2011-12-09 12:13:34+00:00,1-619589599
+642,Org line C,Sweden,be,Maria,G153 2nd,E_7,Accepted,Medium,PROD807,Assigned,2011-12-09 12:14:07+00:00,1-619589599
+643,Org line C,Sweden,be,Peter,G153 2nd,E_7,Accepted,Medium,PROD807,In Progress,2011-12-09 12:14:44+00:00,1-619589599
+644,Org line C,Sweden,be,Martin,G273 3rd,C_6,Queued,Medium,PROD807,Awaiting Assignment,2012-01-11 21:44:00+00:00,1-619589599
+645,Org line C,Sweden,be,Peter,G134 2nd,E_7,Accepted,Medium,PROD807,In Progress,2012-01-12 07:31:18+00:00,1-619589599
+646,Org line C,Belgium,be,Patrick,G287 3rd,C_6,Queued,Medium,PROD807,Awaiting Assignment,2012-01-12 07:31:25+00:00,1-619589599
+647,Org line C,Sweden,be,Jimmy,G287 3rd,C_6,Accepted,Medium,PROD807,In Progress,2012-01-12 07:33:16+00:00,1-619589599
+648,Org line C,Sweden,be,Jimmy,G287 3rd,C_6,Completed,Medium,PROD807,Closed,2012-01-12 09:55:32+00:00,1-619589599
+649,Org line C,Sweden,us,Dweep,G14 3rd,C_1,Accepted,Medium,PROD398,In Progress,2011-12-05 12:57:43+00:00,1-619767065
+650,Org line C,Sweden,us,Dweep,G14 3rd,C_1,Accepted,Medium,PROD398,In Progress,2012-01-03 11:38:34+00:00,1-619767065
+651,Org line C,Sweden,us,Dweep,G14 3rd,C_1,Completed,Medium,PROD398,Closed,2012-02-07 10:34:28+00:00,1-619767065
+652,Org line C,Sweden,se,Tommy,G371,V3_2,Accepted,Low,PROD262,In Progress,2011-12-05 14:55:59+00:00,1-619857642
+653,Org line C,Sweden,se,Tommy,G371,V3_2,Accepted,Low,PROD262,In Progress,2012-01-19 09:05:25+00:00,1-619857642
+654,Org line C,Sweden,se,Tommy,G371,V3_2,Completed,Low,PROD262,Closed,2012-01-19 09:12:47+00:00,1-619857642
+655,Org line G4,Sweden,se,Rickard,S33 2nd,,Accepted,Medium,PROD374,In Progress,2011-12-06 06:51:12+00:00,1-620015297
+656,Org line G4,Sweden,se,Rickard,S33 2nd,,Completed,Medium,PROD374,Closed,2012-02-08 13:12:13+00:00,1-620015297
+657,Org line A2,Sweden,in,Pallav,G38 2nd,A2_2,Accepted,Medium,PROD215,In Progress,2011-12-06 09:02:09+00:00,1-620074564
+658,Org line A2,Sweden,in,Pallav,G38 2nd,A2_2,Completed,Medium,PROD215,Closed,2012-05-04 13:48:40+00:00,1-620074564
+659,Org line A2,Sweden,se,Britt,T17 2nd,A2_1,Accepted,High,PROD350,In Progress,2011-12-07 04:38:29+00:00,1-620432583
+660,Org line A2,Sweden,se,Britt,T17 2nd,A2_1,Queued,High,PROD350,Awaiting Assignment,2011-12-07 04:39:00+00:00,1-620432583
+661,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Accepted,High,PROD350,In Progress,2011-12-12 13:51:36+00:00,1-620432583
+662,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Accepted,High,PROD350,Wait,2011-12-12 13:51:48+00:00,1-620432583
+663,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Accepted,High,PROD350,In Progress,2012-01-19 14:53:52+00:00,1-620432583
+664,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Completed,High,PROD350,Closed,2012-01-19 15:05:09+00:00,1-620432583
+665,Org line A2,Sweden,se,Per,G105 2nd,A2_4,Accepted,Medium,PROD337,In Progress,2011-12-07 07:17:12+00:00,1-620430705
+666,Org line A2,Sweden,se,Per,G105 2nd,A2_4,Completed,Medium,PROD337,Closed,2012-04-20 07:19:39+00:00,1-620430705
+667,Org line C,Sweden,se,Praveen,G271 2nd,E_10,Accepted,Medium,PROD802,In Progress,2011-12-07 08:12:52+00:00,1-620483711
+668,Org line C,Sweden,se,Praveen,G271 2nd,E_10,Queued,Medium,PROD802,Awaiting Assignment,2011-12-07 08:27:06+00:00,1-620483711
+669,Org line C,Sweden,se,Neeraj,G271 2nd,E_10,Accepted,Medium,PROD802,In Progress,2011-12-08 07:18:53+00:00,1-620483711
+670,Org line C,Sweden,se,Martin,G273 3rd,C_6,Queued,Medium,PROD802,Awaiting Assignment,2011-12-08 07:57:49+00:00,1-620483711
+671,Org line C,Sweden,se,Martin,G273 3rd,C_6,Accepted,Medium,PROD802,In Progress,2011-12-14 11:58:14+00:00,1-620483711
+672,Org line C,France,se,Fabien,G273 3rd,C_6,Accepted,Medium,PROD802,Assigned,2011-12-14 12:04:35+00:00,1-620483711
+673,Org line C,France,se,Fabien,G273 3rd,C_6,Completed,Medium,PROD802,Closed,2012-02-06 07:50:18+00:00,1-620483711
+674,Org line A2,INDIA,in,Jeevitha,G31 3rd,A2_4,Accepted,Medium,PROD194,In Progress,2011-12-07 11:07:47+00:00,1-620584677
+675,Org line A2,INDIA,in,Jeevitha,G31 3rd,A2_4,Accepted,Medium,PROD194,Assigned,2011-12-07 11:17:43+00:00,1-620584677
+676,Org line A2,INDIA,in,Jeevitha,G31 3rd,A2_4,Accepted,Medium,PROD194,In Progress,2012-01-11 05:56:47+00:00,1-620584677
+677,Org line A2,INDIA,in,Jeevitha,G31 3rd,A2_4,Completed,Medium,PROD194,Closed,2012-01-11 05:57:10+00:00,1-620584677
+678,Org line G4,Sweden,se,Torbjörn,S33 2nd,,Accepted,Medium,PROD397,In Progress,2011-12-07 13:57:08+00:00,1-620656965
+679,Org line G4,Sweden,se,Torbjörn,S33 2nd,,Completed,Medium,PROD397,Closed,2012-01-09 12:50:31+00:00,1-620656965
+680,Org line C,Sweden,be,Karin,G56 3rd,C_1,Accepted,Medium,PROD816,In Progress,2011-12-07 14:52:47+00:00,1-620705595
+681,Org line C,Sweden,be,Karin,G56 3rd,C_1,Completed,Medium,PROD816,Closed,2012-05-04 11:05:10+00:00,1-620705595
+682,Org line C,Sweden,se,Per-Erik,G294 2nd,E_1,Accepted,Major,PROD834,In Progress,2011-12-07 23:59:32+00:00,1-620857518
+683,Org line C,Sweden,se,Per-Erik,G294 2nd,E_1,Completed,Major,PROD834,Closed,2012-03-15 09:21:05+00:00,1-620857518
+684,Org line C,Sweden,se,Ingemar,N12 2nd,E_9,Accepted,Low,PROD277,In Progress,2011-12-08 07:19:35+00:00,1-620572095
+685,Org line C,Sweden,se,Ingemar,N12 2nd,E_9,Completed,Low,PROD277,Closed,2012-04-02 07:32:04+00:00,1-620572095
+686,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,High,PROD236,In Progress,2011-12-08 10:10:07+00:00,1-620925267
+687,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,High,PROD236,Assigned,2011-12-08 10:19:05+00:00,1-620925267
+688,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,High,PROD236,In Progress,2011-12-13 11:56:25+00:00,1-620925267
+689,Org line A2,United Kingdom,gb,Andrew,G42 3rd,A2_1,Accepted,High,PROD236,In Progress,2012-05-17 10:48:24+00:00,1-620925267
+690,Org line A2,United Kingdom,gb,Andrew,G42 3rd,A2_1,Completed,High,PROD236,Closed,2012-05-17 10:51:47+00:00,1-620925267
+691,Org line G3,POLAND,us,Ewa,G199 3rd,,Accepted,Medium,PROD98,In Progress,2011-12-08 11:59:55+00:00,1-621039603
+692,Org line G3,POLAND,us,Ewa,G199 3rd,,Completed,Medium,PROD98,Closed,2012-01-04 15:43:32+00:00,1-621039603
+693,Org line G3,POLAND,us,Ewa,G199 3rd,,Accepted,Medium,PROD97,In Progress,2011-12-08 12:23:24+00:00,1-621023087
+694,Org line G3,POLAND,us,Ewa,G199 3rd,,Completed,Medium,PROD97,Closed,2012-01-03 10:07:51+00:00,1-621023087
+695,Org line A2,POLAND,pl,Piotr,M15 2nd,A2_2,Accepted,High,PROD786,In Progress,2011-12-08 13:03:03+00:00,1-621061021
+696,Org line A2,POLAND,pl,Piotr,M15 2nd,A2_2,Accepted,High,PROD786,In Progress,2011-12-08 13:44:01+00:00,1-621061021
+697,Org line A2,POLAND,pl,Piotr,M15 2nd,A2_2,Queued,High,PROD786,Awaiting Assignment,2011-12-08 13:44:37+00:00,1-621061021
+698,Org line A2,China,pl,Jason,M15 2nd,A2_2,Accepted,High,PROD786,Assigned,2011-12-09 15:14:35+00:00,1-621061021
+699,Org line A2,China,pl,Jason,M15 2nd,A2_2,Accepted,High,PROD786,Wait,2012-02-17 07:48:03+00:00,1-621061021
+700,Org line A2,China,pl,Jason,M15 2nd,A2_2,Completed,High,PROD786,Closed,2012-04-27 01:58:43+00:00,1-621061021
+701,Org line C,Sweden,se,Mikael,G290 3rd,C_6,Accepted,Medium,PROD154,In Progress,2011-12-09 07:13:39+00:00,1-621322866
+702,Org line C,Sweden,se,Mikael,G290 3rd,C_6,Completed,Medium,PROD154,Closed,2012-01-17 13:00:57+00:00,1-621322866
+703,Org line D,Sweden,in,Bikshamaiah,G121 2nd,D_2,Accepted,Medium,PROD597,In Progress,2011-12-09 07:18:16+00:00,1-621311061
+704,Org line D,Sweden,in,Bikshamaiah,G121 2nd,D_2,Completed,Medium,PROD597,Closed,2011-12-09 07:22:15+00:00,1-621311061
+705,Org line D,Sweden,in,Bikshamaiah,G121 2nd,D_2,Accepted,Medium,PROD597,In Progress,2011-12-12 10:34:36+00:00,1-621311061
+706,Org line D,Sweden,in,Bikshamaiah,G121 2nd,D_2,Accepted,Medium,PROD597,In Progress,2011-12-12 10:38:44+00:00,1-621311061
+707,Org line D,Sweden,in,Bikshamaiah,G121 2nd,D_2,Completed,Medium,PROD597,Closed,2011-12-21 11:01:07+00:00,1-621311061
+708,Org line C,Sweden,in,Bikshamaiah,G119 2nd,E_8,Accepted,Medium,PROD597,In Progress,2012-01-06 10:08:42+00:00,1-621311061
+709,Org line C,Sweden,in,Bikshamaiah,G119 2nd,E_8,Completed,Medium,PROD597,Closed,2012-01-06 10:09:47+00:00,1-621311061
+710,Org line C,Sweden,in,Bikshamaiah,G119 2nd,E_8,Accepted,Medium,PROD597,In Progress,2012-01-06 12:35:53+00:00,1-621311061
+711,Org line C,Sweden,in,Bikshamaiah,G119 2nd,E_8,Completed,Medium,PROD597,Closed,2012-02-17 09:12:40+00:00,1-621311061
+712,Org line G4,Sweden,se,Torbjörn,S33 2nd,,Accepted,High,PROD397,In Progress,2011-12-09 09:00:42+00:00,1-621369891
+713,Org line G4,Sweden,se,Torbjörn,S33 2nd,,Completed,High,PROD397,Closed,2012-01-03 07:43:57+00:00,1-621369891
+714,Org line C,Belgium,br,Peter,G55 2nd,E_1,Accepted,Medium,PROD745,In Progress,2011-12-09 10:38:35+00:00,1-621393223
+715,Org line C,Belgium,br,Peter,G55 2nd,E_1,Queued,Medium,PROD745,Awaiting Assignment,2011-12-09 11:33:04+00:00,1-621393223
+716,Org line C,Belgium,br,Peter,G56 3rd,C_1,Queued,Medium,PROD745,Awaiting Assignment,2011-12-09 11:44:12+00:00,1-621393223
+717,Org line C,Sweden,br,Marie,G56 3rd,C_1,Accepted,Medium,PROD745,Assigned,2011-12-09 12:31:39+00:00,1-621393223
+718,Org line C,Sweden,br,Stina,G56 3rd,C_1,Accepted,Medium,PROD745,Assigned,2011-12-13 09:10:00+00:00,1-621393223
+719,Org line B,Brazil,br,Ricardo,S4 2nd,E_6,Queued,Medium,PROD745,Awaiting Assignment,2011-12-15 08:43:58+00:00,1-621393223
+720,Org line B,Brazil,br,Thiago,S4 2nd,E_6,Accepted,Medium,PROD745,In Progress,2012-04-20 15:34:45+00:00,1-621393223
+721,Org line B,Brazil,br,Thiago,S4 2nd,E_6,Completed,Medium,PROD745,Closed,2012-04-20 15:34:51+00:00,1-621393223
+722,Org line C,Sweden,se,Thomas,G355 2nd,E_6,Accepted,Major,PROD151,In Progress,2011-12-10 05:25:41+00:00,1-621571462
+723,Org line C,Sweden,se,Thomas,G355 2nd,E_6,Completed,Major,PROD151,Closed,2012-01-18 11:53:51+00:00,1-621571462
+724,Org line B,INDIA,in,Srinivasan,G230 2nd,E_10,Accepted,Low,PROD336,In Progress,2011-12-12 11:50:27+00:00,1-622154016
+725,Org line B,INDIA,in,Srinivasan,G230 2nd,E_10,Accepted,Low,PROD336,In Progress,2011-12-12 11:53:05+00:00,1-622154016
+726,Org line B,INDIA,in,Srinivasan,G230 2nd,E_10,Accepted,Low,PROD336,In Progress,2011-12-12 11:53:19+00:00,1-622154016
+727,Org line B,INDIA,in,Srinivasan,G230 2nd,E_10,Queued,Low,PROD336,Awaiting Assignment,2011-12-12 11:53:34+00:00,1-622154016
+728,Org line B,INDIA,in,Aneesh V,G230 2nd,E_10,Accepted,Low,PROD336,In Progress,2011-12-12 15:29:16+00:00,1-622154016
+729,Org line C,POLAND,in,Grzegorz,G249 3rd,E_10,Queued,Low,PROD336,Awaiting Assignment,2011-12-12 15:31:14+00:00,1-622154016
+730,Org line C,POLAND,in,Grzegorz,G249 3rd,E_10,Accepted,Low,PROD336,In Progress,2011-12-12 16:41:11+00:00,1-622154016
+731,Org line C,POLAND,in,Grzegorz,G249 3rd,E_10,Accepted,Low,PROD336,Wait,2011-12-12 16:41:18+00:00,1-622154016
+732,Org line C,POLAND,in,Krystian,G249 3rd,E_10,Accepted,Low,PROD336,Assigned,2011-12-27 11:52:13+00:00,1-622154016
+733,Org line C,INDIA,in,Shankar,G231 2nd,E_10,Queued,Low,PROD336,Awaiting Assignment,2012-02-20 17:56:48+00:00,1-622154016
+734,Org line C,INDIA,in,M Humaira,G231 2nd,E_10,Accepted,Low,PROD336,In Progress,2012-02-21 07:07:04+00:00,1-622154016
+735,Org line C,INDIA,in,Dheeraj,G231 2nd,E_10,Accepted,Low,PROD336,In Progress,2012-02-21 11:07:45+00:00,1-622154016
+736,Org line C,INDIA,in,Dheeraj,G231 2nd,E_10,Accepted,Low,PROD336,Wait,2012-02-21 11:07:56+00:00,1-622154016
+737,Org line C,INDIA,in,Mahesh,G231 2nd,E_10,Accepted,Low,PROD336,In Progress,2012-02-28 09:18:13+00:00,1-622154016
+738,Org line B,INDIA,in,Srinivasan,G230 2nd,E_10,Queued,Low,PROD336,Awaiting Assignment,2012-02-28 09:19:08+00:00,1-622154016
+739,Org line B,INDIA,in,Rijin,G230 2nd,E_10,Accepted,Low,PROD336,In Progress,2012-02-28 09:36:29+00:00,1-622154016
+740,Org line B,INDIA,in,Rijin,G230 2nd,E_10,Completed,Low,PROD336,Closed,2012-03-01 10:05:51+00:00,1-622154016
+741,Org line B,Brazil,br,Evane,S12 2nd,E_3,Accepted,Low,PROD140,In Progress,2011-12-12 11:50:53+00:00,1-622156083
+742,Org line B,Brazil,br,Evane,S12 2nd,E_3,Queued,Low,PROD140,Awaiting Assignment,2011-12-12 11:51:38+00:00,1-622156083
+743,Org line B,Brazil,br,Alice,S12 2nd,E_3,Accepted,Low,PROD140,Assigned,2011-12-12 13:54:04+00:00,1-622156083
+744,Org line B,Brazil,br,Evane,S12 2nd,E_3,Accepted,Low,PROD140,In Progress,2012-01-17 12:30:30+00:00,1-622156083
+745,Org line B,Brazil,br,Evane,S12 2nd,E_3,Completed,Low,PROD140,Closed,2012-01-17 12:31:09+00:00,1-622156083
+746,Org line A2,France,fr,Frederic,G22 2nd,A2_2,Accepted,Medium,PROD631,In Progress,2011-12-12 14:33:32+00:00,1-622295317
+747,Org line A2,France,fr,Frederic,G22 2nd,A2_2,Accepted,Medium,PROD631,Wait,2012-03-02 10:22:18+00:00,1-622295317
+748,Org line A2,France,fr,Frederic,G22 2nd,A2_2,Completed,Medium,PROD631,Closed,2012-03-22 14:45:50+00:00,1-622295317
+749,Org line A2,Sweden,se,Britt,T17 2nd,A2_1,Accepted,Low,PROD350,In Progress,2011-12-13 03:07:15+00:00,1-622618613
+750,Org line A2,Sweden,se,Britt,T17 2nd,A2_1,Queued,Low,PROD350,Awaiting Assignment,2011-12-13 03:07:39+00:00,1-622618613
+751,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Accepted,Low,PROD350,In Progress,2011-12-13 06:11:12+00:00,1-622618613
+752,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Accepted,Low,PROD350,Wait,2011-12-13 06:11:20+00:00,1-622618613
+753,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Completed,Low,PROD350,Closed,2012-01-19 15:38:31+00:00,1-622618613
+754,Org line C,China,cn,Matthew,G293 2nd,E_10,Accepted,Low,PROD826,In Progress,2011-12-13 05:47:00+00:00,1-622630582
+755,Org line C,China,cn,Matthew,G293 2nd,E_10,Accepted,Low,PROD826,Wait,2011-12-20 01:43:10+00:00,1-622630582
+756,Org line C,China,cn,Matthew,G293 2nd,E_10,Completed,Low,PROD826,Closed,2012-05-23 02:53:03+00:00,1-622630582
+757,Org line C,Sweden,in,Bikshamaiah,G119 2nd,E_8,Accepted,Low,PROD597,In Progress,2011-12-13 08:52:25+00:00,1-622652886
+758,Org line C,Sweden,in,Bikshamaiah,G119 2nd,E_8,Completed,Low,PROD597,Closed,2012-04-30 15:41:11+00:00,1-622652886
+759,Org line C,INDIA,in,Sameer,G89 2nd,E_4,Accepted,Low,PROD436,In Progress,2011-12-13 09:19:11+00:00,1-622783644
+760,Org line C,INDIA,in,Sameer,G89 2nd,E_4,Accepted,Low,PROD436,Wait,2011-12-26 12:32:16+00:00,1-622783644
+761,Org line C,INDIA,in,Sameer,G89 2nd,E_4,Accepted,Low,PROD436,In Progress,2012-05-18 07:01:25+00:00,1-622783644
+762,Org line C,INDIA,in,Sameer,G89 2nd,E_4,Completed,Low,PROD436,Closed,2012-05-18 07:02:02+00:00,1-622783644
+763,Org line A2,United Kingdom,gb,Andrew,G42 3rd,A2_1,Accepted,Medium,PROD236,In Progress,2011-12-13 10:05:09+00:00,1-622806196
+764,Org line A2,United Kingdom,gb,Andrew,G42 3rd,A2_1,Accepted,Medium,PROD236,Wait,2011-12-13 11:21:14+00:00,1-622806196
+765,Org line A2,United Kingdom,gb,Andrew,G42 3rd,A2_1,Accepted,Medium,PROD236,In Progress,2012-05-04 15:03:00+00:00,1-622806196
+766,Org line A2,United Kingdom,gb,Andrew,G42 3rd,A2_1,Completed,Medium,PROD236,Closed,2012-05-04 15:05:26+00:00,1-622806196
+767,Org line C,France,fr,Michel,V34 2nd,,Accepted,High,PROD424,In Progress,2011-12-13 10:27:52+00:00,1-622856843
+768,Org line C,France,fr,Michel,V34 2nd,,Completed,High,PROD424,Closed,2012-01-24 08:29:10+00:00,1-622856843
+769,Org line C,Sweden,se,Anders,G138 2nd,E_10,Accepted,Medium,PROD802,In Progress,2011-12-13 11:19:40+00:00,1-622874191
+770,Org line C,Sweden,se,Anders,G138 2nd,E_10,Accepted,Medium,PROD802,In Progress,2011-12-19 12:55:54+00:00,1-622874191
+771,Org line C,Sweden,se,Anders,G138 2nd,E_10,Completed,Medium,PROD802,Closed,2012-01-30 09:19:24+00:00,1-622874191
+772,Org line A2,Sweden,se,Mikael,G105 2nd,A2_4,Accepted,Medium,PROD337,In Progress,2011-12-13 12:28:06+00:00,1-622884303
+773,Org line A2,Sweden,se,Mikael,G105 2nd,A2_4,Accepted,Medium,PROD337,Wait,2011-12-21 13:15:37+00:00,1-622884303
+774,Org line A2,Sweden,se,Mikael,G105 2nd,A2_4,Completed,Medium,PROD337,Closed,2012-03-27 07:52:39+00:00,1-622884303
+775,Org line A2,Sweden,cn,Tomas,M1 2nd,A2_2,Accepted,High,PROD753,In Progress,2011-12-13 12:52:14+00:00,1-622940906
+776,Org line A2,Sweden,cn,Tomas,M1 2nd,A2_2,Accepted,High,PROD753,In Progress,2012-01-13 09:07:55+00:00,1-622940906
+777,Org line A2,Sweden,cn,Tomas,M1 2nd,A2_2,Completed,High,PROD753,Closed,2012-01-17 10:10:00+00:00,1-622940906
+778,Org line A2,Sweden,se,Venkata,G105 2nd,A2_4,Accepted,Medium,PROD337,In Progress,2011-12-13 14:36:57+00:00,1-622847448
+779,Org line A2,Sweden,se,Venkata,G105 2nd,A2_4,Accepted,Medium,PROD337,Assigned,2012-03-13 13:23:34+00:00,1-622847448
+780,Org line A2,Sweden,se,Håkan,G105 2nd,A2_4,Accepted,Medium,PROD337,In Progress,2012-04-23 13:31:16+00:00,1-622847448
+781,Org line A2,Sweden,se,Håkan,G105 2nd,A2_4,Completed,Medium,PROD337,Closed,2012-04-23 13:32:27+00:00,1-622847448
+782,Org line A2,Sweden,se,Åsa,G124 3rd,D_1,Accepted,High,PROD605,In Progress,2011-12-13 17:51:50+00:00,1-623152702
+783,Org line A2,Sweden,se,Åsa,G124 3rd,D_1,Completed,High,PROD605,Closed,2012-04-19 09:09:47+00:00,1-623152702
+784,Org line A2,Sweden,se,Pär,A10,A2_5,Accepted,Medium,PROD320,In Progress,2011-12-14 08:45:16+00:00,1-623354971
+785,Org line A2,Sweden,se,Pär,A10,A2_5,Accepted,Medium,PROD320,Assigned,2011-12-14 08:51:17+00:00,1-623354971
+786,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,In Progress,2012-04-17 08:16:34+00:00,1-623354971
+787,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Completed,Medium,PROD320,Closed,2012-04-17 08:16:37+00:00,1-623354971
+788,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,In Progress,2011-12-14 10:27:37+00:00,1-623520821
+789,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,Wait,2011-12-14 10:27:55+00:00,1-623520821
+790,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,In Progress,2011-12-15 12:17:55+00:00,1-623520821
+791,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,Wait,2011-12-21 12:10:20+00:00,1-623520821
+792,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,In Progress,2012-01-09 10:37:01+00:00,1-623520821
+793,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,Wait,2012-01-09 16:11:01+00:00,1-623520821
+794,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Completed,Medium,PROD320,Closed,2012-03-05 15:30:19+00:00,1-623520821
+795,Org line C,INDIA,se,Sivakumar,G269 3rd,C_6,Accepted,Medium,PROD621,In Progress,2011-12-14 10:46:39+00:00,1-623336818
+796,Org line C,INDIA,se,Sivakumar,G269 3rd,C_6,Completed,Medium,PROD621,Closed,2012-02-20 07:38:46+00:00,1-623336818
+797,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,Wait,2011-12-14 11:24:49+00:00,1-623521280
+798,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,In Progress,2012-02-06 11:02:10+00:00,1-623521280
+799,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,Wait,2012-02-06 16:05:17+00:00,1-623521280
+800,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Completed,Medium,PROD320,Closed,2012-03-09 14:45:01+00:00,1-623521280
+801,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,In Progress,2011-12-14 11:27:57+00:00,1-623626713
+802,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,Wait,2011-12-14 11:28:40+00:00,1-623626713
+803,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,In Progress,2012-02-07 08:40:27+00:00,1-623626713
+804,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD320,Wait,2012-02-10 08:13:16+00:00,1-623626713
+805,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Completed,Medium,PROD320,Closed,2012-03-09 15:16:31+00:00,1-623626713
+806,Org line A2,Sweden,fr,Clas,L53 2nd,A2_2,Accepted,Medium,PROD422,In Progress,2011-12-14 15:00:50+00:00,1-623792185
+807,Org line A2,Sweden,fr,Clas,L53 2nd,A2_2,Queued,Medium,PROD422,Awaiting Assignment,2011-12-14 15:40:11+00:00,1-623792185
+808,Org line A2,POLAND,fr,Piotr,L53 2nd,A2_2,Accepted,Medium,PROD422,In Progress,2011-12-16 08:57:47+00:00,1-623792185
+809,Org line A2,France,fr,Frederic,G34 3rd,A2_2,Queued,Medium,PROD422,Awaiting Assignment,2011-12-28 09:32:53+00:00,1-623792185
+810,Org line A2,POLAND,fr,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD422,In Progress,2012-01-02 09:04:41+00:00,1-623792185
+811,Org line A2,POLAND,fr,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD422,Wait,2012-01-02 09:12:41+00:00,1-623792185
+812,Org line A2,POLAND,fr,Maciej,G34 3rd,A2_2,Accepted,Medium,PROD422,In Progress,2012-01-17 14:20:02+00:00,1-623792185
+813,Org line A2,POLAND,fr,Maciej,G34 3rd,A2_2,Completed,Medium,PROD422,Closed,2012-01-17 14:21:03+00:00,1-623792185
+814,Org line G4,Sweden,se,Reine,S28 2nd,,Accepted,Medium,PROD633,In Progress,2011-12-14 15:06:21+00:00,1-623859845
+815,Org line G4,Sweden,se,Reine,S28 2nd,,Completed,Medium,PROD633,Closed,2012-03-05 09:33:07+00:00,1-623859845
+816,Org line C,Sweden,us,Rakesh,G288 2nd,E_10,Accepted,High,PROD408,In Progress,2011-12-14 15:16:05+00:00,1-623873811
+817,Org line C,Sweden,us,Rakesh,G288 2nd,E_10,Queued,High,PROD408,Awaiting Assignment,2011-12-14 15:16:44+00:00,1-623873811
+818,Org line C,Sweden,us,Amit,G288 2nd,E_10,Accepted,High,PROD408,In Progress,2011-12-14 15:23:53+00:00,1-623873811
+819,Org line C,Sweden,us,Jonas,G290 3rd,C_6,Queued,High,PROD408,Awaiting Assignment,2011-12-14 15:36:41+00:00,1-623873811
+820,Org line C,Sweden,us,Stefan,G290 3rd,C_6,Accepted,High,PROD408,In Progress,2011-12-15 08:02:54+00:00,1-623873811
+821,Org line C,Sweden,us,Stefan,G290 3rd,C_6,Completed,High,PROD408,Closed,2011-12-15 08:05:32+00:00,1-623873811
+822,Org line C,Sweden,us,Stefan,G290 3rd,C_6,Accepted,High,PROD408,In Progress,2011-12-15 08:14:19+00:00,1-623873811
+823,Org line C,USA,us,Kenneth,G290 3rd,C_6,Accepted,High,PROD408,Assigned,2011-12-15 08:15:33+00:00,1-623873811
+824,Org line C,USA,us,Kenneth,G290 3rd,C_6,Accepted,High,PROD408,Wait,2011-12-15 10:19:48+00:00,1-623873811
+825,Org line C,USA,us,Kenneth,G290 3rd,C_6,Completed,High,PROD408,Closed,2011-12-20 18:27:10+00:00,1-623873811
+826,Org line C,USA,us,Kymaria,N22 2nd,V3_3,Accepted,High,PROD408,In Progress,2012-01-25 15:21:33+00:00,1-623873811
+827,Org line C,USA,us,Kymaria,N22 2nd,V3_3,Accepted,High,PROD408,Wait,2012-01-25 15:23:52+00:00,1-623873811
+828,Org line C,USA,us,Kymaria,N22 2nd,V3_3,Completed,High,PROD408,Closed,2012-02-17 16:02:19+00:00,1-623873811
+829,Org line B,INDIA,in,Maltesh,G238 2nd,E_10,Accepted,Medium,PROD209,In Progress,2011-12-14 23:38:51+00:00,1-624009613
+830,Org line B,INDIA,in,Maltesh,G238 2nd,E_10,Completed,Medium,PROD209,Closed,2012-01-31 02:59:23+00:00,1-624009613
+831,Org line G4,Sweden,se,Rickard,S33 2nd,,Accepted,Low,PROD374,In Progress,2011-12-15 09:55:26+00:00,1-624219528
+832,Org line G4,Sweden,se,Rickard,S33 2nd,,Completed,Low,PROD374,Closed,2012-03-27 09:36:54+00:00,1-624219528
+833,Org line A2,Belgium,be,Ward,G7 3rd,A2_4,Queued,Medium,PROD766,Awaiting Assignment,2011-12-15 10:58:06+00:00,1-624305845
+834,Org line A2,Belgium,be,Marijn,G7 3rd,A2_4,Accepted,Medium,PROD766,In Progress,2012-01-06 09:12:12+00:00,1-624305845
+835,Org line A2,Belgium,be,Marijn,G7 3rd,A2_4,Completed,Medium,PROD766,Closed,2012-01-06 09:17:05+00:00,1-624305845
+836,Org line C,Sweden,se,Mikael,G48 2nd,E_6,Accepted,High,PROD148,In Progress,2011-12-15 14:23:36+00:00,1-624450715
+837,Org line C,Sweden,se,Mikael,G48 2nd,E_6,Accepted,High,PROD148,Wait,2011-12-15 14:23:45+00:00,1-624450715
+838,Org line C,Sweden,se,Mikael,G48 2nd,E_6,Completed,High,PROD148,Closed,2012-03-30 12:07:57+00:00,1-624450715
+839,Org line C,INDIA,in,Amit,G92,E_5,Accepted,Medium,PROD698,In Progress,2011-12-15 15:29:31+00:00,1-624403918
+840,Org line C,INDIA,in,Amit,G92,E_5,Accepted,Medium,PROD698,Wait,2011-12-15 16:30:21+00:00,1-624403918
+841,Org line C,INDIA,in,Amit,G92,E_5,Queued,Medium,PROD698,Awaiting Assignment,2011-12-16 14:36:37+00:00,1-624403918
+842,Org line C,INDIA,in,Irshad,G92,E_5,Accepted,Medium,PROD698,In Progress,2012-01-10 11:21:21+00:00,1-624403918
+843,Org line C,Sweden,in,Prasad,G276 2nd,E_10,Queued,Medium,PROD698,Awaiting Assignment,2012-01-10 12:26:31+00:00,1-624403918
+844,Org line C,Sweden,in,Ashwani,G276 2nd,E_10,Accepted,Medium,PROD698,In Progress,2012-01-10 12:30:24+00:00,1-624403918
+845,Org line C,Sweden,in,Manoj,G276 2nd,E_10,Accepted,Medium,PROD698,In Progress,2012-01-12 09:03:42+00:00,1-624403918
+846,Org line C,Sweden,in,Manoj,G276 2nd,E_10,Accepted,Medium,PROD698,Wait,2012-01-12 09:03:51+00:00,1-624403918
+847,Org line C,Sweden,in,Manoj,G276 2nd,E_10,Completed,Medium,PROD698,Closed,2012-03-15 14:45:21+00:00,1-624403918
+848,Org line C,Sweden,in,Manoj,G276 2nd,E_10,Accepted,Medium,PROD698,In Progress,2012-03-15 14:45:30+00:00,1-624403918
+849,Org line C,Sweden,in,Manoj,G276 2nd,E_10,Completed,Medium,PROD698,Closed,2012-03-15 14:54:45+00:00,1-624403918
+850,Org line C,Sweden,se,Mica,G141 3rd,C_6,Accepted,Medium,PROD663,In Progress,2011-12-16 08:13:45+00:00,1-624711258
+851,Org line C,Sweden,se,Mica,G141 3rd,C_6,Queued,Medium,PROD663,Awaiting Assignment,2011-12-16 08:17:50+00:00,1-624711258
+852,Org line C,Sweden,se,Mica,G141 3rd,C_6,Accepted,Medium,PROD663,In Progress,2011-12-16 08:20:27+00:00,1-624711258
+853,Org line C,Sweden,se,Mica,G141 3rd,C_6,Completed,Medium,PROD663,Closed,2012-03-12 12:00:12+00:00,1-624711258
+854,Org line G4,Sweden,se,Rickard,S33 2nd,,Accepted,High,PROD374,In Progress,2011-12-16 08:51:26+00:00,1-624745314
+855,Org line G4,Sweden,se,Rickard,S33 2nd,,Completed,High,PROD374,Closed,2012-02-08 13:15:41+00:00,1-624745314
+856,Org line C,Belgium,se,Alain,G213 2nd,E_1,Accepted,Major,PROD582,In Progress,2011-12-16 09:40:07+00:00,1-624845426
+857,Org line C,Belgium,se,Alain,G213 2nd,E_1,Queued,Major,PROD582,Awaiting Assignment,2011-12-16 09:40:33+00:00,1-624845426
+858,Org line C,Belgium,se,Alain,G71 2nd,E_3,Accepted,Major,PROD582,In Progress,2012-01-13 08:39:30+00:00,1-624845426
+859,Org line C,Belgium,se,Alain,G71 2nd,E_3,Completed,Major,PROD582,Closed,2012-01-13 09:26:23+00:00,1-624845426
+860,Org line C,France,fr,Olivier,G225 3rd,C_6,Accepted,Major,PROD793,In Progress,2011-12-17 11:18:28+00:00,1-625322174
+861,Org line C,France,fr,Olivier,G225 3rd,C_6,Queued,Major,PROD793,Awaiting Assignment,2011-12-17 11:19:36+00:00,1-625322174
+862,Org line C,Belgium,fr,Tom,G225 3rd,C_6,Accepted,Major,PROD793,In Progress,2011-12-22 13:52:39+00:00,1-625322174
+863,Org line C,Belgium,fr,Tom,G225 3rd,C_6,Accepted,Major,PROD793,Wait,2011-12-22 13:52:47+00:00,1-625322174
+864,Org line C,Belgium,fr,Tom,G225 3rd,C_6,Completed,Major,PROD793,Closed,2012-04-16 12:55:11+00:00,1-625322174
+865,Org line A2,Sweden,se,Britt,T17 2nd,A2_1,Accepted,Low,PROD350,In Progress,2011-12-19 02:13:32+00:00,1-625459293
+866,Org line A2,Sweden,se,Britt,T17 2nd,A2_1,Queued,Low,PROD350,Awaiting Assignment,2011-12-19 02:14:22+00:00,1-625459293
+867,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Accepted,Low,PROD350,In Progress,2012-01-05 13:08:46+00:00,1-625459293
+868,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Accepted,Low,PROD350,Wait,2012-01-05 13:25:39+00:00,1-625459293
+869,Org line A2,Sweden,se,Britt,J2 2nd,A2_1,Completed,Low,PROD350,Closed,2012-01-19 15:33:55+00:00,1-625459293
+870,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Accepted,High,PROD350,In Progress,2011-12-19 07:49:47+00:00,1-625634702
+871,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Accepted,High,PROD350,Wait,2011-12-19 08:13:42+00:00,1-625634702
+872,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Completed,High,PROD350,Closed,2012-01-18 04:53:58+00:00,1-625634702
+873,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Accepted,Medium,PROD350,In Progress,2011-12-19 07:57:11+00:00,1-625634824
+874,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Accepted,Medium,PROD350,Wait,2011-12-19 08:13:17+00:00,1-625634824
+875,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Completed,Medium,PROD350,Closed,2012-01-20 07:24:03+00:00,1-625634824
+876,Org line C,Sweden,se,Kim,G120 3rd,C_5,Accepted,High,PROD597,In Progress,2011-12-19 08:00:43+00:00,1-625646775
+877,Org line C,Sweden,se,Kim,G120 3rd,C_5,Completed,High,PROD597,Closed,2012-02-01 08:56:47+00:00,1-625646775
+878,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Accepted,High,PROD350,In Progress,2011-12-19 08:03:01+00:00,1-625634936
+879,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Accepted,High,PROD350,Wait,2011-12-19 08:12:46+00:00,1-625634936
+880,Org line B,THAILAND,cn,Kwewat,D1,A2_1,Completed,High,PROD350,Closed,2012-04-09 03:19:42+00:00,1-625634936
+881,Org line A2,Sweden,se,Per,G105 2nd,A2_4,Accepted,Medium,PROD337,In Progress,2011-12-19 08:09:42+00:00,1-625628532
+882,Org line A2,Sweden,se,Per,G105 2nd,A2_4,Completed,Medium,PROD337,Closed,2012-04-20 07:23:30+00:00,1-625628532
+883,Org line C,France,be,Nicolas,G64 2nd,E_3,Accepted,Major,PROD378,In Progress,2011-12-19 14:15:13+00:00,1-626102521
+884,Org line C,France,be,Nicolas,G64 2nd,E_3,Completed,Major,PROD378,Closed,2012-03-19 14:29:08+00:00,1-626102521
+885,Org line C,Sweden,us,Henrik,G67 2nd,E_3,Accepted,Medium,PROD151,In Progress,2011-12-19 16:02:25+00:00,1-626212681
+886,Org line C,Sweden,us,Henrik,G67 2nd,E_3,Accepted,Medium,PROD151,Wait,2012-01-04 10:26:26+00:00,1-626212681
+887,Org line C,Sweden,us,Henrik,G67 2nd,E_3,Accepted,Medium,PROD151,In Progress,2012-02-20 09:32:17+00:00,1-626212681
+888,Org line C,Sweden,us,Henrik,G67 2nd,E_3,Completed,Medium,PROD151,Closed,2012-02-20 09:35:33+00:00,1-626212681
+889,Org line C,Sweden,us,Vaibhav,G88 2nd,E_4,Accepted,Medium,PROD794,In Progress,2011-12-20 00:48:36+00:00,1-626292231
+890,Org line C,Sweden,us,Vaibhav,G88 2nd,E_4,Accepted,Medium,PROD794,In Progress,2011-12-20 00:49:14+00:00,1-626292231
+891,Org line C,Sweden,us,Vaibhav,G88 2nd,E_4,Accepted,Medium,PROD794,Wait,2012-02-07 18:48:51+00:00,1-626292231
+892,Org line C,Sweden,us,Vaibhav,G88 2nd,E_4,Completed,Medium,PROD794,Closed,2012-05-28 09:50:17+00:00,1-626292231
+893,Org line C,Sweden,us,Vaibhav,G88 2nd,E_4,Accepted,Medium,PROD794,In Progress,2012-05-28 10:04:15+00:00,1-626292231
+894,Org line C,Sweden,us,Vaibhav,G88 2nd,E_4,Completed,Medium,PROD794,Closed,2012-05-28 10:06:04+00:00,1-626292231
+895,Org line A2,Sweden,se,Karin,N7 2nd,A2_1,Accepted,Low,PROD746,In Progress,2011-12-20 07:59:29+00:00,1-626462354
+896,Org line A2,Sweden,se,Karin,N7 2nd,A2_1,Accepted,Low,PROD746,Wait,2012-02-02 09:43:55+00:00,1-626462354
+897,Org line A2,Sweden,se,Karin,N7 2nd,A2_1,Completed,Low,PROD746,Closed,2012-04-17 09:02:51+00:00,1-626462354
+898,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD236,In Progress,2011-12-20 08:39:32+00:00,1-626510640
+899,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD236,Wait,2011-12-20 09:03:49+00:00,1-626510640
+900,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD236,In Progress,2011-12-20 13:19:22+00:00,1-626510640
+901,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD236,Wait,2011-12-21 09:40:49+00:00,1-626510640
+902,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD236,In Progress,2012-02-02 07:45:56+00:00,1-626510640
+903,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD236,Wait,2012-02-02 12:44:11+00:00,1-626510640
+904,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD236,In Progress,2012-02-02 13:37:55+00:00,1-626510640
+905,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Completed,Medium,PROD236,Closed,2012-02-02 13:39:10+00:00,1-626510640
+906,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,High,PROD236,In Progress,2011-12-20 13:07:40+00:00,1-626515794
+907,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,High,PROD236,Assigned,2011-12-20 13:26:59+00:00,1-626515794
+908,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,High,PROD236,Assigned,2011-12-23 14:33:36+00:00,1-626515794
+909,Org line A2,United Kingdom,gb,Andrew,G42 3rd,A2_1,Accepted,High,PROD236,In Progress,2012-01-06 13:12:19+00:00,1-626515794
+910,Org line A2,United Kingdom,gb,Andrew,G42 3rd,A2_1,Completed,High,PROD236,Closed,2012-01-06 13:13:30+00:00,1-626515794
+911,Org line A2,USA,us,Gregory,N5 2nd,A2_3,Accepted,Medium,PROD488,In Progress,2011-12-20 13:43:16+00:00,1-626760391
+912,Org line A2,USA,us,Gregory,N5 2nd,A2_3,Accepted,Medium,PROD488,In Progress,2012-01-12 16:33:11+00:00,1-626760391
+913,Org line A2,USA,us,Gregory,N5 2nd,A2_3,Completed,Medium,PROD488,Closed,2012-01-12 16:33:48+00:00,1-626760391
+914,Org line A2,France,fr,Cyril,V37 2nd,A2_5,Accepted,Medium,PROD525,In Progress,2011-12-20 15:25:10+00:00,1-626834451
+915,Org line A2,France,fr,Cyril,V37 2nd,A2_5,Accepted,Medium,PROD525,Assigned,2011-12-20 15:26:35+00:00,1-626834451
+916,Org line A2,France,fr,Cyril,V37 2nd,A2_5,Completed,Medium,PROD525,Closed,2012-02-01 11:03:13+00:00,1-626834451
+917,Org line C,France,fr,Arnaud,V29 2nd,E_6,Accepted,Major,PROD413,In Progress,2011-12-21 06:14:19+00:00,1-627163101
+918,Org line C,France,fr,Arnaud,V29 2nd,E_6,Accepted,Major,PROD413,Wait,2012-01-18 11:17:47+00:00,1-627163101
+919,Org line C,France,fr,Arnaud,V29 2nd,E_6,Accepted,Major,PROD413,In Progress,2012-02-01 11:23:43+00:00,1-627163101
+920,Org line C,France,fr,Arnaud,V29 2nd,E_6,Accepted,Major,PROD413,In Progress,2012-04-12 09:35:52+00:00,1-627163101
+921,Org line C,France,fr,Bruno,V29 2nd,E_6,Accepted,Major,PROD413,In Progress,2012-04-19 12:28:17+00:00,1-627163101
+922,Org line C,France,fr,Bruno,V29 2nd,E_6,Completed,Major,PROD413,Closed,2012-05-09 08:32:27+00:00,1-627163101
+923,Org line C,USA,us,Kymaria,N22 2nd,V3_3,Accepted,High,PROD476,In Progress,2011-12-21 08:06:12+00:00,1-627190551
+924,Org line C,USA,us,Kymaria,N22 2nd,V3_3,Completed,High,PROD476,Closed,2011-12-21 08:13:03+00:00,1-627190551
+925,Org line C,USA,us,Kymaria,N22 2nd,V3_3,Accepted,High,PROD476,In Progress,2011-12-29 08:47:16+00:00,1-627190551
+926,Org line C,USA,us,Kymaria,N22 2nd,V3_3,Accepted,High,PROD476,Wait,2011-12-29 08:47:23+00:00,1-627190551
+927,Org line C,USA,us,Kymaria,N22 2nd,V3_3,Accepted,High,PROD476,In Progress,2012-01-18 15:22:21+00:00,1-627190551
+928,Org line C,USA,us,Kymaria,N22 2nd,V3_3,Accepted,High,PROD476,Wait,2012-01-18 15:31:17+00:00,1-627190551
+929,Org line C,USA,us,Kymaria,N22 2nd,V3_3,Completed,High,PROD476,Closed,2012-02-10 09:28:45+00:00,1-627190551
+930,Org line A2,Sweden,se,Valter,U6 2nd,A2_3,Accepted,Low,PROD831,In Progress,2011-12-21 09:39:43+00:00,1-627336700
+931,Org line A2,Sweden,se,Valter,U6 2nd,A2_3,Accepted,Low,PROD831,Assigned,2011-12-21 09:40:06+00:00,1-627336700
+932,Org line A2,Sweden,se,Valter,U6 2nd,A2_3,Accepted,Low,PROD831,In Progress,2012-01-30 13:18:50+00:00,1-627336700
+933,Org line A2,Sweden,se,Valter,U6 2nd,A2_3,Completed,Low,PROD831,Closed,2012-01-30 13:18:51+00:00,1-627336700
+934,Org line C,Brazil,in,Alex,G93 2nd,E_4,Accepted,Low,PROD325,In Progress,2011-12-21 10:13:58+00:00,1-627337013
+935,Org line C,Brazil,in,Alex,G93 2nd,E_4,Accepted,Low,PROD325,In Progress,2012-01-26 13:12:53+00:00,1-627337013
+936,Org line C,Brazil,in,Alex,G93 2nd,E_4,Completed,Low,PROD325,Closed,2012-03-01 14:37:25+00:00,1-627337013
+937,Org line A2,POLAND,pl,Grzegorz,N26 2nd,A2_3,Accepted,High,PROD791,In Progress,2011-12-21 13:33:20+00:00,1-627532005
+938,Org line A2,POLAND,pl,Grzegorz,N26 2nd,A2_3,Accepted,High,PROD791,Assigned,2011-12-21 13:33:49+00:00,1-627532005
+939,Org line A2,POLAND,pl,Grzegorz,N26 2nd,A2_3,Accepted,High,PROD791,Wait,2012-01-09 13:52:30+00:00,1-627532005
+940,Org line A2,POLAND,pl,Grzegorz,N26 2nd,A2_3,Completed,High,PROD791,Closed,2012-04-23 11:38:19+00:00,1-627532005
+941,Org line A2,Brazil,se,Lauro,G45 2nd,A2_3,Accepted,Low,PROD711,In Progress,2011-12-21 13:57:20+00:00,1-627557462
+942,Org line A2,Brazil,se,Lauro,G45 2nd,A2_3,Accepted,Low,PROD711,In Progress,2011-12-21 13:58:06+00:00,1-627557462
+943,Org line A2,Brazil,se,Lauro,G45 2nd,A2_3,Completed,Low,PROD711,Closed,2012-02-01 12:51:37+00:00,1-627557462
+944,Org line C,Sweden,se,Leif,G285 2nd,E_10,Accepted,Medium,PROD646,In Progress,2011-12-21 14:43:03+00:00,1-627630611
+945,Org line C,Sweden,se,Leif,G285 2nd,E_10,Queued,Medium,PROD646,Awaiting Assignment,2011-12-21 14:46:04+00:00,1-627630611
+946,Org line C,Sweden,se,Anil,G285 2nd,E_10,Accepted,Medium,PROD646,In Progress,2011-12-23 08:36:20+00:00,1-627630611
+947,Org line C,Sweden,se,Anil,G285 2nd,E_10,Completed,Medium,PROD646,Closed,2012-01-10 12:49:48+00:00,1-627630611
+948,Org line A2,Sweden,in,Bertil,G31 3rd,A2_4,Accepted,Low,PROD194,In Progress,2011-12-22 09:03:52+00:00,1-627936524
+949,Org line A2,Sweden,in,Bertil,G31 3rd,A2_4,Completed,Low,PROD194,Closed,2012-04-23 09:20:55+00:00,1-627936524
+950,Org line V2,Sweden,se,Tomas,T3 2nd,,Accepted,Low,PROD59,In Progress,2011-12-22 09:26:34+00:00,1-627980711
+951,Org line V2,Sweden,se,Tomas,T3 2nd,,Completed,Low,PROD59,Closed,2012-02-01 14:40:27+00:00,1-627980711
+952,Org line A2,POLAND,pl,Rafal,V10 3rd,D_1,Accepted,Medium,PROD71,In Progress,2011-12-22 10:00:33+00:00,1-627878397
+953,Org line A2,POLAND,pl,Rafal,V10 3rd,D_1,Accepted,Medium,PROD71,In Progress,2012-05-29 11:37:20+00:00,1-627878397
+954,Org line A2,POLAND,pl,Rafal,V10 3rd,D_1,Completed,Medium,PROD71,Closed,2012-05-29 11:38:04+00:00,1-627878397
+955,Org line A2,Sweden,se,Vikrant,G105 2nd,A2_4,Accepted,Medium,PROD337,In Progress,2011-12-22 12:59:52+00:00,1-628078553
+956,Org line A2,Sweden,se,Vikrant,G105 2nd,A2_4,Completed,Medium,PROD337,Closed,2012-04-19 15:42:44+00:00,1-628078553
+957,Org line G4,Sweden,se,Ing-Marie,G51 2nd,,Accepted,High,PROD337,In Progress,2011-12-22 13:57:58+00:00,1-628105478
+958,Org line G4,Sweden,se,Ing-Marie,G51 2nd,,Accepted,High,PROD337,Assigned,2012-02-02 11:54:54+00:00,1-628105478
+959,Org line G4,Sweden,se,Suresh,G51 2nd,,Accepted,High,PROD337,In Progress,2012-04-27 13:39:00+00:00,1-628105478
+960,Org line G4,Sweden,se,Suresh,G51 2nd,,Completed,High,PROD337,Closed,2012-04-27 13:41:34+00:00,1-628105478
+961,Org line C,INDIA,in,-,G165 2nd,E_7,Accepted,Low,PROD424,In Progress,2011-12-22 16:18:37+00:00,1-628203323
+962,Org line C,INDIA,in,-,G165 2nd,E_7,Accepted,Low,PROD424,In Progress,2011-12-22 16:21:45+00:00,1-628203323
+963,Org line C,INDIA,in,Rajkishore,G165 2nd,E_7,Accepted,Low,PROD424,Assigned,2011-12-26 15:36:48+00:00,1-628203323
+964,Org line C,INDIA,in,Rajkishore,G165 2nd,E_7,Accepted,Low,PROD424,In Progress,2011-12-27 10:05:29+00:00,1-628203323
+965,Org line C,INDIA,in,Rajkishore,G165 2nd,E_7,Accepted,Low,PROD424,Wait,2012-01-17 20:43:17+00:00,1-628203323
+966,Org line C,INDIA,in,Rajkishore,G165 2nd,E_7,Accepted,Low,PROD424,In Progress,2012-04-03 20:11:09+00:00,1-628203323
+967,Org line C,INDIA,in,Rajkishore,G165 2nd,E_7,Completed,Low,PROD424,Closed,2012-05-08 01:29:27+00:00,1-628203323
+968,Org line C,Canada,ca,Jay,N19 2nd,,Accepted,Low,PROD424,In Progress,2011-12-22 19:57:48+00:00,1-628222366
+969,Org line C,Canada,ca,Jay,N19 2nd,,Completed,Low,PROD424,Closed,2012-01-18 13:51:27+00:00,1-628222366
+970,Org line C,Canada,ca,Jay,N19 2nd,,Accepted,Low,PROD424,In Progress,2011-12-22 19:59:12+00:00,1-628255780
+971,Org line C,Canada,ca,Jay,N19 2nd,,Completed,Low,PROD424,Closed,2012-01-18 13:51:12+00:00,1-628255780
+972,Org line C,Sweden,se,Peter,G160 2nd,E_7,Accepted,Low,PROD673,In Progress,2011-12-23 09:46:51+00:00,1-628669941
+973,Org line C,Sweden,se,Peter,G160 2nd,E_7,Completed,Low,PROD673,Closed,2012-01-02 08:24:05+00:00,1-628669941
+974,Org line B,Brazil,br,Evane,S12 2nd,E_3,Accepted,Low,PROD551,In Progress,2011-12-23 10:16:00+00:00,1-628704675
+975,Org line B,Brazil,br,Evane,S12 2nd,E_3,Queued,Low,PROD551,Awaiting Assignment,2011-12-23 10:17:34+00:00,1-628704675
+976,Org line B,Brazil,br,Evane,S12 2nd,E_3,Accepted,Low,PROD551,In Progress,2012-01-04 11:45:11+00:00,1-628704675
+977,Org line A2,Brazil,br,Edney,S1 2nd,A2_1,Queued,Low,PROD551,Awaiting Assignment,2012-01-04 11:46:17+00:00,1-628704675
+978,Org line A2,Brazil,br,Ilton,S1 2nd,A2_1,Accepted,Low,PROD551,In Progress,2012-03-30 12:14:17+00:00,1-628704675
+979,Org line A2,Brazil,br,Ilton,S1 2nd,A2_1,Completed,Low,PROD551,Closed,2012-03-30 12:30:41+00:00,1-628704675
+980,Org line C,Sweden,se,Anders,S20 2nd,E_6,Accepted,Low,PROD802,In Progress,2011-12-27 06:53:22+00:00,1-629642635
+981,Org line C,Sweden,se,Anders,S20 2nd,E_6,Accepted,Low,PROD802,In Progress,2011-12-27 06:58:58+00:00,1-629642635
+982,Org line C,Sweden,se,Anders,S20 2nd,E_6,Accepted,Low,PROD802,Wait,2012-02-01 09:14:07+00:00,1-629642635
+983,Org line C,Sweden,se,Anders,S20 2nd,E_6,Accepted,Low,PROD802,In Progress,2012-03-20 13:29:41+00:00,1-629642635
+984,Org line C,Sweden,se,Anders,S20 2nd,E_6,Completed,Low,PROD802,Closed,2012-03-20 13:30:25+00:00,1-629642635
+985,Org line C,Belgium,se,Bart,G57 2nd,E_2,Accepted,High,PROD236,In Progress,2011-12-27 07:06:43+00:00,1-629618537
+986,Org line C,Belgium,se,Bart,G57 2nd,E_2,Accepted,High,PROD236,Assigned,2011-12-27 07:07:18+00:00,1-629618537
+987,Org line C,Belgium,se,Hugo,G57 2nd,E_2,Accepted,High,PROD236,In Progress,2012-02-08 10:33:09+00:00,1-629618537
+988,Org line C,Belgium,se,Hugo,G57 2nd,E_2,Completed,High,PROD236,Closed,2012-02-08 10:40:32+00:00,1-629618537
+989,Org line C,Sweden,us,Christian,G88 2nd,E_4,Accepted,Medium,PROD219,In Progress,2011-12-27 08:05:25+00:00,1-629629428
+990,Org line C,Sweden,us,Christian,G88 2nd,E_4,Accepted,Medium,PROD219,Assigned,2012-02-21 07:04:40+00:00,1-629629428
+991,Org line C,Sweden,us,Christian,G88 2nd,E_4,Accepted,Medium,PROD219,In Progress,2012-05-24 13:40:31+00:00,1-629629428
+992,Org line C,Sweden,us,Christian,G88 2nd,E_4,Completed,Medium,PROD219,Closed,2012-05-24 13:41:49+00:00,1-629629428
+993,Org line C,Sweden,se,Fredrik,G76,E_5,Accepted,Medium,PROD152,In Progress,2011-12-28 03:10:10+00:00,1-629991273
+994,Org line C,Sweden,se,Fredrik,G76,E_5,Accepted,Medium,PROD152,In Progress,2012-02-01 11:01:35+00:00,1-629991273
+995,Org line C,Sweden,se,Fredrik,G76,E_5,Completed,Medium,PROD152,Closed,2012-02-01 11:02:09+00:00,1-629991273
+996,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Accepted,Medium,PROD597,In Progress,2011-12-28 08:27:37+00:00,1-630156753
+997,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Queued,Medium,PROD597,Awaiting Assignment,2011-12-28 08:33:19+00:00,1-630156753
+998,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Accepted,Medium,PROD597,In Progress,2012-02-17 07:59:53+00:00,1-630156753
+999,Org line C,INDIA,in,Vinay,G119 2nd,E_8,Completed,Medium,PROD597,Closed,2012-02-17 08:08:22+00:00,1-630156753
+1000,Org line A2,Sweden,in,Robert,G2 3rd,A2_4,Accepted,High,PROD153,In Progress,2011-12-29 07:18:50+00:00,1-630493188
+1001,Org line A2,Sweden,in,Robert,G2 3rd,A2_4,Completed,High,PROD153,Closed,2012-01-05 14:21:33+00:00,1-630493188
+1002,Org line A2,Sweden,se,Maria,G118 2nd,A2_4,Accepted,Medium,PROD591,In Progress,2011-12-29 12:34:26+00:00,1-631001113
+1003,Org line A2,Sweden,se,Maria,G118 2nd,A2_4,Completed,Medium,PROD591,Closed,2012-01-02 07:23:31+00:00,1-631001113
+1004,Org line C,USA,us,Robert,G88 2nd,E_4,Accepted,High,PROD793,In Progress,2011-12-29 23:45:55+00:00,1-631117870
+1005,Org line C,USA,us,Robert,G88 2nd,E_4,Accepted,High,PROD793,Wait,2011-12-29 23:47:40+00:00,1-631117870
+1006,Org line C,USA,us,Robert,G88 2nd,E_4,Accepted,High,PROD793,Wait,2011-12-29 23:49:46+00:00,1-631117870
+1007,Org line C,USA,us,Robert,G88 2nd,E_4,Queued,High,PROD793,Awaiting Assignment,2012-01-24 08:38:12+00:00,1-631117870
+1008,Org line C,INDIA,us,Garima,G92,E_5,Accepted,High,PROD793,In Progress,2012-01-25 08:53:18+00:00,1-631117870
+1009,Org line C,INDIA,us,Garima,G92,E_5,Accepted,High,PROD793,Wait,2012-01-25 09:21:00+00:00,1-631117870
+1010,Org line C,USA,us,Robert,G88 2nd,E_4,Queued,High,PROD793,Awaiting Assignment,2012-03-07 12:19:55+00:00,1-631117870
+1011,Org line C,Sweden,us,Vaibhav,G88 2nd,E_4,Accepted,High,PROD793,In Progress,2012-03-12 18:24:36+00:00,1-631117870
+1012,Org line C,Sweden,us,Vaibhav,G88 2nd,E_4,Completed,High,PROD793,Closed,2012-03-19 08:54:09+00:00,1-631117870
+1013,Org line G4,Sweden,se,Marlene,M18 2nd,,Accepted,Low,PROD78,In Progress,2011-12-30 14:51:11+00:00,1-631509503
+1014,Org line G4,Sweden,se,Marlene,M18 2nd,,Completed,Low,PROD78,Closed,2012-02-01 13:00:43+00:00,1-631509503
+1015,Org line G4,Sweden,se,Johan,S29 2nd,,Accepted,Low,PROD710,In Progress,2012-01-02 13:13:30+00:00,1-632486751
+1016,Org line G4,Sweden,se,Johan,S29 2nd,,Accepted,Low,PROD710,Assigned,2012-01-24 12:04:38+00:00,1-632486751
+1017,Org line G4,Sweden,se,Johan,S29 2nd,,Accepted,Low,PROD710,In Progress,2012-01-24 12:05:35+00:00,1-632486751
+1018,Org line G4,Sweden,se,Johan,S29 2nd,,Completed,Low,PROD710,Closed,2012-01-24 12:06:57+00:00,1-632486751
+1019,Org line B,INDIA,in,Srinivasan,G230 2nd,E_10,Accepted,Medium,PROD752,In Progress,2012-01-03 13:40:35+00:00,1-633036453
+1020,Org line B,INDIA,in,Srinivasan,G230 2nd,E_10,Queued,Medium,PROD752,Awaiting Assignment,2012-01-03 13:53:17+00:00,1-633036453
+1021,Org line B,INDIA,in,Rijin,G230 2nd,E_10,Accepted,Medium,PROD752,In Progress,2012-01-03 13:54:20+00:00,1-633036453
+1022,Org line B,INDIA,in,Rijin,G230 2nd,E_10,Completed,Medium,PROD752,Closed,2012-02-29 12:48:12+00:00,1-633036453
+1023,Org line C,Sweden,se,Johnny,G57 2nd,E_2,Accepted,Low,PROD329,In Progress,2012-01-03 13:53:21+00:00,1-633092732
+1024,Org line C,Sweden,se,Johnny,G57 2nd,E_2,Accepted,Low,PROD329,In Progress,2012-01-19 06:35:48+00:00,1-633092732
+1025,Org line C,Sweden,se,Johnny,G57 2nd,E_2,Completed,Low,PROD329,Closed,2012-01-19 06:39:52+00:00,1-633092732
+1026,Org line C,USA,us,Sean,G88 2nd,E_4,Accepted,Low,PROD348,In Progress,2012-01-03 20:31:30+00:00,1-633184307
+1027,Org line C,USA,us,Sean,G88 2nd,E_4,Completed,Low,PROD348,Closed,2012-03-14 13:23:58+00:00,1-633184307
+1028,Org line C,INDIA,us,Sathish,G88 2nd,E_4,Accepted,Low,PROD219,In Progress,2012-01-04 09:39:31+00:00,1-634447637
+1029,Org line C,INDIA,us,Sathish,G88 2nd,E_4,Accepted,Low,PROD219,Wait,2012-01-04 09:42:06+00:00,1-634447637
+1030,Org line C,INDIA,us,Sathish,G88 2nd,E_4,Accepted,Low,PROD219,In Progress,2012-01-30 04:05:16+00:00,1-634447637
+1031,Org line C,INDIA,us,Sathish,G88 2nd,E_4,Completed,Low,PROD219,Closed,2012-01-30 04:05:38+00:00,1-634447637
+1032,Org line A2,Belgium,0,Johan,G11 2nd,A2_4,Accepted,Low,PROD765,In Progress,2012-01-04 10:28:12+00:00,1-634479154
+1033,Org line A2,Belgium,0,Johan,G11 2nd,A2_4,Completed,Low,PROD765,Closed,2012-03-06 09:06:32+00:00,1-634479154
+1034,Org line A2,Sweden,se,Vikrant,G105 2nd,A2_4,Accepted,Medium,PROD337,In Progress,2012-01-04 10:50:05+00:00,1-634487640
+1035,Org line A2,Sweden,se,Vikrant,G105 2nd,A2_4,Completed,Medium,PROD337,Closed,2012-01-25 13:31:46+00:00,1-634487640
+1036,Org line C,Sweden,se,Kjell,G346,V3_1,Accepted,Medium,PROD631,In Progress,2012-01-04 11:36:18+00:00,1-634506651
+1037,Org line C,Sweden,se,Kjell,G346,V3_1,Completed,Medium,PROD631,Closed,2012-01-04 11:53:35+00:00,1-634506651
+1038,Org line C,Sweden,se,Peter,G160 2nd,E_7,Accepted,Low,PROD673,In Progress,2012-01-04 12:02:22+00:00,1-634533656
+1039,Org line C,Sweden,se,Peter,G160 2nd,E_7,Completed,Low,PROD673,Closed,2012-01-09 12:11:00+00:00,1-634533656
+1040,Org line C,France,fr,Frederic,G130 3rd,E_6,Accepted,Medium,PROD643,In Progress,2012-01-05 12:27:48+00:00,1-635351501
+1041,Org line C,France,fr,Frederic,G130 3rd,E_6,Completed,Medium,PROD643,Closed,2012-05-14 06:42:53+00:00,1-635351501
+1042,Org line C,Sweden,in,Patrik,G93 2nd,E_4,Accepted,Low,PROD325,In Progress,2012-01-05 13:10:14+00:00,1-635404161
+1043,Org line C,Sweden,in,Patrik,G93 2nd,E_4,Accepted,Low,PROD325,Wait,2012-01-05 13:10:27+00:00,1-635404161
+1044,Org line C,Sweden,in,Patrik,G93 2nd,E_4,Completed,Low,PROD325,Closed,2012-01-24 08:30:20+00:00,1-635404161
+1045,Org line G3,POLAND,us,Ewa,G199 3rd,,Accepted,Medium,PROD98,In Progress,2012-01-05 13:48:54+00:00,1-635382525
+1046,Org line G3,POLAND,us,Ewa,G199 3rd,,Completed,Medium,PROD98,Closed,2012-01-10 14:36:47+00:00,1-635382525
+1047,Org line C,Sweden,us,Prasad,G236 2nd,E_10,Accepted,Medium,PROD494,In Progress,2012-01-06 14:40:03+00:00,1-636080278
+1048,Org line C,Sweden,us,Prasad,G236 2nd,E_10,Queued,Medium,PROD494,Awaiting Assignment,2012-01-06 14:51:57+00:00,1-636080278
+1049,Org line C,Sweden,us,Pushkar,G236 2nd,E_10,Accepted,Medium,PROD494,In Progress,2012-01-06 14:59:41+00:00,1-636080278
+1050,Org line C,POLAND,us,Rafal,G97,V3_2,Queued,Medium,PROD494,Awaiting Assignment,2012-01-06 15:06:24+00:00,1-636080278
+1051,Org line C,Sweden,us,Prasad,G236 2nd,E_10,Queued,Medium,PROD494,Awaiting Assignment,2012-01-09 11:54:45+00:00,1-636080278
+1052,Org line C,Sweden,us,Jitender,G236 2nd,E_10,Accepted,Medium,PROD494,In Progress,2012-01-09 14:28:35+00:00,1-636080278
+1053,Org line C,Sweden,us,Malin,G84 2nd,E_10,Queued,Medium,PROD494,Awaiting Assignment,2012-01-09 14:30:19+00:00,1-636080278
+1054,Org line C,POLAND,us,Jaroslaw,G84 2nd,E_10,Accepted,Medium,PROD494,In Progress,2012-01-10 10:10:26+00:00,1-636080278
+1055,Org line C,USA,us,Aaron,N34,V3_2,Queued,Medium,PROD494,Awaiting Assignment,2012-01-10 10:24:16+00:00,1-636080278
+1056,Org line C,USA,us,Aaron,N34,V3_2,Accepted,Medium,PROD494,In Progress,2012-02-01 14:21:10+00:00,1-636080278
+1057,Org line C,USA,us,Aaron,N34,V3_2,Completed,Medium,PROD494,Closed,2012-02-01 14:21:59+00:00,1-636080278
+1058,Org line C,USA,us,Robert,G88 2nd,E_4,Accepted,Medium,PROD793,In Progress,2012-01-06 15:05:47+00:00,1-636102195
+1059,Org line C,USA,us,Robert,G88 2nd,E_4,Accepted,Medium,PROD793,Wait,2012-01-06 15:15:10+00:00,1-636102195
+1060,Org line C,USA,us,Robert,G88 2nd,E_4,Queued,Medium,PROD793,Awaiting Assignment,2012-01-21 02:17:23+00:00,1-636102195
+1061,Org line C,INDIA,us,Hineesh,G88 2nd,E_4,Accepted,Medium,PROD793,Assigned,2012-02-29 12:04:23+00:00,1-636102195
+1062,Org line C,INDIA,us,Hineesh,G88 2nd,E_4,Accepted,Medium,PROD793,Wait,2012-03-05 15:30:53+00:00,1-636102195
+1063,Org line C,INDIA,us,Hineesh,G88 2nd,E_4,Completed,Medium,PROD793,Closed,2012-03-28 15:51:35+00:00,1-636102195
+1064,Org line G4,Sweden,se,Mikael,S33 2nd,,Accepted,High,PROD374,In Progress,2012-01-07 10:40:01+00:00,1-636501102
+1065,Org line G4,Sweden,se,Mikael,S33 2nd,,Completed,High,PROD374,Closed,2012-01-30 17:01:01+00:00,1-636501102
+1066,Org line G1,Sweden,se,Karin,G358 2nd,E_6,Accepted,Major,PROD292,In Progress,2012-01-09 06:56:13+00:00,1-636789520
+1067,Org line G1,Sweden,se,Karin,G358 2nd,E_6,Completed,Major,PROD292,Closed,2012-02-20 07:57:45+00:00,1-636789520
+1068,Org line A2,POLAND,pl,Beata,W15 2nd,A2_1,Accepted,Medium,PROD509,In Progress,2012-01-09 07:30:45+00:00,1-636849620
+1069,Org line A2,POLAND,pl,Beata,W15 2nd,A2_1,Accepted,Medium,PROD509,Assigned,2012-01-09 07:33:25+00:00,1-636849620
+1070,Org line A2,POLAND,pl,Beata,W15 2nd,A2_1,Accepted,Medium,PROD509,In Progress,2012-02-17 07:57:41+00:00,1-636849620
+1071,Org line A2,POLAND,pl,Beata,W15 2nd,A2_1,Accepted,Medium,PROD509,Wait,2012-03-28 11:25:34+00:00,1-636849620
+1072,Org line A2,POLAND,pl,Beata,W15 2nd,A2_1,Completed,Medium,PROD509,Closed,2012-03-30 13:14:33+00:00,1-636849620
+1073,Org line A2,Sweden,se,Ann,G349 3rd,A2_3,Accepted,Medium,PROD40,In Progress,2012-01-09 08:07:32+00:00,1-636867758
+1074,Org line A2,Sweden,se,Ann,G349 3rd,A2_3,Completed,Medium,PROD40,Closed,2012-03-30 11:14:54+00:00,1-636867758
+1075,Org line C,Sweden,in,Jitender,G263 2nd,E_10,Accepted,High,PROD494,In Progress,2012-01-09 09:19:06+00:00,1-636931254
+1076,Org line C,Sweden,in,Jitender,G263 2nd,E_10,Accepted,High,PROD494,In Progress,2012-01-09 09:21:20+00:00,1-636931254
+1077,Org line C,Sweden,in,Jitender,G263 2nd,E_10,Accepted,High,PROD494,In Progress,2012-01-09 10:44:21+00:00,1-636931254
+1078,Org line C,Sweden,in,Prasad,G236 2nd,E_10,Queued,High,PROD494,Awaiting Assignment,2012-01-09 10:45:27+00:00,1-636931254
+1079,Org line C,Sweden,in,Jitender,G263 2nd,E_10,Accepted,High,PROD494,In Progress,2012-01-09 10:45:51+00:00,1-636931254
+1080,Org line C,Sweden,in,Prasad,G236 2nd,E_10,Queued,High,PROD494,Awaiting Assignment,2012-01-09 10:46:05+00:00,1-636931254
+1081,Org line C,Sweden,in,Jitender,G236 2nd,E_10,Accepted,High,PROD494,In Progress,2012-01-09 10:46:41+00:00,1-636931254
+1082,Org line C,Sweden,in,Jitender,G236 2nd,E_10,Completed,High,PROD494,Closed,2012-01-09 11:59:51+00:00,1-636931254
+1083,Org line C,Sweden,in,Jitender,G263 2nd,E_10,Accepted,High,PROD494,In Progress,2012-01-24 13:00:13+00:00,1-636931254
+1084,Org line C,Sweden,in,Prasad,G236 2nd,E_10,Queued,High,PROD494,Awaiting Assignment,2012-01-24 13:05:59+00:00,1-636931254
+1085,Org line C,Sweden,in,Jitender,G263 2nd,E_10,Accepted,High,PROD494,In Progress,2012-01-24 13:06:00+00:00,1-636931254
+1086,Org line C,Sweden,in,Jitender,G236 2nd,E_10,Accepted,High,PROD494,In Progress,2012-01-24 13:07:11+00:00,1-636931254
+1087,Org line C,Sweden,in,Jitender,G236 2nd,E_10,Completed,High,PROD494,Closed,2012-01-24 13:23:47+00:00,1-636931254
+1088,Org line C,Sweden,in,Jitender,G263 2nd,E_10,Accepted,High,PROD494,In Progress,2012-02-09 09:00:51+00:00,1-636931254
+1089,Org line C,Sweden,in,Prasad,G236 2nd,E_10,Accepted,High,PROD494,Assigned,2012-02-09 09:01:34+00:00,1-636931254
+1090,Org line C,Sweden,in,Jitender,G236 2nd,E_10,Accepted,High,PROD494,In Progress,2012-02-09 09:01:40+00:00,1-636931254
+1091,Org line C,Sweden,in,Jitender,G236 2nd,E_10,Completed,High,PROD494,Closed,2012-02-09 09:14:43+00:00,1-636931254
+1092,Org line C,Sweden,in,Jitender,G236 2nd,E_10,Accepted,High,PROD494,In Progress,2012-02-09 10:35:52+00:00,1-636931254
+1093,Org line C,Sweden,in,Jitender,G236 2nd,E_10,Completed,High,PROD494,Closed,2012-02-09 10:37:52+00:00,1-636931254
+1094,Org line A2,POLAND,pl,Radoslaw,N26 2nd,A2_3,Accepted,Medium,PROD791,Assigned,2012-01-09 09:34:33+00:00,1-636852199
+1095,Org line A2,POLAND,pl,Miroslawa,N26 2nd,A2_3,Accepted,Medium,PROD791,Assigned,2012-01-10 05:21:49+00:00,1-636852199
+1096,Org line A2,POLAND,pl,Miroslawa,N26 2nd,A2_3,Accepted,Medium,PROD791,In Progress,2012-01-13 09:15:44+00:00,1-636852199
+1097,Org line A2,POLAND,pl,Miroslawa,N26 2nd,A2_3,Completed,Medium,PROD791,Closed,2012-01-17 13:45:12+00:00,1-636852199
+1098,Org line G4,Sweden,se,Lars,S33 2nd,,Accepted,High,PROD448,In Progress,2012-01-09 10:42:24+00:00,1-637035141
+1099,Org line G4,Sweden,se,Lars,S33 2nd,,Completed,High,PROD448,Closed,2012-04-11 13:27:17+00:00,1-637035141
+1100,Org line G3,POLAND,us,Ewa,G199 3rd,,Accepted,Medium,PROD98,In Progress,2012-01-09 10:55:12+00:00,1-637059802
+1101,Org line G3,POLAND,us,Ewa,G199 3rd,,Completed,Medium,PROD98,Closed,2012-01-09 10:55:57+00:00,1-637059802
+1102,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,Medium,PROD236,In Progress,2012-01-09 11:49:14+00:00,1-637089310
+1103,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,Medium,PROD236,Assigned,2012-01-09 11:52:21+00:00,1-637089310
+1104,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,Medium,PROD236,In Progress,2012-02-14 14:02:15+00:00,1-637089310
+1105,Org line A2,United Kingdom,gb,Timothy,G42 3rd,A2_1,Accepted,Medium,PROD236,In Progress,2012-02-16 12:15:37+00:00,1-637089310
+1106,Org line A2,United Kingdom,gb,Timothy,G42 3rd,A2_1,Completed,Medium,PROD236,Closed,2012-02-16 12:16:32+00:00,1-637089310
+1107,Org line A2,POLAND,gb,Anna,G42 3rd,A2_1,Accepted,Medium,PROD236,In Progress,2012-04-02 15:15:53+00:00,1-637089310
+1108,Org line A2,POLAND,gb,Anna,G42 3rd,A2_1,Completed,Medium,PROD236,Closed,2012-04-02 15:16:13+00:00,1-637089310
+1109,Org line C,Sweden,in,Daniel,G157 2nd,E_7,Accepted,Low,PROD674,In Progress,2012-01-09 12:33:58+00:00,1-637142120
+1110,Org line C,Sweden,in,Daniel,G157 2nd,E_7,Completed,Low,PROD674,Closed,2012-01-09 12:38:43+00:00,1-637142120
+1111,Org line A2,POLAND,in,Bartlomiej,J7 2nd,A2_2,Accepted,Medium,PROD471,In Progress,2012-01-09 13:43:27+00:00,1-637222863
+1112,Org line A2,POLAND,in,Bartlomiej,J7 2nd,A2_2,Accepted,Medium,PROD471,In Progress,2012-01-09 13:44:50+00:00,1-637222863
+1113,Org line A2,POLAND,in,Bartlomiej,J7 2nd,A2_2,Queued,Medium,PROD471,Awaiting Assignment,2012-01-09 13:51:23+00:00,1-637222863
+1114,Org line C,Sweden,in,Jitender,G236 2nd,E_10,Accepted,Medium,PROD471,In Progress,2012-01-09 13:59:22+00:00,1-637222863
+1115,Org line C,Sweden,in,Jitender,G236 2nd,E_10,Completed,Medium,PROD471,Closed,2012-01-09 14:01:12+00:00,1-637222863
+1116,Org line A2,Sweden,se,Agneta,U6 2nd,A2_3,Accepted,Major,PROD831,In Progress,2012-01-09 15:38:33+00:00,1-637283508
+1117,Org line A2,Sweden,se,Agneta,U6 2nd,A2_3,Queued,Major,PROD831,Awaiting Assignment,2012-01-09 15:39:16+00:00,1-637283508
+1118,Org line A2,Sweden,se,Agneta,U6 2nd,A2_3,Accepted,Major,PROD831,In Progress,2012-01-10 11:16:38+00:00,1-637283508
+1119,Org line A2,Sweden,se,Agneta,U6 2nd,A2_3,Completed,Major,PROD831,Closed,2012-01-10 11:22:40+00:00,1-637283508
+1120,Org line C,USA,se,Robert,G248 3rd,C_6,Queued,High,PROD585,Awaiting Assignment,2012-01-09 16:17:37+00:00,1-637307494
+1121,Org line C,Belgium,se,Roger,G273 3rd,C_6,Accepted,High,PROD585,In Progress,2012-01-16 15:45:37+00:00,1-637307494
+1122,Org line C,Belgium,se,Roger,G273 3rd,C_6,Completed,High,PROD585,Closed,2012-02-10 14:39:17+00:00,1-637307494
+1123,Org line C,France,fr,Florent,V43 3rd,C_5,Accepted,High,PROD609,In Progress,2012-01-09 18:10:00+00:00,1-637327254
+1124,Org line C,France,fr,Florent,V43 3rd,C_5,Completed,High,PROD609,Closed,2012-03-14 11:50:13+00:00,1-637327254
+1125,Org line C,USA,in,Robert,G248 3rd,C_6,Accepted,High,PROD585,In Progress,2012-01-10 04:34:32+00:00,1-637516103
+1126,Org line C,USA,in,Robert,G248 3rd,C_6,Queued,High,PROD585,Awaiting Assignment,2012-01-10 04:39:30+00:00,1-637516103
+1127,Org line C,INDIA,in,Sonu,G77,E_5,Accepted,High,PROD585,In Progress,2012-01-10 08:43:57+00:00,1-637516103
+1128,Org line C,INDIA,in,Sonu,G77,E_5,Completed,High,PROD585,Closed,2012-01-10 08:49:47+00:00,1-637516103
+1129,Org line V2,Sweden,se,Tomas,T3 2nd,,Accepted,Low,PROD61,In Progress,2012-01-10 07:55:05+00:00,1-637591141
+1130,Org line V2,Sweden,se,Tomas,T3 2nd,,Completed,Low,PROD61,Closed,2012-02-29 11:21:30+00:00,1-637591141
+1131,Org line C,INDIA,us,J,G88 2nd,E_4,Accepted,Medium,PROD815,In Progress,2012-01-10 08:32:32+00:00,1-637580967
+1132,Org line C,INDIA,us,J,G88 2nd,E_4,Accepted,Medium,PROD815,Wait,2012-01-10 08:39:27+00:00,1-637580967
+1133,Org line C,INDIA,us,J,G88 2nd,E_4,Completed,Medium,PROD815,Closed,2012-01-18 04:47:11+00:00,1-637580967
+1134,Org line G4,Sweden,se,Göran,S33 2nd,,Accepted,Medium,PROD527,In Progress,2012-01-10 09:07:38+00:00,1-637685994
+1135,Org line G4,Sweden,se,Göran,S33 2nd,,Completed,Medium,PROD527,Closed,2012-03-19 10:17:49+00:00,1-637685994
+1136,Org line G4,Sweden,se,Göran,S33 2nd,,Accepted,Medium,PROD527,In Progress,2012-03-26 13:03:30+00:00,1-637685994
+1137,Org line G4,Sweden,se,Göran,S33 2nd,,Completed,Medium,PROD527,Closed,2012-05-19 12:58:35+00:00,1-637685994
+1138,Org line G4,Sweden,se,Håkan,S33 2nd,,Accepted,Low,PROD397,In Progress,2012-01-10 09:27:07+00:00,1-637713651
+1139,Org line G4,Sweden,se,Håkan,S33 2nd,,Completed,Low,PROD397,Closed,2012-01-13 11:32:34+00:00,1-637713651
+1140,Org line A2,Sweden,us,Daniel Alf,L23 3rd,A2_4,Accepted,Low,PROD546,In Progress,2012-01-10 09:28:32+00:00,1-637716645
+1141,Org line A2,Sweden,us,Daniel Alf,L23 3rd,A2_4,Completed,Low,PROD546,Closed,2012-01-20 09:10:31+00:00,1-637716645
+1142,Org line C,Sweden,se,Ann-Charlotte,G138 2nd,E_10,Accepted,Low,PROD802,In Progress,2012-01-10 10:11:08+00:00,1-637713545
+1143,Org line C,Sweden,se,Ann-Charlotte,G138 2nd,E_10,Queued,Low,PROD802,Awaiting Assignment,2012-01-10 10:16:22+00:00,1-637713545
+1144,Org line C,Sweden,se,Johan,G138 2nd,E_10,Accepted,Low,PROD802,In Progress,2012-01-10 10:55:59+00:00,1-637713545
+1145,Org line C,Sweden,se,Johan,G138 2nd,E_10,Accepted,Low,PROD802,Wait,2012-01-10 10:59:10+00:00,1-637713545
+1146,Org line C,Sweden,se,Johan,G138 2nd,E_10,Completed,Low,PROD802,Closed,2012-01-10 14:25:25+00:00,1-637713545
+1147,Org line G4,Sweden,se,Samira,S33 2nd,,Accepted,Medium,PROD448,In Progress,2012-01-10 13:05:54+00:00,1-637893062
+1148,Org line G4,Sweden,se,Samira,S33 2nd,,Accepted,Medium,PROD448,Assigned,2012-01-27 14:52:26+00:00,1-637893062
+1149,Org line G4,Sweden,se,Samira,S33 2nd,,Accepted,Medium,PROD448,In Progress,2012-03-12 15:22:26+00:00,1-637893062
+1150,Org line G4,Sweden,se,Samira,S33 2nd,,Completed,Medium,PROD448,Closed,2012-03-12 15:22:39+00:00,1-637893062
+1151,Org line G3,POLAND,us,Ewa,G199 3rd,,Accepted,Medium,PROD97,In Progress,2012-01-10 14:19:55+00:00,1-637954950
+1152,Org line G3,POLAND,us,Ewa,G199 3rd,,Completed,Medium,PROD97,Closed,2012-01-10 14:28:56+00:00,1-637954950
+1153,Org line C,Sweden,se,Roger,G268 3rd,C_6,Accepted,Low,PROD805,In Progress,2012-01-10 15:35:02+00:00,1-638034021
+1154,Org line C,Sweden,se,Roger,G268 3rd,C_6,Completed,Low,PROD805,Closed,2012-02-29 13:18:51+00:00,1-638034021
+1155,Org line C,INDIA,in,Srinivasa,G165 2nd,E_7,Accepted,Medium,PROD671,In Progress,2012-01-10 15:53:52+00:00,1-638041299
+1156,Org line C,INDIA,in,Srinivasa,G165 2nd,E_7,Completed,Medium,PROD671,Closed,2012-02-18 11:32:07+00:00,1-638041299
+1157,Org line C,Sweden,se,Peter,G160 2nd,E_7,Accepted,Major,PROD327,In Progress,2012-01-10 18:56:40+00:00,1-638091067
+1158,Org line C,Sweden,se,Peter,G160 2nd,E_7,Completed,Major,PROD327,Closed,2012-01-13 14:46:25+00:00,1-638091067
+1159,Org line C,Sweden,se,Peter,G160 2nd,E_7,Accepted,Major,PROD327,In Progress,2012-01-13 15:55:17+00:00,1-638091067
+1160,Org line C,Sweden,se,Peter,G160 2nd,E_7,Accepted,Major,PROD327,Wait,2012-01-13 15:57:02+00:00,1-638091067
+1161,Org line C,Sweden,se,Peter,G160 2nd,E_7,Queued,Major,PROD327,Awaiting Assignment,2012-01-16 14:55:28+00:00,1-638091067
+1162,Org line C,Sweden,se,Sofie,G160 2nd,E_7,Accepted,Major,PROD327,In Progress,2012-01-17 13:57:56+00:00,1-638091067
+1163,Org line C,Sweden,se,Peter,G160 2nd,E_7,Accepted,Major,PROD327,Assigned,2012-01-18 09:14:25+00:00,1-638091067
+1164,Org line C,Sweden,se,Peter,G160 2nd,E_7,Accepted,Major,PROD327,In Progress,2012-04-16 10:09:13+00:00,1-638091067
+1165,Org line C,Sweden,se,Peter,G160 2nd,E_7,Completed,Major,PROD327,Closed,2012-04-16 10:09:14+00:00,1-638091067
+1166,Org line A2,Sweden,in,Sara,L50 3rd,D_1,Accepted,Medium,PROD611,In Progress,2012-01-10 21:07:22+00:00,1-638112911
+1167,Org line A2,Sweden,in,Sara,L50 3rd,D_1,Completed,Medium,PROD611,Closed,2012-01-18 09:43:12+00:00,1-638112911
+1168,Org line C,Sweden,se,Awneesh,G269 3rd,C_6,Accepted,Medium,PROD621,In Progress,2012-01-11 08:11:44+00:00,1-638653931
+1169,Org line C,Sweden,se,Awneesh,G269 3rd,C_6,Completed,Medium,PROD621,Closed,2012-02-15 06:57:41+00:00,1-638653931
+1170,Org line C,INDIA,in,Tapan,G87 2nd,E_4,Accepted,Low,PROD565,In Progress,2012-01-11 14:28:25+00:00,1-638962731
+1171,Org line C,INDIA,in,Tapan,G87 2nd,E_4,Accepted,Low,PROD565,Assigned,2012-01-11 14:29:40+00:00,1-638962731
+1172,Org line C,INDIA,in,Tapan,G87 2nd,E_4,Accepted,Low,PROD565,In Progress,2012-01-11 14:37:08+00:00,1-638962731
+1173,Org line C,INDIA,in,Tapan,G87 2nd,E_4,Completed,Low,PROD565,Closed,2012-02-09 09:49:27+00:00,1-638962731
+1174,Org line A2,Sweden,se,Joakim,G362 3rd,A2_3,Accepted,Medium,PROD241,In Progress,2012-01-11 15:40:25+00:00,1-638961317
+1175,Org line A2,Sweden,se,Joakim,G362 3rd,A2_3,Completed,Medium,PROD241,Closed,2012-03-28 11:07:16+00:00,1-638961317
+1176,Org line C,USA,us,William,G14 3rd,C_1,Accepted,High,PROD332,In Progress,2012-01-11 16:18:07+00:00,1-639028876
+1177,Org line C,USA,us,William,G14 3rd,C_1,Completed,High,PROD332,Closed,2012-02-15 13:15:37+00:00,1-639028876
+1178,Org line V11,United Kingdom,gb,James,V50 2nd,,Accepted,Medium,PROD158,In Progress,2012-01-11 16:21:57+00:00,1-639009338
+1179,Org line V11,United Kingdom,gb,James,V50 2nd,,Accepted,Medium,PROD158,In Progress,2012-04-24 13:31:03+00:00,1-639009338
+1180,Org line V11,United Kingdom,gb,James,V50 2nd,,Completed,Medium,PROD158,Closed,2012-04-24 13:33:37+00:00,1-639009338
+1181,Org line V2,Sweden,se,Cecilia,T13 2nd,,Accepted,Low,PROD399,In Progress,2012-01-12 07:51:54+00:00,1-639870000
+1182,Org line V2,Sweden,se,Cecilia,T13 2nd,,Completed,Low,PROD399,Closed,2012-04-12 05:19:20+00:00,1-639870000
+1183,Org line C,Sweden,se,Peter,G160 2nd,E_7,Accepted,High,PROD673,In Progress,2012-01-12 08:13:47+00:00,1-639881579
+1184,Org line C,Sweden,se,Peter,G160 2nd,E_7,Completed,High,PROD673,Closed,2012-02-06 07:15:37+00:00,1-639881579
+1185,Org line C,Belgium,be,Peter,G56 3rd,C_1,Accepted,Medium,PROD816,In Progress,2012-01-12 09:51:17+00:00,1-639930880
+1186,Org line C,Belgium,be,Peter,G56 3rd,C_1,Queued,Medium,PROD816,Awaiting Assignment,2012-01-12 10:03:05+00:00,1-639930880
+1187,Org line C,INDIA,be,Prasanth,G55 2nd,E_1,Accepted,Medium,PROD816,In Progress,2012-01-12 10:57:00+00:00,1-639930880
+1188,Org line C,Belgium,be,Peter,G56 3rd,C_1,Queued,Medium,PROD816,Awaiting Assignment,2012-01-12 11:00:10+00:00,1-639930880
+1189,Org line C,Sweden,be,Karin,G56 3rd,C_1,Accepted,Medium,PROD816,In Progress,2012-01-17 14:34:13+00:00,1-639930880
+1190,Org line C,INDIA,be,Prasanth,G55 2nd,E_1,Accepted,Medium,PROD816,In Progress,2012-01-18 08:03:29+00:00,1-639930880
+1191,Org line C,INDIA,be,Prasanth,G55 2nd,E_1,Completed,Medium,PROD816,Closed,2012-01-18 08:20:58+00:00,1-639930880
+1192,Org line C,France,se,Fabrice,G153 2nd,E_7,Accepted,Medium,PROD673,In Progress,2012-01-12 10:16:10+00:00,1-639942581
+1193,Org line C,France,se,Fabrice,G153 2nd,E_7,Accepted,Medium,PROD673,Wait,2012-02-07 10:40:16+00:00,1-639942581
+1194,Org line C,France,se,Fabrice,G153 2nd,E_7,Accepted,Medium,PROD673,In Progress,2012-02-15 14:16:52+00:00,1-639942581
+1195,Org line C,France,se,Fabrice,G153 2nd,E_7,Completed,Medium,PROD673,Closed,2012-02-15 14:51:00+00:00,1-639942581
+1196,Org line C,France,fr,Bruno,V29 2nd,E_6,Accepted,Medium,PROD673,In Progress,2012-01-12 11:24:50+00:00,1-640059801
+1197,Org line C,France,fr,Bruno,V29 2nd,E_6,Completed,Medium,PROD673,Closed,2012-01-12 11:26:04+00:00,1-640059801
+1198,Org line C,Sweden,se,Anders,S52 2nd,E_10,Accepted,High,PROD626,In Progress,2012-01-12 12:18:09+00:00,1-640093069
+1199,Org line C,Sweden,se,Anders,S52 2nd,E_10,Queued,High,PROD626,Awaiting Assignment,2012-01-12 12:19:07+00:00,1-640093069
+1200,Org line C,Sweden,se,Anders,M7 2nd,C_6,Accepted,High,PROD626,In Progress,2012-01-16 11:32:48+00:00,1-640093069
+1201,Org line C,Sweden,se,Anders,M7 2nd,C_6,Completed,High,PROD626,Closed,2012-01-16 11:34:09+00:00,1-640093069
+1202,Org line C,Sweden,se,Camilla,S37,V3_2,Accepted,High,PROD626,In Progress,2012-02-22 13:36:49+00:00,1-640093069
+1203,Org line C,Sweden,se,Anders,S52 2nd,E_10,Queued,High,PROD626,Awaiting Assignment,2012-02-22 13:37:26+00:00,1-640093069
+1204,Org line C,Sweden,se,Ewa,S25,V3_2,Accepted,High,PROD626,In Progress,2012-02-22 14:33:48+00:00,1-640093069
+1205,Org line C,Sweden,se,Ewa,S25,V3_2,Completed,High,PROD626,Closed,2012-02-22 14:36:00+00:00,1-640093069
+1206,Org line C,USA,se,Robert,G88 2nd,E_4,Accepted,Major,PROD348,In Progress,2012-01-12 15:14:39+00:00,1-640254885
+1207,Org line C,USA,se,Robert,G88 2nd,E_4,Queued,Major,PROD348,Awaiting Assignment,2012-01-12 15:15:03+00:00,1-640254885
+1208,Org line C,Sweden,se,Kennet,M28 2nd,E_1,Accepted,Major,PROD348,In Progress,2012-01-12 15:34:16+00:00,1-640254885
+1209,Org line C,Sweden,se,Kennet,M28 2nd,E_1,Completed,Major,PROD348,Closed,2012-01-12 15:44:37+00:00,1-640254885
+1210,Org line C,Sweden,se,Kennet,M28 2nd,E_1,Accepted,Major,PROD348,In Progress,2012-01-13 09:28:54+00:00,1-640254885
+1211,Org line C,Sweden,se,Kennet,M28 2nd,E_1,Completed,Major,PROD348,Closed,2012-01-13 09:45:08+00:00,1-640254885
+1212,Org line G3,POLAND,us,Ewa,G199 3rd,,Accepted,Medium,PROD97,In Progress,2012-01-12 16:53:13+00:00,1-640263496
+1213,Org line G3,POLAND,us,Ewa,G199 3rd,,Completed,Medium,PROD97,Closed,2012-01-12 16:55:13+00:00,1-640263496
+1214,Org line C,Sweden,se,Ann-Charlotte,G138 2nd,E_10,Accepted,Medium,PROD802,In Progress,2012-01-12 21:20:38+00:00,1-640387614
+1215,Org line C,Sweden,se,Ann-Charlotte,G138 2nd,E_10,Accepted,Medium,PROD802,In Progress,2012-01-12 21:21:07+00:00,1-640387614
+1216,Org line C,Sweden,se,Ann-Charlotte,G138 2nd,E_10,Queued,Medium,PROD802,Awaiting Assignment,2012-01-12 21:22:43+00:00,1-640387614
+1217,Org line C,Sweden,se,Christer,G290 3rd,C_6,Accepted,Medium,PROD802,In Progress,2012-01-13 05:57:31+00:00,1-640387614
+1218,Org line C,Sweden,se,Anders,S40,E_5,Completed,Medium,PROD802,Cancelled,2012-01-13 06:02:16+00:00,1-640387614
+1219,Org line C,Sweden,se,Jens,G80,E_5,Accepted,Medium,PROD802,In Progress,2012-01-13 21:24:04+00:00,1-640387614
+1220,Org line C,Sweden,se,Ann-Charlotte,G138 2nd,E_10,Queued,Medium,PROD802,Awaiting Assignment,2012-01-13 21:25:40+00:00,1-640387614
+1221,Org line C,Sweden,se,Christer,G290 3rd,C_6,Accepted,Medium,PROD802,In Progress,2012-01-16 11:04:46+00:00,1-640387614
+1222,Org line C,Sweden,se,Christer,G290 3rd,C_6,Accepted,Medium,PROD802,Wait,2012-01-16 11:06:56+00:00,1-640387614
+1223,Org line C,Sweden,se,Christer,G290 3rd,C_6,Completed,Medium,PROD802,Closed,2012-01-30 08:59:34+00:00,1-640387614
+1224,Org line G4,Sweden,se,Rickard,S33 2nd,,Accepted,Medium,PROD374,In Progress,2012-01-13 07:04:43+00:00,1-641023492
+1225,Org line G4,Sweden,se,Rickard,S33 2nd,,Completed,Medium,PROD374,Closed,2012-01-26 12:51:59+00:00,1-641023492
+1226,Org line C,Sweden,se,Ilias,G268 3rd,C_6,Accepted,Low,PROD802,In Progress,2012-01-13 07:23:38+00:00,1-641044311
+1227,Org line C,Sweden,se,Ilias,G268 3rd,C_6,Accepted,Low,PROD802,In Progress,2012-01-13 07:24:46+00:00,1-641044311
+1228,Org line C,Sweden,se,Ilias,G268 3rd,C_6,Completed,Low,PROD802,Closed,2012-02-15 09:52:31+00:00,1-641044311
+1229,Org line G4,Sweden,se,David,S30 2nd,,Accepted,Medium,PROD412,In Progress,2012-01-13 08:10:14+00:00,1-641083751
+1230,Org line G4,Sweden,se,David,S30 2nd,,Accepted,Medium,PROD412,Assigned,2012-01-13 08:17:04+00:00,1-641083751
+1231,Org line G4,Sweden,se,David,S30 2nd,,Accepted,Medium,PROD412,In Progress,2012-01-22 22:36:47+00:00,1-641083751
+1232,Org line G4,Sweden,se,David,S30 2nd,,Completed,Medium,PROD412,Closed,2012-01-22 22:37:57+00:00,1-641083751
+1233,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Accepted,Medium,PROD461,In Progress,2012-01-13 08:43:08+00:00,1-641100891
+1234,Org line A2,Sweden,se,Lisbeth,A10,A2_5,Completed,Medium,PROD461,Closed,2012-01-17 07:47:44+00:00,1-641100891
+1235,Org line G4,Sweden,se,David,S30 2nd,,Accepted,Medium,PROD412,In Progress,2012-01-13 08:43:55+00:00,1-641083987
+1236,Org line G4,Sweden,se,David,S30 2nd,,Accepted,Medium,PROD412,Assigned,2012-01-13 08:47:37+00:00,1-641083987
+1237,Org line G4,Sweden,se,David,S30 2nd,,Accepted,Medium,PROD412,In Progress,2012-05-17 08:54:33+00:00,1-641083987
+1238,Org line G4,Sweden,se,David,S30 2nd,,Completed,Medium,PROD412,Closed,2012-05-17 08:54:35+00:00,1-641083987
+1239,Org line C,Sweden,se,Magnus,M25,V3_2,Accepted,Medium,PROD815,In Progress,2012-01-13 09:18:36+00:00,1-641157962
+1240,Org line C,Sweden,se,Magnus,M25,V3_2,Completed,Medium,PROD815,Closed,2012-05-16 09:46:01+00:00,1-641157962
+1241,Org line C,Sweden,se,Dan,G241 3rd,C_6,Accepted,Major,PROD214,In Progress,2012-01-13 09:45:27+00:00,1-641104060
+1242,Org line C,Sweden,se,Dan,G241 3rd,C_6,Queued,Major,PROD214,Awaiting Assignment,2012-01-13 10:32:14+00:00,1-641104060
+1243,Org line C,Sweden,se,Dan,G241 3rd,C_6,Accepted,Major,PROD214,In Progress,2012-03-02 09:15:13+00:00,1-641104060
+1244,Org line C,Sweden,se,Dan,G241 3rd,C_6,Completed,Major,PROD214,Closed,2012-03-02 09:30:45+00:00,1-641104060
+1245,Org line C,Sweden,se,Andreas,G253 2nd,E_10,Accepted,Medium,PROD683,In Progress,2012-01-13 11:00:21+00:00,1-641232069
+1246,Org line C,Sweden,se,Andreas,G253 2nd,E_10,Queued,Medium,PROD683,Awaiting Assignment,2012-01-13 11:01:04+00:00,1-641232069
+1247,Org line C,Sweden,se,Alexander,G253 2nd,E_10,Accepted,Medium,PROD683,In Progress,2012-01-13 11:17:28+00:00,1-641232069
+1248,Org line C,Sweden,se,Daniel,G254 3rd,C_6,Queued,Medium,PROD683,Awaiting Assignment,2012-01-13 11:18:05+00:00,1-641232069
+1249,Org line C,Sweden,se,Per,G254 3rd,C_6,Accepted,Medium,PROD683,Assigned,2012-01-13 15:10:30+00:00,1-641232069
+1250,Org line C,Sweden,se,Per,G254 3rd,C_6,Accepted,Medium,PROD683,In Progress,2012-01-16 12:06:28+00:00,1-641232069
+1251,Org line C,Sweden,se,Per,G254 3rd,C_6,Completed,Medium,PROD683,Closed,2012-01-19 09:36:02+00:00,1-641232069
+1252,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,Medium,PROD236,In Progress,2012-01-13 11:26:50+00:00,1-641243011
+1253,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,Medium,PROD236,Assigned,2012-01-13 11:30:57+00:00,1-641243011
+1254,Org line A2,POLAND,gb,Tomasz,G42 3rd,A2_1,Accepted,Medium,PROD236,In Progress,2012-02-01 11:00:33+00:00,1-641243011
+1255,Org line A2,United Kingdom,gb,Ian,G42 3rd,A2_1,Accepted,Medium,PROD236,Assigned,2012-02-01 11:53:18+00:00,1-641243011
+1256,Org line A2,POLAND,gb,Tomasz,G42 3rd,A2_1,Accepted,Medium,PROD236,In Progress,2012-02-02 11:20:48+00:00,1-641243011
+1257,Org line A2,POLAND,gb,Tomasz,G42 3rd,A2_1,Completed,Medium,PROD236,Closed,2012-02-02 11:22:16+00:00,1-641243011
+1258,Org line G4,Sweden,se,Roland,S33 2nd,,Accepted,High,PROD374,In Progress,2012-01-13 12:25:52+00:00,1-641323677
+1259,Org line G4,Sweden,se,Roland,S33 2nd,,Accepted,High,PROD374,Assigned,2012-01-13 12:27:12+00:00,1-641323677
+1260,Org line G4,Sweden,se,Roland,S33 2nd,,Accepted,High,PROD374,In Progress,2012-01-13 14:30:14+00:00,1-641323677
+1261,Org line G4,Sweden,se,Roland,S33 2nd,,Completed,High,PROD374,Closed,2012-01-17 07:19:24+00:00,1-641323677
+1262,Org line A2,Sweden,se,Maria,G118 2nd,A2_4,Accepted,Medium,PROD591,In Progress,2012-01-13 12:40:59+00:00,1-641306231
+1263,Org line A2,Sweden,se,Maria,G118 2nd,A2_4,Completed,Medium,PROD591,Closed,2012-01-16 11:40:15+00:00,1-641306231

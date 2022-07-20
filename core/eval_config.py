@@ -28,7 +28,10 @@ def load():
 
     # data
     parser.add_argument('--data_set', default="test.csv")
+    parser.add_argument('--p_data_set', default="test.csv")
     parser.add_argument('--data_dir', default="../testsets/")
+    parser.add_argument('--test_data_set', default="test.csv")
+    parser.add_argument('--test_data_dir', default="../testsets/")
     parser.add_argument('--checkpoint_dir', default="./checkpoints/")
 
     # perspectives

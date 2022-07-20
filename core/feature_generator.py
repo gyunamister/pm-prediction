@@ -41,22 +41,22 @@ class FeatureGenerator(object):
     df_log = pd.read_csv(filepath_or_buffer=path, header=0, sep=sep)#, index_col=0)
     columns = list()
     rename_columns = list()
-    columns.append("CASE_ID")
+    columns.append("case:concept:name")
     rename_columns.append("id")
     if config["control_flow_p"]==True:
-      columns.append("Activity")
+      columns.append("concept:name")
       rename_columns.append("activity")
     if config["resource_p"]==True:
-      columns.append("Resource")
+      columns.append("org:resource")
       rename_columns.append("resource")
     if config["time_p"]==True:
       if config["transition"]==True:
         columns.append("StartTimestamp")
         rename_columns.append("start_timestamp")
-        columns.append("CompleteTimestamp")
+        columns.append("time:timestamp")
         rename_columns.append("complete_timestamp")
       else:
-        columns.append("CompleteTimestamp")
+        columns.append("time:timestamp")
         rename_columns.append("complete_timestamp")
     if config["data_p"]==True:
       pass
@@ -139,7 +139,7 @@ class FeatureGenerator(object):
 
     for i in range(1, num_rows):
       if df.at[i, 'id'] == df.at[i - 1, 'id']:
-        prefix = prefix + '_' + str(df.at[i, 'activity'])
+        prefix = prefix + '+' + str(df.at[i, 'activity'])
         df.at[i, 'activity_history'] = prefix
       else:
         ids.append(df.at[i - 1, 'id'])
@@ -156,7 +156,7 @@ class FeatureGenerator(object):
 
     for i in range(1, num_rows):
       if df.at[i, 'id'] == df.at[i - 1, 'id']:
-        res_prefix = res_prefix + '_' + str(df.at[i, 'resource'])
+        res_prefix = res_prefix + '+' + str(df.at[i, 'resource'])
         df.at[i, 'resource_history'] = res_prefix
       else:
         ids.append(df.at[i - 1, 'id'])
@@ -177,7 +177,7 @@ class FeatureGenerator(object):
     for i in range(1, num_rows):
       if df.at[i, 'id'] == df.at[i - 1, 'id']:
         sojourn_time = df.at[i - 1, 'next_time'] - df.at[i - 1, 'complete_timestamp']
-        temp_elapsed += sojourn_time
+        temp_elapsed += sojourn_time.total_seconds()
         df.at[i, 'elapsed_time'] = temp_elapsed
       else:
         ids.append(df.at[i - 1, 'id'])

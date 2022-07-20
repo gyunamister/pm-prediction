@@ -23,6 +23,18 @@ training_time_seconds = list()
 args = ""
 
 if __name__ == '__main__':
+
+    import logging
+    import sys
+
+    root = logging.getLogger()
+    root.setLevel(logging.DEBUG)
+
+    handler = logging.StreamHandler(sys.stdout)
+    handler.setLevel(logging.DEBUG)
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    handler.setFormatter(formatter)
+    root.addHandler(handler)
     args = config.load()
 
     status = args.status
@@ -84,6 +96,7 @@ if __name__ == '__main__':
         regression = True
         feature_type_list = ["activity_history"]
         df = fg.add_activity_history(df)
+        df = fg.add_next_activity(df)
         df = fg.add_query_remaining(df)
 
     df.to_csv('./training_set_with_features.csv')

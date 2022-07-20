@@ -1,4 +1,4 @@
-from keras.callbacks import CSVLogger
+from tensorflow.keras.callbacks import CSVLogger
 import os
 class ExperimentLogger(CSVLogger):
     def __init__(self, filename,exp_info):
@@ -30,7 +30,7 @@ class ExperimentLogger(CSVLogger):
         with open(self.filename, 'a') as f:
             for key in self.exp_info:
                 f.write(str(self.exp_info[key]) + ",")
-            f.write(str(logs["loss"])+ "\n")
+            f.write("\n")
             f.close()
     
     def write_header(self):
@@ -39,4 +39,11 @@ class ExperimentLogger(CSVLogger):
                 f.write(key + ",")
             f.write("loss\n")
             print('File created: {}'.format(self.filename))
+            f.close()
+
+    def write_results(self,logs):
+        with open(self.filename, 'a') as f:
+            for key in self.exp_info:
+                f.write(str(self.exp_info[key]) + ",")
+            f.write(str(logs["loss"])+ "\n")
             f.close()

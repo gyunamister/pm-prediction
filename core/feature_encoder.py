@@ -11,7 +11,7 @@ class FeatureEncoder(object):
   # todos Separate the encoding for activity histroy, resource history, remaining time, service time, etc.
   # todos Separate x and y
   def original_one_hot_encode_xgb(self, df, feature_type_list, target_feature,feature_name):
-    dict_dir="../feature_infos/Train_All"
+    dict_dir="../feature_infos"
     num_features_dict = dict()
     feature_len = 0 
     dict_feature_char_to_int = dict()
@@ -31,19 +31,20 @@ class FeatureEncoder(object):
 
     X_train = list()
     y_train = list()
-    maxlen = max([len(str(x).split('_')) for x in df[feature_type_list[0]]])
+    maxlen = max([len(str(x).split('+')) for x in df[feature_type_list[0]]])
+    print(maxlen)
     with open("%s/%s_%s.pkl" % (dict_dir,"maxlen",feature_name), 'wb') as f:
         pickle.dump(maxlen, f)
     for i in range(0, len(df)):
-      # print("{}th among {}".format(i,len(df)))
+      print("{}th among {}".format(i,len(df)))
       # prepare X
       onehot_encoded_X = list()
-      hist_len = len(str(df.at[i, feature_type_list[0]]).split("_"))
+      hist_len = len(str(df.at[i, feature_type_list[0]]).split("+"))
       merged_encoding =list()
       for j in range(hist_len):
         # merged_encoding =list()
         for feature_type in feature_type_list:
-          parsed_hist = str(df.at[i, feature_type]).split("_")
+          parsed_hist = str(df.at[i, feature_type]).split("+")
           feature = parsed_hist[j]
           feature_int = dict_feature_char_to_int[feature_type][feature]
           onehot_encoded_feature = [0 for _ in range(num_features_dict[feature_type])]
@@ -74,7 +75,7 @@ class FeatureEncoder(object):
       # prepare y
       if target_feature == "next_activity":
         next_act = str(df.at[i, 'next_activity'])
-        print(dict_feature_char_to_int)
+        # print(dict_feature_char_to_int)
         int_encoded_next_act = dict_feature_char_to_int["activity_history"][next_act]
         activities = sorted(list(set(df['activity'])))
         activities.append("!")
@@ -90,13 +91,12 @@ class FeatureEncoder(object):
     return X_train, y_train
   
   def original_one_hot_encode(self, df, feature_type_list, target_feature,feature_name):
-    dict_dir="../feature_infos/Train_All"
+    dict_dir="../feature_infos"
     num_features_dict = dict()
     feature_len = 0 
     dict_feature_char_to_int = dict()
     for feature_type in feature_type_list:
       feature_set_name = feature_type.split("_")[0]
-      print(feature_set_name)
       feature_set = sorted(list(set(df[feature_set_name])))
       if feature_type=="activity_history":
         feature_set.append('!')
@@ -110,18 +110,20 @@ class FeatureEncoder(object):
 
     X_train = list()
     y_train = list()
-    maxlen = max([len(str(x).split('_')) for x in df[feature_type_list[0]]])
+    print(dict_feature_char_to_int)
+    maxlen = max([len(str(x).split('+')) for x in df[feature_type_list[0]]])
     with open("%s/%s_%s.pkl" % (dict_dir,"maxlen",feature_name), 'wb') as f:
         pickle.dump(maxlen, f)
     for i in range(0, len(df)):
       # print("{}th among {}".format(i,len(df)))
       # prepare X
       onehot_encoded_X = list()
-      hist_len = len(str(df.at[i, feature_type_list[0]]).split("_"))
+      hist_len = len(str(df.at[i, feature_type_list[0]]).split("+"))
+      print(hist_len)
       for j in range(hist_len):
         merged_encoding =list()
         for feature_type in feature_type_list:
-          parsed_hist = str(df.at[i, feature_type]).split("_")
+          parsed_hist = str(df.at[i, feature_type]).split("+")
           feature = parsed_hist[j]
           feature_int = dict_feature_char_to_int[feature_type][feature]
           onehot_encoded_feature = [0 for _ in range(num_features_dict[feature_type])]
@@ -166,7 +168,7 @@ class FeatureEncoder(object):
     return X_train, y_train
 
   def preprocessed_one_hot_encode(self, df, feature_type_list, target_feature,feature_name):
-    dict_dir = "../feature_infos/Train_All"
+    dict_dir = "../feature_infos"
     num_features_dict = dict()
     feature_len = 0
     dict_feature_char_to_int = dict()
@@ -178,7 +180,7 @@ class FeatureEncoder(object):
         num_features_dict[feature_type] = num_feature
         dict_feature_char_to_int[feature_type] = dict((str(c), i) for i, c in enumerate(feature_set))
         feature_int_to_char = dict((i, c) for i, c in enumerate(feature_set))
-
+    print(feature_int_to_char)
     X_train = list()
     y_train = list()
     with open("%s/%s_%s.pkl" % (dict_dir, "maxlen", feature_name), 'rb') as f:
@@ -186,14 +188,14 @@ class FeatureEncoder(object):
         print(maxlen)
     print(len(df))
     for i in range(0, len(df)):
-        # print("{}th among {}".format(i,len(df)))
+      # print("{}th among {}".format(i,len(df)))
         # prepare X
       onehot_encoded_X = list()
-      hist_len = len(str(df.at[i, feature_type_list[0]]).split("_"))
+      hist_len = len(str(df.at[i, feature_type_list[0]]).split("+"))
       for j in range(min(hist_len, maxlen)):
           merged_encoding = list()
           for feature_type in feature_type_list:
-              parsed_hist = str(df.at[i, feature_type]).split("_")
+              parsed_hist = str(df.at[i, feature_type]).split("+")
               feature = parsed_hist[j]
               feature_int = dict_feature_char_to_int[feature_type][feature]
               onehot_encoded_feature = [0 for _ in range(num_features_dict[feature_type])]
@@ -222,7 +224,7 @@ class FeatureEncoder(object):
     return X_train, y_train
 
   def preprocessed_one_hot_encode_xgb(self, df, feature_type_list, target_feature,feature_name):
-      dict_dir = "../feature_infos/Train_All"
+      dict_dir = "../feature_infos"
       num_features_dict = dict()
       feature_len = 0
       dict_feature_char_to_int = dict()
@@ -243,12 +245,12 @@ class FeatureEncoder(object):
           # print("{}th among {}".format(i,len(df)))
           # prepare X
         onehot_encoded_X = list()
-        hist_len = len(str(df.at[i, feature_type_list[0]]).split("_"))
+        hist_len = len(str(df.at[i, feature_type_list[0]]).split("+"))
         merged_encoding = list()
         for j in range(min(hist_len, maxlen)):
             # merged_encoding = list()
             for feature_type in feature_type_list:
-                parsed_hist = str(df.at[i, feature_type]).split("_")
+                parsed_hist = str(df.at[i, feature_type]).split("+")
                 feature = parsed_hist[j]
                 feature_int = dict_feature_char_to_int[feature_type][feature]
                 onehot_encoded_feature = [0 for _ in range(num_features_dict[feature_type])]

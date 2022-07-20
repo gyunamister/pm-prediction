@@ -8,16 +8,20 @@ warnings.filterwarnings("ignore")
 
 import numpy as np
 import tensorflow as tf
-import keras
-from keras import Input
-from keras.layers import Dropout
-from keras.layers.normalization import BatchNormalization
-from keras.layers import LSTM
-from keras.layers import Dense
-from keras import Model
+from tensorflow import keras
+
+from tensorflow.keras import Input
+from tensorflow.keras.layers import Dropout
+from tensorflow.keras.layers import BatchNormalization
+from tensorflow.keras.layers import LSTM
+from tensorflow.keras.layers import Dense
+from tensorflow.keras import Model
 # import keras_metrics
 from exp_logger import ExperimentLogger
-from keras.models import load_model
+from tensorflow.keras.models import load_model
+# import tf.keras_metrics
+from exp_logger import ExperimentLogger
+
 from sklearn.metrics import f1_score, accuracy_score, recall_score, precision_score, confusion_matrix, classification_report
 
 
@@ -30,11 +34,10 @@ class net:
 
     def evaluate(self, x_test, y_test, exp_info):
         # Evaluate the model on the test data using `evaluate`
-        csv_logger = ExperimentLogger('../result/exp_result.csv', exp_info)
-        print("Evaluate on test data")
-        results = self.model.evaluate(x_test, y_test, batch_size=64, callbacks=[csv_logger])
+        # print("Evaluate on test data")
+        # results = self.model.evaluate(x_test, y_test, batch_size=64, callbacks=[csv_logger])
         # results = self.model.evaluate(x_test, y_test, batch_size=64)
-        print("test loss, test acc:", results)
+        # print("test loss, test acc:", results)
 
         # calculate confusion matrix and weighted recall and precision 
         self.model.compile(loss='categorical_crossentropy', optimizer='adam',
@@ -43,14 +46,20 @@ class net:
         y_pred = self.model.predict(x_test)
         predictions = np.argmax(y_pred, axis=1)
         y_test_integer = np.argmax(y_test, axis=1)
-        print(confusion_matrix(y_test_integer, predictions))
+        CF_matrix = confusion_matrix(y_test_integer, predictions)
+        report = classification_report(y_test_integer, predictions, digits=5)
         # Print the precision and recall, among other metrics
-        print(classification_report(y_test_integer, predictions, digits=3))
-        print("Accuracy: %.5f" % accuracy_score(y_test_integer, predictions))
-        print("F1-Score: %.5f" % f1_score(y_test_integer, predictions, average="weighted"))
-        print("Precision: %.5f" % precision_score(y_test_integer, predictions, average="weighted"))
-        print("Recall: %.5f" % recall_score(y_test_integer, predictions, average="weighted"))
-
+        Accuracy = accuracy_score(y_test_integer, predictions)
+        F1_Score = f1_score(y_test_integer, predictions, average="weighted")
+        Precision = precision_score(y_test_integer, predictions, average="weighted")
+        Recall = recall_score(y_test_integer, predictions, average="weighted")
+        exp_info["Accuracy"] = Accuracy
+        exp_info["F1_Score"] = F1_Score
+        exp_info["Precision"] = Precision
+        exp_info["Recall"] = Recall
+        csv_logger = ExperimentLogger('../result/exp_result.csv', exp_info)
+        csv_logger.write_exp_info(logs=None)
+        return CF_matrix, report, Accuracy, F1_Score, Precision, Recall
 
     def train(self, X_train, y_train, regression, loss, n_epochs=100,
               normalize=False, y_normalize=False, tau=1.0, dropout=0.1, batch_size=128, context=True, num_folds=10,
@@ -107,7 +116,7 @@ class net:
         if num_folds != 1:
             val_split = 1 / num_folds
         else:
-            val_split = 0
+            val_split = 0.2
 
         print(X_train.shape[1],X_train.shape[2], y_train_normalized.shape[1])
         print("**************************")
@@ -127,7 +136,7 @@ class net:
             auxiliary_input = Input(shape=(context_shape[1],), name='aux_input')
             aux_inter = Dropout(dropout)(auxiliary_input, training=True)
 
-            inter = keras.layers.concatenate([inter, aux_inter])
+            inter = tf.keras.layers.concatenate([inter, aux_inter])
             inter = Dropout(dropout)(inter, training=True)
 
             if regression:
@@ -137,12 +146,13 @@ class net:
             model = Model(inputs=[inputs, auxiliary_input], outputs=outputs)
 
             model.compile(loss=loss, optimizer='adam',
-                          metrics=[keras_metrics.categorical_precision(), keras_metrics.categorical_recall(), 'acc'])
-            early_stopping = keras.callbacks.EarlyStopping(monitor='val_loss', patience=20)
-            model_checkpoint = keras.callbacks.ModelCheckpoint('%smodel_%s_.h5' % (checkpoint_dir, model_name),
+                          metrics=[tf.keras.metrics.Precision(),
+                                   tf.keras.metrics.Recall(), 'acc'])
+            early_stopping = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=20)
+            model_checkpoint = tf.keras.callbacks.ModelCheckpoint('%smodel_%s_.h5' % (checkpoint_dir, model_name),
                                                                monitor='val_loss', verbose=0, save_best_only=True,
                                                                save_weights_only=False, mode='auto')
-            lr_reducer = keras.callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=20, verbose=0,
+            lr_reducer = tf.keras.callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=20, verbose=0,
                                                            mode='auto', min_delta=0.0001, cooldown=0, min_lr=0)
             # We iterate the learning process
             start_time = time.time()
@@ -158,11 +168,11 @@ class net:
             model.compile(loss=loss, optimizer='adam',
                          metrics=[tf.keras.metrics.Precision(),
                           tf.keras.metrics.Recall(), 'acc'])
-            early_stopping = keras.callbacks.EarlyStopping(monitor='val_loss', patience=10)
-            model_checkpoint = keras.callbacks.ModelCheckpoint('%smodel_%s_.h5' % (checkpoint_dir, model_name),
+            early_stopping = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=10)
+            model_checkpoint = tf.keras.callbacks.ModelCheckpoint('%smodel_%s_.h5' % (checkpoint_dir, model_name),
                                                                monitor='val_loss', verbose=0, save_best_only=True,
                                                                save_weights_only=False, mode='auto')
-            lr_reducer = keras.callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=10, verbose=0,
+            lr_reducer = tf.keras.callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=10, verbose=0,
                                                            mode='auto', min_delta=0.0001, cooldown=0, min_lr=0)
             # We iterate the learning process
             start_time = time.time()
